@@ -1,0 +1,4900 @@
+geocode;UF;name_muni;hierarquia
+3550308;SP;Arranjo Populacional de São Paulo/SP;Grande Metrópole Nacional
+3304557;RJ;Arranjo Populacional do Rio de Janeiro/RJ;Metrópole Nacional
+5300108;DF;Arranjo Populacional de Brasília/DF;Metrópole Nacional
+3106200;MG;Arranjo Populacional de Belo Horizonte/MG;Metrópole
+4314902;RS;Arranjo Populacional de Porto Alegre/RS;Metrópole
+4106902;PR;Arranjo Populacional de Curitiba/PR;Metrópole
+3509502;SP;Arranjo Populacional de Campinas/SP;Metrópole
+2927408;BA;Arranjo Populacional de Salvador/BA;Metrópole
+2611606;PE;Arranjo Populacional do Recife/PE;Metrópole
+2304400;CE;Arranjo Populacional de Fortaleza/CE;Metrópole
+1302603;AM;Manaus;Metrópole
+5208707;GO;Arranjo Populacional de Goiânia/GO;Metrópole
+3205309;ES;Arranjo Populacional de Vitória/ES;Metrópole
+1501402;PA;Arranjo Populacional de Belém/PA;Metrópole
+4205407;SC;Arranjo Populacional de Florianópolis/SC;Metrópole
+3543402;SP;Arranjo Populacional de Ribeirão Preto/SP;Capital Regional A
+2111300;MA;Arranjo Populacional de São Luís/MA;Capital Regional A
+2408102;RN;Arranjo Populacional de Natal/RN;Capital Regional A
+5103403;MT;Arranjo Populacional de Cuiabá/MT;Capital Regional A
+5002704;MS;Campo Grande;Capital Regional A
+2507507;PB;Arranjo Populacional de João Pessoa/PB;Capital Regional A
+2704302;AL;Arranjo Populacional de Maceió/AL;Capital Regional A
+2800308;SE;Arranjo Populacional de Aracaju/SE;Capital Regional A
+2211001;PI;Arranjo Populacional de Teresina/PI;Capital Regional A
+3549904;SP;Arranjo Populacional de São José dos Campos/SP;Capital Regional B
+3552205;SP;Arranjo Populacional de Sorocaba/SP;Capital Regional B
+3170206;MG;Uberlândia;Capital Regional B
+4208203;SC;Arranjo Populacional de Itajaí - Balneário Camboriú/SC;Capital Regional B
+4209102;SC;Arranjo Populacional de Joinville/SC;Capital Regional B
+4113700;PR;Arranjo Populacional de Londrina/PR;Capital Regional B
+4305108;RS;Arranjo Populacional de Caxias do Sul/RS;Capital Regional B
+4115200;PR;Arranjo Populacional de Maringá/PR;Capital Regional B
+4202404;SC;Arranjo Populacional de Blumenau/SC;Capital Regional B
+3549805;SP;Arranjo Populacional de São José do Rio Preto/SP;Capital Regional B
+3136702;MG;Arranjo Populacional de Juiz de Fora/MG;Capital Regional B
+1100205;RO;Arranjo Populacional de Porto Velho/RO;Capital Regional B
+3506003;SP;Arranjo Populacional de Bauru/SP;Capital Regional B
+2910800;BA;Feira de Santana;Capital Regional B
+4204608;SC;Arranjo Populacional de Criciúma/SC;Capital Regional B
+4104808;PR;Arranjo Populacional de Cascavel/PR;Capital Regional B
+4204202;SC;Arranjo Populacional de Chapecó/SC;Capital Regional B
+3143302;MG;Montes Claros;Capital Regional B
+4314100;RS;Passo Fundo;Capital Regional B
+1721000;TO;Palmas;Capital Regional B
+2307304;CE;Arranjo Populacional de Juazeiro do Norte/CE;Capital Regional B
+2604106;PE;Caruaru;Capital Regional B
+2933307;BA;Vitória da Conquista;Capital Regional B
+2914802;BA;Itabuna;Capital Regional B
+3525904;SP;Arranjo Populacional de Jundiaí/SP;Capital Regional C
+3548500;SP;Arranjo Populacional da Baixada Santista/SP;Capital Regional C
+3302403;RJ;Arranjo Populacional de Macaé - Rio das Ostras/RJ;Capital Regional C
+3538709;SP;Arranjo Populacional de Piracicaba/SP;Capital Regional C
+3301009;RJ;Arranjo Populacional de Campos dos Goytacazes/RJ;Capital Regional C
+3501608;SP;Arranjo Populacional de Americana - Santa Bárbara d´Oeste/SP;Capital Regional C
+3306305;RJ;Arranjo Populacional de Volta Redonda - Barra Mansa/RJ;Capital Regional C
+3131307;MG;Arranjo Populacional de Ipatinga/MG;Capital Regional C
+4119905;PR;Arranjo Populacional de Ponta Grossa/PR;Capital Regional C
+4108304;PR;Arranjo Populacional Internacional de Foz do Iguaçu/Brasil - Ciudad del Este/Paraguai;Capital Regional C
+3170107;MG;Uberaba;Capital Regional C
+5201108;GO;Anápolis;Capital Regional C
+3303906;RJ;Arranjo Populacional de Petrópolis/RJ;Capital Regional C
+3526902;SP;Arranjo Populacional de Limeira/SP;Capital Regional C
+3300704;RJ;Arranjo Populacional de Cabo Frio/RJ;Capital Regional C
+3516200;SP;Arranjo Populacional de Franca/SP;Capital Regional C
+1600303;AP;Arranjo Populacional de Macapá/AP;Capital Regional C
+3503208;SP;Arranjo Populacional de Araraquara/SP;Capital Regional C
+3548906;SP;Arranjo Populacional de São Carlos/SP;Capital Regional C
+3541406;SP;Arranjo Populacional de Presidente Prudente/SP;Capital Regional C
+5107602;MT;Rondonópolis;Capital Regional C
+2504009;PB;Arranjo Populacional de Campina Grande/PB;Capital Regional C
+2611101;PE;Arranjo Populacional de Petrolina/PE - Juazeiro/BA;Capital Regional C
+4316808;RS;Arranjo Populacional de Santa Cruz do Sul/RS;Capital Regional C
+4314407;RS;Arranjo Populacional de Pelotas/RS;Capital Regional C
+1200401;AC;Rio Branco;Capital Regional C
+1400100;RR;Boa Vista;Capital Regional C
+5003702;MS;Dourados;Capital Regional C
+2105302;MA;Arranjo Populacional de Imperatriz/MA;Capital Regional C
+3529005;SP;Arranjo Populacional de Marília/SP;Capital Regional C
+3167202;MG;Arranjo Populacional de Sete Lagoas/MG;Capital Regional C
+1504208;PA;Marabá;Capital Regional C
+3502804;SP;Araçatuba;Capital Regional C
+4316907;RS;Arranjo Populacional de Santa Maria/RS;Capital Regional C
+3152501;MG;Pouso Alegre;Capital Regional C
+4311403;RS;Arranjo Populacional de Lajeado/RS;Capital Regional C
+4202909;SC;Arranjo Populacional de Brusque/SC;Capital Regional C
+3151800;MG;Poços de Caldas;Capital Regional C
+3518404;SP;Arranjo Populacional de Guaratinguetá/SP;Capital Regional C
+2408003;RN;Mossoró;Capital Regional C
+3127701;MG;Governador Valadares;Capital Regional C
+3122306;MG;Divinópolis;Capital Regional C
+5107909;MT;Sinop;Capital Regional C
+4218707;SC;Arranjo Populacional de Tubarão - Laguna/SC;Capital Regional C
+3511102;SP;Arranjo Populacional de Catanduva/SP;Capital Regional C
+3201209;ES;Cachoeiro de Itapemirim;Capital Regional C
+4209300;SC;Lages;Capital Regional C
+1506807;PA;Santarém;Capital Regional C
+3170701;MG;Varginha;Capital Regional C
+3505500;SP;Barretos;Capital Regional C
+3525300;SP;Jaú;Capital Regional C
+2312908;CE;Arranjo Populacional de Sobral/CE;Capital Regional C
+2700300;AL;Arapiraca;Capital Regional C
+2913606;BA;Ilhéus;Capital Regional C
+1702109;TO;Araguaína;Capital Regional C
+1502400;PA;Castanhal;Capital Regional C
+2903201;BA;Barreiras;Capital Regional C
+1100122;RO;Ji-Paraná;Capital Regional C
+4203006;SC;Caçador;Capital Regional C
+2910727;BA;Eunápolis;Capital Regional C
+3168606;MG;Teófilo Otoni;Capital Regional C
+2606002;PE;Garanhuns;Capital Regional C
+4209003;SC;Arranjo Populacional de Joaçaba - Herval d´Oeste/SC;Capital Regional C
+1100049;RO;Cacoal;Capital Regional C
+3523909;SP;Arranjo Populacional de Itu - Salto/SP;Centro Sub-Regional A
+3304201;RJ;Arranjo Populacional de Resende/RJ;Centro Sub-Regional A
+1505536;PA;Parauapebas;Centro Sub-Regional A
+3520509;SP;Indaiatuba;Centro Sub-Regional A
+3543907;SP;Arranjo Populacional de Rio Claro/SP;Centro Sub-Regional A
+4208906;SC;Arranjo Populacional de Jaraguá do Sul/SC;Centro Sub-Regional A
+3530706;SP;Arranjo Populacional de Mogi Guaçu - Mogi Mirim/SP;Centro Sub-Regional A
+4302105;RS;Arranjo Populacional de Bento Gonçalves/RS;Centro Sub-Regional A
+5008305;MS;Três Lagoas;Centro Sub-Regional A
+5218805;GO;Rio Verde;Centro Sub-Regional A
+4118204;PR;Paranaguá;Centro Sub-Regional A
+4315602;RS;Rio Grande;Centro Sub-Regional A
+4127700;PR;Arranjo Populacional de Toledo/PR;Centro Sub-Regional A
+3203205;ES;Linhares;Centro Sub-Regional A
+4109401;PR;Guarapuava;Centro Sub-Regional A
+5211503;GO;Arranjo Populacional de Itumbiara/GO;Centro Sub-Regional A
+3551702;SP;Sertãozinho;Centro Sub-Regional A
+3507605;SP;Bragança Paulista;Centro Sub-Regional A
+3503307;SP;Araras;Centro Sub-Regional A
+3507506;SP;Botucatu;Centro Sub-Regional A
+3303401;RJ;Nova Friburgo;Centro Sub-Regional A
+3522307;SP;Arranjo Populacional de Itapetininga/SP;Centro Sub-Regional A
+4307005;RS;Erechim;Centro Sub-Regional A
+3148004;MG;Patos de Minas;Centro Sub-Regional A
+4101507;PR;Arapongas;Centro Sub-Regional A
+4118501;PR;Arranjo Populacional de Pato Branco/PR;Centro Sub-Regional A
+4301602;RS;Arranjo Populacional de Bagé/RS;Centro Sub-Regional A
+4104303;PR;Campo Mourão;Centro Sub-Regional A
+4306106;RS;Cruz Alta;Centro Sub-Regional A
+4128104;PR;Arranjo Populacional de Umuarama/PR;Centro Sub-Regional A
+3201506;ES;Colatina;Centro Sub-Regional A
+2900702;BA;Alagoinhas;Centro Sub-Regional A
+4310207;RS;Ijuí;Centro Sub-Regional A
+5107958;MT;Tangará da Serra;Centro Sub-Regional A
+4101408;PR;Apucarana;Centro Sub-Regional A
+3549102;SP;Arranjo Populacional de São João da Boa Vista/SP;Centro Sub-Regional A
+3534708;SP;Arranjo Populacional de Ourinhos/SP;Centro Sub-Regional A
+3504008;SP;Assis;Centro Sub-Regional A
+3169901;MG;Arranjo Populacional de Ubá/MG;Centro Sub-Regional A
+4108403;PR;Francisco Beltrão;Centro Sub-Regional A
+3105608;MG;Arranjo Populacional de Barbacena/MG;Centro Sub-Regional A
+3138203;MG;Arranjo Populacional de Lavras/MG;Centro Sub-Regional A
+4214805;SC;Arranjo Populacional de Rio do Sul/SC;Centro Sub-Regional A
+4322400;RS;Uruguaiana;Centro Sub-Regional A
+4304705;RS;Carazinho;Centro Sub-Regional A
+4321600;RS;Arranjo Populacional de Tramandaí - Osório/RS;Centro Sub-Regional A
+3302205;RJ;Itaperuna;Centro Sub-Regional A
+4317202;RS;Santa Rosa;Centro Sub-Regional A
+4317509;RS;Arranjo Populacional de Santo Ângelo/RS;Centro Sub-Regional A
+2925303;BA;Porto Seguro;Centro Sub-Regional A
+3527207;SP;Arranjo Populacional de Lorena/SP;Centro Sub-Regional A
+4105508;PR;Cianorte;Centro Sub-Regional A
+1500602;PA;Altamira;Centro Sub-Regional A
+2918001;BA;Jequié;Centro Sub-Regional A
+1100304;RO;Vilhena;Centro Sub-Regional A
+3522406;SP;Itapeva;Centro Sub-Regional A
+3147907;MG;Arranjo Populacional de Passos/MG;Centro Sub-Regional A
+3101607;MG;Alfenas;Centro Sub-Regional A
+4118402;PR;Arranjo Populacional de Paranavaí/PR;Centro Sub-Regional A
+2924009;BA;Paulo Afonso;Centro Sub-Regional A
+5213103;GO;Mineiros;Centro Sub-Regional A
+2931350;BA;Teixeira de Freitas;Centro Sub-Regional A
+1100023;RO;Ariquemes;Centro Sub-Regional A
+4219309;SC;Videira;Centro Sub-Regional A
+3515509;SP;Arranjo Populacional de Fernandópolis/SP;Centro Sub-Regional A
+3162500;MG;Arranjo Populacional de São João del Rei/MG;Centro Sub-Regional A
+2928703;BA;Santo Antônio de Jesus;Centro Sub-Regional A
+3139409;MG;Manhuaçu;Centro Sub-Regional A
+5101803;MT;Arranjo Populacional de Barra do Garças/MT;Centro Sub-Regional A
+3143906;MG;Muriaé;Centro Sub-Regional A
+1709500;TO;Gurupi;Centro Sub-Regional A
+4128203;PR;Arranjo Populacional de União da Vitória/PR - Porto União/SC;Centro Sub-Regional A
+3204906;ES;São Mateus;Centro Sub-Regional A
+3300308;RJ;Barra do Piraí;Centro Sub-Regional A
+2207702;PI;Parnaíba;Centro Sub-Regional A
+4201406;SC;Arranjo Populacional de Araranguá/SC;Centro Sub-Regional A
+2103000;MA;Caxias;Centro Sub-Regional A
+3101508;MG;Arranjo Populacional de Além Paraíba/MG - Sapucaia/RJ;Centro Sub-Regional A
+1506138;PA;Redenção;Centro Sub-Regional A
+2802908;SE;Itabaiana;Centro Sub-Regional A
+2510808;PB;Arranjo Populacional de Patos/PB;Centro Sub-Regional A
+2208007;PI;Arranjo Populacional de Picos/PI;Centro Sub-Regional A
+2305506;CE;Iguatu;Centro Sub-Regional A
+4217204;SC;São Miguel do Oeste;Centro Sub-Regional A
+2613909;PE;Serra Talhada;Centro Sub-Regional A
+2203909;PI;Arranjo Populacional de Floriano/PI;Centro Sub-Regional A
+2109908;MA;Santa Inês;Centro Sub-Regional A
+2911709;BA;Guanambi;Centro Sub-Regional A
+2101202;MA;Bacabal;Centro Sub-Regional A
+3545605;SP;Arranjo Populacional de Santa Adélia - Palmares Paulista - Ariranha/SP;Centro Sub-Regional A
+2503704;PB;Cajazeiras;Centro Sub-Regional A
+2914604;BA;Irecê;Centro Sub-Regional A
+3163706;MG;Arranjo Populacional de São Lourenço/MG;Centro Sub-Regional A
+2601201;PE;Arcoverde;Centro Sub-Regional A
+2930105;BA;Senhor do Bonfim;Centro Sub-Regional A
+2609907;PE;Ouricuri;Centro Sub-Regional A
+3510500;SP;Arranjo Populacional de Caraguatatuba - Ubatuba - São Sebastião/SP;Centro Sub-Regional B
+4305355;RS;Arranjo Populacional de Charqueadas - Triunfo - São Jerônimo/RS;Centro Sub-Regional B
+3300100;RJ;Angra dos Reis;Centro Sub-Regional B
+3118304;MG;Arranjo Populacional de Conselheiro Lafaiete/MG;Centro Sub-Regional B
+5205109;GO;Arranjo Populacional de Catalão/GO;Centro Sub-Regional B
+3504107;SP;Arranjo Populacional de Atibaia/SP;Centro Sub-Regional B
+3125101;MG;Extrema;Centro Sub-Regional B
+5107925;MT;Sorriso;Centro Sub-Regional B
+3104007;MG;Arranjo Populacional de Araxá/MG;Centro Sub-Regional B
+3305802;RJ;Teresópolis;Centro Sub-Regional B
+2606200;PE;Goiana;Centro Sub-Regional B
+3523404;SP;Itatiba;Centro Sub-Regional B
+1501303;PA;Barcarena;Centro Sub-Regional B
+3306008;RJ;Arranjo Populacional de Três Rios - Paraíba do Sul/RJ;Centro Sub-Regional B
+4321204;RS;Arranjo Populacional de Taquara - Parobé - Igrejinha/RS;Centro Sub-Regional B
+3200607;ES;Aracruz;Centro Sub-Regional B
+1508100;PA;Tucuruí;Centro Sub-Regional B
+3550605;SP;Arranjo Populacional de São Roque - Mairinque/SP;Centro Sub-Regional B
+3506508;SP;Arranjo Populacional de Birigui/SP;Centro Sub-Regional B
+3527108;SP;Lins;Centro Sub-Regional B
+5211909;GO;Jataí;Centro Sub-Regional B
+2919553;BA;Luís Eduardo Magalhães;Centro Sub-Regional B
+3103504;MG;Araguari;Centro Sub-Regional B
+3529302;SP;Arranjo Populacional de Matão/SP;Centro Sub-Regional B
+5105259;MT;Lucas do Rio Verde;Centro Sub-Regional B
+3554003;SP;Tatuí;Centro Sub-Regional B
+3557105;SP;Arranjo Populacional de Votuporanga/SP;Centro Sub-Regional B
+4215802;SC;Arranjo Populacional de São Bento do Sul - Rio Negrinho/SC;Centro Sub-Regional B
+3501905;SP;Arranjo Populacional de Amparo/SP;Centro Sub-Regional B
+5107040;MT;Primavera do Leste;Centro Sub-Regional B
+3131703;MG;Itabira;Centro Sub-Regional B
+3511508;SP;Arranjo Populacional de Cerquilho - Tietê/SP;Centro Sub-Regional B
+3522604;SP;Itapira;Centro Sub-Regional B
+4127106;PR;Telêmaco Borba;Centro Sub-Regional B
+3133808;MG;Arranjo Populacional de Itaúna/MG;Centro Sub-Regional B
+2616407;PE;Vitória de Santo Antão;Centro Sub-Regional B
+3506102;SP;Bebedouro;Centro Sub-Regional B
+3147006;MG;Paracatu;Centro Sub-Regional B
+3170404;MG;Unaí;Centro Sub-Regional B
+3502101;SP;Andradina;Centro Sub-Regional B
+3526704;SP;Arranjo Populacional de Leme/SP;Centro Sub-Regional B
+4208302;SC;Arranjo Populacional de Itapema/SC;Centro Sub-Regional B
+4312401;RS;Montenegro;Centro Sub-Regional B
+5106224;MT;Nova Mutum;Centro Sub-Regional B
+4204301;SC;Concórdia;Centro Sub-Regional B
+4322608;RS;Arranjo Populacional de Venâncio Aires/RS;Centro Sub-Regional B
+5003207;MS;Arranjo Populacional Internacional de Corumbá/Brasil;Centro Sub-Regional B
+3146107;MG;Ouro Preto;Centro Sub-Regional B
+3300209;RJ;Arranjo Populacional de Araruama/RJ;Centro Sub-Regional B
+3134202;MG;Ituiutaba;Centro Sub-Regional B
+3132404;MG;Arranjo Populacional de Itajubá/MG;Centro Sub-Regional B
+4304408;RS;Arranjo Populacional de Canela - Gramado/RS;Centro Sub-Regional B
+3524303;SP;Jaboticabal;Centro Sub-Regional B
+1505502;PA;Paragominas;Centro Sub-Regional B
+5006606;MS;Ponta Porã;Centro Sub-Regional B
+3148103;MG;Patrocínio;Centro Sub-Regional B
+4104907;PR;Castro;Centro Sub-Regional B
+5204508;GO;Arranjo Populacional de Caldas Novas/GO;Centro Sub-Regional B
+3504503;SP;Avaré;Centro Sub-Regional B
+3147105;MG;Pará de Minas;Centro Sub-Regional B
+3136207;MG;Arranjo Populacional de João Monlevade/MG;Centro Sub-Regional B
+3539301;SP;Pirassununga;Centro Sub-Regional B
+4210100;SC;Arranjo Populacional de Mafra/SC - Rio Negro/PR;Centro Sub-Regional B
+4122404;PR;Rolândia;Centro Sub-Regional B
+3526803;SP;Lençóis Paulista;Centro Sub-Regional B
+2101400;MA;Balsas;Centro Sub-Regional B
+4203808;SC;Arranjo Populacional de Canoinhas/SC;Centro Sub-Regional B
+4303004;RS;Cachoeira do Sul;Centro Sub-Regional B
+4317103;RS;Sant'Ana do Livramento;Centro Sub-Regional B
+3169307;MG;Três Corações;Centro Sub-Regional B
+5103502;MT;Diamantino;Centro Sub-Regional B
+3555000;SP;Arranjo Populacional de Tupã/SP;Centro Sub-Regional B
+4322509;RS;Vacaria;Centro Sub-Regional B
+3145208;MG;Arranjo Populacional de Nova Serrana/MG;Centro Sub-Regional B
+3151206;MG;Arranjo Populacional de Pirapora - Buritizeiro/MG;Centro Sub-Regional B
+5208608;GO;Arranjo Populacional de Goianésia/GO;Centro Sub-Regional B
+5208004;GO;Formosa;Centro Sub-Regional B
+3513405;SP;Arranjo Populacional de Cruzeiro/SP;Centro Sub-Regional B
+4114609;PR;Marechal Cândido Rondon;Centro Sub-Regional B
+3202405;ES;Guarapari;Centro Sub-Regional B
+1301902;AM;Itacoatiara;Centro Sub-Regional B
+2100055;MA;Açailândia;Centro Sub-Regional B
+3134400;MG;Iturama;Centro Sub-Regional B
+4304630;RS;Arranjo Populacional de Capão da Canoa/RS;Centro Sub-Regional B
+3546405;SP;Santa Cruz do Rio Pardo;Centro Sub-Regional B
+3510401;SP;Arranjo Populacional de Capivari/SP;Centro Sub-Regional B
+3533908;SP;Olímpia;Centro Sub-Regional B
+4300406;RS;Alegrete;Centro Sub-Regional B
+3128709;MG;Guaxupé;Centro Sub-Regional B
+4207304;SC;Arranjo Populacional de Imbituba/SC;Centro Sub-Regional B
+4303509;RS;Camaquã;Centro Sub-Regional B
+5006200;MS;Nova Andradina;Centro Sub-Regional B
+3542602;SP;Registro;Centro Sub-Regional B
+4311809;RS;Marau;Centro Sub-Regional B
+3500105;SP;Arranjo Populacional de Adamantina - Lucélia/SP;Centro Sub-Regional B
+3540705;SP;Porto Ferreira;Centro Sub-Regional B
+4318309;RS;Arranjo Populacional de São Gabriel/RS;Centro Sub-Regional B
+5102504;MT;Cáceres;Centro Sub-Regional B
+4218202;SC;Timbó;Centro Sub-Regional B
+3549706;SP;São José do Rio Pardo;Centro Sub-Regional B
+3537305;SP;Penápolis;Centro Sub-Regional B
+4318002;RS;São Borja;Centro Sub-Regional B
+4115804;PR;Medianeira;Centro Sub-Regional B
+3159605;MG;Santa Rita do Sapucaí;Centro Sub-Regional B
+3164704;MG;São Sebastião do Paraíso;Centro Sub-Regional B
+3127107;MG;Frutal;Centro Sub-Regional B
+1503606;PA;Itaituba;Centro Sub-Regional B
+3534302;SP;Orlândia;Centro Sub-Regional B
+5100250;MT;Alta Floresta;Centro Sub-Regional B
+4110706;PR;Irati;Centro Sub-Regional B
+3171303;MG;Arranjo Populacional de Viçosa/MG;Centro Sub-Regional B
+2601706;PE;Belo Jardim;Centro Sub-Regional B
+3304300;RJ;Rio Bonito;Centro Sub-Regional B
+3304706;RJ;Arranjo Populacional de Santo Antônio de Pádua/RJ;Centro Sub-Regional B
+3152105;MG;Arranjo Populacional de Ponte Nova/MG;Centro Sub-Regional B
+4219507;SC;Xanxerê;Centro Sub-Regional B
+3113404;MG;Caratinga;Centro Sub-Regional B
+5005707;MS;Naviraí;Centro Sub-Regional B
+1718204;TO;Porto Nacional;Centro Sub-Regional B
+2802106;SE;Estância;Centro Sub-Regional B
+3115300;MG;Cataguases;Centro Sub-Regional B
+3126109;MG;Formiga;Centro Sub-Regional B
+4107207;PR;Dois Vizinhos;Centro Sub-Regional B
+3549409;SP;São Joaquim da Barra;Centro Sub-Regional B
+3120904;MG;Arranjo Populacional de Curvelo/MG;Centro Sub-Regional B
+4106407;PR;Cornélio Procópio;Centro Sub-Regional B
+2932903;BA;Valença;Centro Sub-Regional B
+3524808;SP;Arranjo Populacional de Jales/SP;Centro Sub-Regional B
+2803500;SE;Lagarto;Centro Sub-Regional B
+2904605;BA;Brumado;Centro Sub-Regional B
+3553708;SP;Taquaritinga;Centro Sub-Regional B
+3519600;SP;Ibitinga;Centro Sub-Regional B
+4313706;RS;Palmeira das Missões;Centro Sub-Regional B
+2306405;CE;Itapipoca;Centro Sub-Regional B
+1100114;RO;Jaru;Centro Sub-Regional B
+4322806;RS;Arranjo Populacional de Veranópolis/RS;Centro Sub-Regional B
+2612505;PE;Santa Cruz do Capibaribe;Centro Sub-Regional B
+5001102;MS;Arranjo Populacional de Aquidauana - Anastácio/MS;Centro Sub-Regional B
+2604007;PE;Carpina;Centro Sub-Regional B
+2917508;BA;Jacobina;Centro Sub-Regional B
+1500107;PA;Abaetetuba;Centro Sub-Regional B
+5213806;GO;Morrinhos;Centro Sub-Regional B
+1302504;AM;Manacapuru;Centro Sub-Regional B
+1716109;TO;Paraíso do Tocantins;Centro Sub-Regional B
+4204806;SC;Curitibanos;Centro Sub-Regional B
+2301109;CE;Aracati;Centro Sub-Regional B
+1100288;RO;Rolim de Moura;Centro Sub-Regional B
+5106752;MT;Pontes e Lacerda;Centro Sub-Regional B
+4317400;RS;Santiago;Centro Sub-Regional B
+5006309;MS;Paranaíba;Centro Sub-Regional B
+4321501;RS;Arranjo Populacional de Torres/RS;Centro Sub-Regional B
+1508407;PA;Xinguara;Centro Sub-Regional B
+3107406;MG;Bom Despacho;Centro Sub-Regional B
+4111803;PR;Jacarezinho;Centro Sub-Regional B
+3135100;MG;Arranjo Populacional de Janaúba/MG;Centro Sub-Regional B
+4311304;RS;Arranjo Populacional de Lagoa Vermelha/RS;Centro Sub-Regional B
+4318903;RS;São Luiz Gonzaga;Centro Sub-Regional B
+3514403;SP;Dracena;Centro Sub-Regional B
+1200203;AC;Cruzeiro do Sul;Centro Sub-Regional B
+2706703;AL;Arranjo Populacional de Penedo/AL;Centro Sub-Regional B
+2402006;RN;Caicó;Centro Sub-Regional B
+2516201;PB;Sousa;Centro Sub-Regional B
+2313401;CE;Tianguá;Centro Sub-Regional B
+3143104;MG;Monte Carmelo;Centro Sub-Regional B
+3539509;SP;Pitangueiras;Centro Sub-Regional B
+1303403;AM;Parintins;Centro Sub-Regional B
+2103307;MA;Codó;Centro Sub-Regional B
+2916401;BA;Itapetinga;Centro Sub-Regional B
+4124103;PR;Santo Antônio da Platina;Centro Sub-Regional B
+2309607;CE;Pacajus;Centro Sub-Regional B
+1100189;RO;Pimenta Bueno;Centro Sub-Regional B
+3510203;SP;Arranjo Populacional de Capão Bonito/SP;Centro Sub-Regional B
+4308508;RS;Frederico Westphalen;Centro Sub-Regional B
+1502202;PA;Capanema;Centro Sub-Regional B
+5210000;GO;Inhumas;Centro Sub-Regional B
+2506301;PB;Arranjo Populacional de Guarabira/PB;Centro Sub-Regional B
+2311306;CE;Quixadá;Centro Sub-Regional B
+3203908;ES;Nova Venécia;Centro Sub-Regional B
+2909802;BA;Cruz das Almas;Centro Sub-Regional B
+5105150;MT;Juína;Centro Sub-Regional B
+4205506;SC;Fraiburgo;Centro Sub-Regional B
+3111200;MG;Campo Belo;Centro Sub-Regional B
+2708600;AL;São Miguel dos Campos;Centro Sub-Regional B
+4321808;RS;Três de Maio;Centro Sub-Regional B
+2307601;CE;Limoeiro do Norte;Centro Sub-Regional B
+3523206;SP;Itararé;Centro Sub-Regional B
+2311801;CE;Russas;Centro Sub-Regional B
+5100201;MT;Água Boa;Centro Sub-Regional B
+4108809;PR;Guaíra;Centro Sub-Regional B
+2601102;PE;Arranjo Populacional de Araripina/PE;Centro Sub-Regional B
+2915601;BA;Itamaraju;Centro Sub-Regional B
+2903904;BA;Bom Jesus da Lapa;Centro Sub-Regional B
+2930501;BA;Serrinha;Centro Sub-Regional B
+2610004;PE;Palmares;Centro Sub-Regional B
+5003306;MS;Coxim;Centro Sub-Regional B
+4119608;PR;Pitanga;Centro Sub-Regional B
+4217709;SC;Arranjo Populacional de Sombrio/SC;Centro Sub-Regional B
+4320107;RS;Sarandi;Centro Sub-Regional B
+2914703;BA;Itaberaba;Centro Sub-Regional B
+2108603;MA;Pinheiro;Centro Sub-Regional B
+2709301;AL;União dos Palmares;Centro Sub-Regional B
+2612208;PE;Salgueiro;Centro Sub-Regional B
+2400208;RN;Açu;Centro Sub-Regional B
+3145604;MG;Oliveira;Centro Sub-Regional B
+4309407;RS;Guaporé;Centro Sub-Regional B
+1721208;TO;Arranjo Populacional de Tocantinópolis/TO - Porto Franco/MA;Centro Sub-Regional B
+4306809;RS;Encantado;Centro Sub-Regional B
+5005004;MS;Arranjo Populacional de Jardim/MS;Centro Sub-Regional B
+4320800;RS;Soledade;Centro Sub-Regional B
+5221601;GO;Uruaçu;Centro Sub-Regional B
+4305207;RS;Arranjo Populacional de Cerro Largo/RS;Centro Sub-Regional B
+1100106;RO;Guajará-Mirim;Centro Sub-Regional B
+2908408;BA;Conceição do Coité;Centro Sub-Regional B
+2706307;AL;Palmeira dos Índios;Centro Sub-Regional B
+2605202;PE;Escada;Centro Sub-Regional B
+3121605;MG;Diamantina;Centro Sub-Regional B
+1100155;RO;Ouro Preto do Oeste;Centro Sub-Regional B
+4111506;PR;Ivaiporã;Centro Sub-Regional B
+2614501;PE;Surubim;Centro Sub-Regional B
+4113304;PR;Laranjeiras do Sul;Centro Sub-Regional B
+4321907;RS;Três Passos;Centro Sub-Regional B
+5205406;GO;Arranjo Populacional de Ceres - Rialma/GO;Centro Sub-Regional B
+2608909;PE;Limoeiro;Centro Sub-Regional B
+1200104;AC;Arranjo Populacional Internacional de Cobija/Bolívia - Brasiléia/Brasil;Centro Sub-Regional B
+2108207;MA;Arranjo Populacional de Pedreiras/MA;Centro Sub-Regional B
+2304103;CE;Crateús;Centro Sub-Regional B
+4104501;PR;Capanema;Centro Sub-Regional B
+2103208;MA;Chapadinha;Centro Sub-Regional B
+2208403;PI;Piripiri;Centro Sub-Regional B
+5211800;GO;Jaraguá;Centro Sub-Regional B
+2403103;RN;Currais Novos;Centro Sub-Regional B
+3135209;MG;Januária;Centro Sub-Regional B
+2615300;PE;Timbaúba;Centro Sub-Regional B
+2910701;BA;Euclides da Cunha;Centro Sub-Regional B
+2302602;CE;Camocim;Centro Sub-Regional B
+3128006;MG;Guanhães;Centro Sub-Regional B
+4109708;PR;Ibaiti;Centro Sub-Regional B
+3115508;MG;Arranjo Populacional de Caxambu - Baependi/MG;Centro Sub-Regional B
+2306306;CE;Itapajé;Centro Sub-Regional B
+2202208;PI;Campo Maior;Centro Sub-Regional B
+2708006;AL;Santana do Ipanema;Centro Sub-Regional B
+2109106;MA;Presidente Dutra;Centro Sub-Regional B
+2804508;SE;Nossa Senhora da Glória;Centro Sub-Regional B
+2201903;PI;Bom Jesus;Centro Sub-Regional B
+2926608;BA;Ribeira do Pombal;Centro Sub-Regional B
+3101706;MG;Almenara;Centro Sub-Regional B
+2805703;SE;Arranjo Populacional de Propriá/SE;Centro Sub-Regional B
+2702405;AL;Delmiro Gouveia;Centro Sub-Regional B
+2409407;RN;Pau dos Ferros;Centro Sub-Regional B
+2913903;BA;Ipiaú;Centro Sub-Regional B
+1304062;AM;Tabatinga;Centro Sub-Regional B
+2210607;PI;São Raimundo Nonato;Centro Sub-Regional B
+2600104;PE;Afogados da Ingazeira;Centro Sub-Regional B
+2207009;PI;Oeiras;Centro Sub-Regional B
+3103405;MG;Araçuaí;Centro Sub-Regional B
+2302107;CE;Baturité;Centro Sub-Regional B
+4216206;SC;São Francisco do Sul;Centro de Zona A
+3507001;SP;Arranjo Populacional de Boituva - Iperó/SP;Centro de Zona A
+5102637;MT;Campo Novo do Parecis;Centro de Zona A
+5107875;MT;Sapezal;Centro de Zona A
+2312403;CE;São Gonçalo do Amarante;Centro de Zona A
+5102678;MT;Campo Verde;Centro de Zona A
+5007208;MS;Rio Brilhante;Centro de Zona A
+3306107;RJ;Arranjo Populacional de Valença/RJ;Centro de Zona A
+2922003;BA;Mucuri;Centro de Zona A
+4203600;SC;Campos Novos;Centro de Zona A
+4117909;PR;Palotina;Centro de Zona A
+3530508;SP;Mococa;Centro de Zona A
+3531308;SP;Monte Alto;Centro de Zona A
+4113205;PR;Lapa;Centro de Zona A
+4313904;RS;Panambi;Centro de Zona A
+4213203;SC;Pomerode;Centro de Zona A
+3536703;SP;Pederneiras;Centro de Zona A
+3505906;SP;Batatais;Centro de Zona A
+3540606;SP;Porto Feliz;Centro de Zona A
+5218508;GO;Quirinópolis;Centro de Zona A
+1600279;AP;Arranjo Populacional de Laranjal do Jari/AP - Almeirim/PA;Centro de Zona A
+5007695;MS;São Gabriel do Oeste;Centro de Zona A
+5209101;GO;Goiatuba;Centro de Zona A
+2305233;CE;Horizonte;Centro de Zona A
+3137205;MG;Arranjo Populacional de Lagoa da Prata/MG;Centro de Zona A
+4218004;SC;Tijucas;Centro de Zona A
+4112009;PR;Jaguariaíva;Centro de Zona A
+4321451;RS;Arranjo Populacional de Teutônia/RS;Centro de Zona A
+4308201;RS;Flores da Cunha;Centro de Zona A
+3136306;MG;João Pinheiro;Centro de Zona A
+3515186;SP;Espírito Santo do Pinhal;Centro de Zona A
+3169406;MG;Três Pontas;Centro de Zona A
+3535507;SP;Arranjo Populacional de Paraguaçu Paulista/SP;Centro de Zona A
+3546603;SP;Arranjo Populacional de Santa Fé do Sul/SP;Centro de Zona A
+3524105;SP;Ituverava;Centro de Zona A
+3533502;SP;Novo Horizonte;Centro de Zona A
+3525706;SP;José Bonifácio;Centro de Zona A
+3509700;SP;Campos do Jordão;Centro de Zona A
+4125605;PR;São Mateus do Sul;Centro de Zona A
+3537602;SP;Peruíbe;Centro de Zona A
+5101704;MT;Barra do Bugres;Centro de Zona A
+3522703;SP;Itápolis;Centro de Zona A
+3537800;SP;Piedade;Centro de Zona A
+4306601;RS;Dom Pedrito;Centro de Zona A
+4102000;PR;Assis Chateaubriand;Centro de Zona A
+4310603;RS;Itaqui;Centro de Zona A
+3550100;SP;São Manuel;Centro de Zona A
+3104205;MG;Arcos;Centro de Zona A
+3516705;SP;Garça;Centro de Zona A
+4313300;RS;Nova Prata;Centro de Zona A
+4117602;PR;Palmas;Centro de Zona A
+4304507;RS;Canguçu;Centro de Zona A
+1501709;PA;Bragança;Centro de Zona A
+4120606;PR;Prudentópolis;Centro de Zona A
+5100300;MT;Arranjo Populacional de Alto Araguaia/MT;Centro de Zona A
+3541307;SP;Presidente Epitácio;Centro de Zona A
+4318804;RS;São Lourenço do Sul;Centro de Zona A
+3110608;MG;Arranjo Populacional de Cambuí/MG;Centro de Zona A
+2606408;PE;Gravatá;Centro de Zona A
+4202800;SC;Braço do Norte;Centro de Zona A
+3138401;MG;Leopoldina;Centro de Zona A
+3534609;SP;Osvaldo Cruz;Centro de Zona A
+4310009;RS;Ibirubá;Centro de Zona A
+4210506;SC;Maravilha;Centro de Zona A
+2405801;RN;João Câmara;Centro de Zona A
+5104807;MT;Arranjo Populacional de Jaciara/MT;Centro de Zona A
+4212908;SC;Pinhalzinho;Centro de Zona A
+3139003;MG;Machado;Centro de Zona A
+5217401;GO;Arranjo Populacional de Pires do Rio/GO;Centro de Zona A
+5000609;MS;Amambai;Centro de Zona A
+3107109;MG;Boa Esperança;Centro de Zona A
+2311405;CE;Quixeramobim;Centro de Zona A
+2508901;PB;Arranjo Populacional de Mamanguape - Rio Tinto/PB;Centro de Zona A
+5103205;MT;Colíder;Centro de Zona A
+4317301;RS;Santa Vitória do Palmar;Centro de Zona A
+4316402;RS;Rosário do Sul;Centro de Zona A
+3102605;MG;Andradas;Centro de Zona A
+5218003;GO;Porangatu;Centro de Zona A
+3300605;RJ;Arranjo Populacional de Bom Jesus do Itabapoana/RJ;Centro de Zona A
+3200904;ES;Barra de São Francisco;Centro de Zona A
+4219705;SC;Xaxim;Centro de Zona A
+4211702;SC;Orleans;Centro de Zona A
+2104057;MA;Arranjo Populacional de Estreito/MA;Centro de Zona A
+4216909;SC;São Lourenço do Oeste;Centro de Zona A
+4320909;RS;Tapejara;Centro de Zona A
+5220108;GO;São Luís de Montes Belos;Centro de Zona A
+5105101;MT;Juara;Centro de Zona A
+3541505;SP;Arranjo Populacional de Presidente Venceslau/SP;Centro de Zona A
+4112108;PR;Arranjo Populacional de Jandaia do Sul/PR;Centro de Zona A
+4208500;SC;Ituporanga;Centro de Zona A
+4302808;RS;Caçapava do Sul;Centro de Zona A
+2928604;BA;Santo Amaro;Centro de Zona A
+4308904;RS;Arranjo Populacional de Getúlio Vargas/RS;Centro de Zona A
+3107307;MG;Bocaiúva;Centro de Zona A
+2906006;BA;Campo Formoso;Centro de Zona A
+3162104;MG;São Gotardo;Centro de Zona A
+5103353;MT;Confresa;Centro de Zona A
+2914000;BA;Ipirá;Centro de Zona A
+4102406;PR;Bandeirantes;Centro de Zona A
+2302503;CE;Brejo Santo;Centro de Zona A
+4116901;PR;Nova Esperança;Centro de Zona A
+4205001;SC;Arranjo Populacional Internacional de Dionísio Cerqueira-Barracão/Brasil - Bernardo de Irigoyen/Argentina;Centro de Zona A
+3144300;MG;Nanuque;Centro de Zona A
+2610905;PE;Pesqueira;Centro de Zona A
+2905206;BA;Caetité;Centro de Zona A
+1705508;TO;Colinas do Tocantins;Centro de Zona A
+3146008;MG;Ouro Fino;Centro de Zona A
+5105622;MT;Mirassol d'Oeste;Centro de Zona A
+3538808;SP;Piraju;Centro de Zona A
+2101608;MA;Barra do Corda;Centro de Zona A
+5210208;GO;Iporá;Centro de Zona A
+4121406;PR;Realeza;Centro de Zona A
+2928109;BA;Arranjo Populacional de Santa Maria da Vitória/BA;Centro de Zona A
+3202306;ES;Guaçuí;Centro de Zona A
+1709302;TO;Guaraí;Centro de Zona A
+3157005;MG;Salinas;Centro de Zona A
+3112307;MG;Capelinha;Centro de Zona A
+1502707;PA;Conceição do Araguaia;Centro de Zona A
+2305407;CE;Icó;Centro de Zona A
+3113305;MG;Carangola;Centro de Zona A
+2807402;SE;Tobias Barreto;Centro de Zona A
+4113502;PR;Loanda;Centro de Zona A
+5218300;GO;Posse;Centro de Zona A
+2411205;RN;Santa Cruz;Centro de Zona A
+2101707;MA;Barreirinhas;Centro de Zona A
+2929909;BA;Seabra;Centro de Zona A
+3100203;MG;Abaeté;Centro de Zona A
+5005681;MS;Mundo Novo;Centro de Zona A
+2312304;CE;São Benedito;Centro de Zona A
+5208905;GO;Goiás;Centro de Zona A
+2601409;PE;Barreiros;Centro de Zona A
+3168002;MG;Taiobeiras;Centro de Zona A
+2513901;PB;São Bento;Centro de Zona A
+4206900;SC;Ibirama;Centro de Zona A
+2512101;PB;Pombal;Centro de Zona A
+2105708;MA;Lago da Pedra;Centro de Zona A
+2906873;BA;Capim Grosso;Centro de Zona A
+4320701;RS;Sobradinho;Centro de Zona A
+2203701;PI;Esperantina;Centro de Zona A
+1707009;TO;Dianópolis;Centro de Zona A
+2202901;PI;Corrente;Centro de Zona A
+2111102;MA;São João dos Patos;Centro de Zona A
+2907806;BA;Cícero Dantas;Centro de Zona A
+2507002;PB;Itaporanga;Centro de Zona A
+2103802;MA;Dom Pedro;Centro de Zona A
+2211308;PI;Valença do Piauí;Centro de Zona A
+2200202;PI;Água Branca;Centro de Zona A
+3500709;SP;Agudos;Centro de Zona B
+2702306;AL;Coruripe;Centro de Zona B
+5002951;MS;Chapadão do Sul;Centro de Zona B
+3505203;SP;Bariri;Centro de Zona B
+2110302;MA;Santo Antônio dos Lopes;Centro de Zona B
+4120903;PR;Quedas do Iguaçu;Centro de Zona B
+4309605;RS;Horizontina;Centro de Zona B
+3172004;MG;Visconde do Rio Branco;Centro de Zona B
+5102702;MT;Canarana;Centro de Zona B
+4312658;RS;Não-Me-Toque;Centro de Zona B
+5213087;GO;Minaçu;Centro de Zona B
+5214606;GO;Niquelândia;Centro de Zona B
+4128005;PR;Ubiratã;Centro de Zona B
+2611002;PE;Petrolândia;Centro de Zona B
+4216503;SC;São Joaquim;Centro de Zona B
+3526407;SP;Laranjal Paulista;Centro de Zona B
+3151503;MG;Piumhi;Centro de Zona B
+2927002;BA;Rio Real;Centro de Zona B
+3537404;SP;Pereira Barreto;Centro de Zona B
+2211209;PI;Arranjo Populacional de Uruçuí/PI;Centro de Zona B
+4108601;PR;Goioerê;Centro de Zona B
+4208401;SC;Arranjo Populacional de Itapiranga/SC;Centro de Zona B
+4115606;PR;Matelândia;Centro de Zona B
+5001904;MS;Bataguassu;Centro de Zona B
+1716505;TO;Arranjo Populacional de Pedro Afonso/TO;Centro de Zona B
+1508084;PA;Tucumã;Centro de Zona B
+1501808;PA;Breves;Centro de Zona B
+4304200;RS;Candelária;Centro de Zona B
+5104104;MT;Guarantã do Norte;Centro de Zona B
+1507458;PA;Arranjo Populacional de São Geraldo do Araguaia/PA;Centro de Zona B
+4307500;RS;Espumoso;Centro de Zona B
+3302106;RJ;Arranjo Populacional de Itaocara/RJ;Centro de Zona B
+3200805;ES;Baixo Guandu;Centro de Zona B
+4105904;PR;Arranjo Populacional de Colorado/PR;Centro de Zona B
+1304203;AM;Tefé;Centro de Zona B
+2302800;CE;Canindé;Centro de Zona B
+3553807;SP;Taquarituba;Centro de Zona B
+5220603;GO;Silvânia;Centro de Zona B
+5107859;MT;São Félix do Araguaia;Centro de Zona B
+3502705;SP;Apiaí;Centro de Zona B
+4320404;RS;Serafina Corrêa;Centro de Zona B
+4105409;PR;Chopinzinho;Centro de Zona B
+3170800;MG;Várzea da Palma;Centro de Zona B
+3105103;MG;Bambuí;Centro de Zona B
+3520442;SP;Ilha Solteira;Centro de Zona B
+4316451;RS;Salto do Jacuí;Centro de Zona B
+2917607;BA;Jaguaquara;Centro de Zona B
+4212106;SC;Palmitos;Centro de Zona B
+5106257;MT;Nova Xavantina;Centro de Zona B
+4101002;PR;Ampére;Centro de Zona B
+4217808;SC;Taió;Centro de Zona B
+5002902;MS;Cassilândia;Centro de Zona B
+4317806;RS;Santo Augusto;Centro de Zona B
+3508108;SP;Buritama;Centro de Zona B
+2313302;CE;Tauá;Centro de Zona B
+1100130;RO;Machadinho D'Oeste;Centro de Zona B
+4214003;SC;Presidente Getúlio;Centro de Zona B
+4316600;RS;Sananduva;Centro de Zona B
+4218806;SC;Turvo;Centro de Zona B
+4212205;SC;Papanduva;Centro de Zona B
+2516003;PB;Arranjo Populacional de Solânea - Bananeiras/PB;Centro de Zona B
+4128500;PR;Wenceslau Braz;Centro de Zona B
+5002100;MS;Bela Vista;Centro de Zona B
+1502301;PA;Capitão Poço;Centro de Zona B
+3161106;MG;São Francisco;Centro de Zona B
+4317905;RS;Santo Cristo;Centro de Zona B
+3200102;ES;Afonso Cláudio;Centro de Zona B
+4126603;PR;Siqueira Campos;Centro de Zona B
+5108600;MT;Vila Rica;Centro de Zona B
+2509701;PB;Monteiro;Centro de Zona B
+4103909;PR;Campina da Lagoa;Centro de Zona B
+2110500;MA;São Bento;Centro de Zona B
+2919504;BA;Livramento de Nossa Senhora;Centro de Zona B
+3203007;ES;Iúna;Centro de Zona B
+3138807;MG;Luz;Centro de Zona B
+5212204;GO;Jussara;Centro de Zona B
+3124203;MG;Espera Feliz;Centro de Zona B
+3133501;MG;Itapecerica;Centro de Zona B
+4300109;RS;Agudo;Centro de Zona B
+4117107;PR;Arranjo Populacional de Nova Londrina - Marilena/PR;Centro de Zona B
+3147303;MG;Paraisópolis;Centro de Zona B
+5101258;MT;Araputanga;Centro de Zona B
+4107603;PR;Faxinal;Centro de Zona B
+2402204;RN;Canguaretama;Centro de Zona B
+2608800;PE;Lajedo;Centro de Zona B
+1100056;RO;Cerejeiras;Centro de Zona B
+2103604;MA;Coroatá;Centro de Zona B
+2312205;CE;Santa Quitéria;Centro de Zona B
+2605707;PE;Floresta;Centro de Zona B
+4304903;RS;Casca;Centro de Zona B
+5206404;GO;Crixás;Centro de Zona B
+4216008;SC;Arranjo Populacional de São Carlos - Águas de Chapecó/SC;Centro de Zona B
+2112506;MA;Tutóia;Centro de Zona B
+1301407;AM;Eirunepé;Centro de Zona B
+5211206;GO;Itapuranga;Centro de Zona B
+4216701;SC;São José do Cedro;Centro de Zona B
+2114007;MA;Zé Doca;Centro de Zona B
+1702208;TO;Araguatins;Centro de Zona B
+2103406;MA;Coelho Neto;Centro de Zona B
+2300309;CE;Acopiara;Centro de Zona B
+2504306;PB;Catolé do Rocha;Centro de Zona B
+2907301;BA;Castro Alves;Centro de Zona B
+3132503;MG;Itamarandiba;Centro de Zona B
+4321402;RS;Tenente Portela;Centro de Zona B
+2305001;CE;Guaraciaba do Norte;Centro de Zona B
+4109302;PR;Guaraniaçu;Centro de Zona B
+2933604;BA;Xique-Xique;Centro de Zona B
+3112604;MG;Capinópolis;Centro de Zona B
+3203502;ES;Montanha;Centro de Zona B
+2901007;BA;Amargosa;Centro de Zona B
+2308104;CE;Mauriti;Centro de Zona B
+4319406;RS;São Pedro do Sul;Centro de Zona B
+2913200;BA;Ibotirama;Centro de Zona B
+2305803;CE;Ipu;Centro de Zona B
+3137809;MG;Lambari;Centro de Zona B
+2926301;BA;Riachão do Jacuípe;Centro de Zona B
+5210901;GO;Itapaci;Centro de Zona B
+2919801;BA;Macaúbas;Centro de Zona B
+2911204;BA;Gandu;Centro de Zona B
+2926004;BA;Remanso;Centro de Zona B
+2918100;BA;Jeremoabo;Centro de Zona B
+2927200;BA;Ruy Barbosa;Centro de Zona B
+3108008;MG;Bom Sucesso;Centro de Zona B
+2707305;AL;Porto Calvo;Centro de Zona B
+4301206;RS;Arroio do Tigre;Centro de Zona B
+3152204;MG;Porteirinha;Centro de Zona B
+2920502;BA;Maracás;Centro de Zona B
+2308500;CE;Mombaça;Centro de Zona B
+1100064;RO;Colorado do Oeste;Centro de Zona B
+3108602;MG;Brasília de Minas;Centro de Zona B
+3119104;MG;Corinto;Centro de Zona B
+3108305;MG;Borda da Mata;Centro de Zona B
+2103505;MA;Colinas;Centro de Zona B
+2921708;BA;Morro do Chapéu;Centro de Zona B
+2613602;PE;São José do Egito;Centro de Zona B
+2408904;RN;Parelhas;Centro de Zona B
+3504206;SP;Auriflama;Centro de Zona B
+3155801;MG;Rio Pomba;Centro de Zona B
+3130903;MG;Inhapim;Centro de Zona B
+1504059;PA;Mãe do Rio;Centro de Zona B
+5101308;MT;Arranjo Populacional de Arenápolis - Nortelândia/MT;Centro de Zona B
+3522802;SP;Itaporanga;Centro de Zona B
+2207900;PI;Pedro II;Centro de Zona B
+2905602;BA;Camacan;Centro de Zona B
+4318606;RS;São José do Ouro;Centro de Zona B
+4305801;RS;Constantina;Centro de Zona B
+3133303;MG;Itaobim;Centro de Zona B
+5101852;MT;Bom Jesus do Araguaia;Centro de Zona B
+2709400;AL;Viçosa;Centro de Zona B
+2110708;MA;São Domingos do Maranhão;Centro de Zona B
+2505105;PB;Arranjo Populacional de Cuité - Nova Floresta/PB;Centro de Zona B
+3141801;MG;Minas Novas;Centro de Zona B
+5204904;GO;Campos Belos;Centro de Zona B
+4307302;RS;Erval Seco;Centro de Zona B
+2902807;BA;Barra da Estiva;Centro de Zona B
+4301404;RS;Arvorezinha;Centro de Zona B
+2905008;BA;Caculé;Centro de Zona B
+3135803;MG;Jequitinhonha;Centro de Zona B
+3169703;MG;Turmalina;Centro de Zona B
+2208304;PI;Piracuruca;Centro de Zona B
+3122009;MG;Divino;Centro de Zona B
+3154309;MG;Resplendor;Centro de Zona B
+2614600;PE;Tabira;Centro de Zona B
+1702554;TO;Augustinópolis;Centro de Zona B
+3100906;MG;Águas Formosas;Centro de Zona B
+3167103;MG;Serro;Centro de Zona B
+3120805;MG;Cruzília;Centro de Zona B
+4213401;SC;Ponte Serrada;Centro de Zona B
+2917102;BA;Itororó;Centro de Zona B
+3131208;MG;Ipanema;Centro de Zona B
+2113009;MA;Vitorino Freire;Centro de Zona B
+2928208;BA;Santana;Centro de Zona B
+3123205;MG;Dores do Indaiá;Centro de Zona B
+2933000;BA;Valente;Centro de Zona B
+3148707;MG;Pedra Azul;Centro de Zona B
+2512309;PB;Princesa Isabel;Centro de Zona B
+3141405;MG;Medina;Centro de Zona B
+2925808;BA;Queimadas;Centro de Zona B
+2412500;RN;São Miguel;Centro de Zona B
+5200803;GO;Arranjo Populacional de Alvorada do Norte - Simolândia/GO;Centro de Zona B
+2207801;PI;Paulistana;Centro de Zona B
+2202307;PI;Canto do Buriti;Centro de Zona B
+2103703;MA;Cururupu;Centro de Zona B
+4102505;PR;Barbosa Ferraz;Centro de Zona B
+4322103;RS;Tucunduva;Centro de Zona B
+4305405;RS;Chiapetta;Centro de Zona B
+2705705;AL;Olho d'Água das Flores;Centro de Zona B
+2210003;PI;São João do Piauí;Centro de Zona B
+3148608;MG;Peçanha;Centro de Zona B
+2202703;PI;Cocal;Centro de Zona B
+3139201;MG;Malacacheta;Centro de Zona B
+3162708;MG;São João do Paraíso;Centro de Zona B
+2923605;BA;Paramirim;Centro de Zona B
+4302204;RS;Boa Vista do Buricá;Centro de Zona B
+2205805;PI;Luzilândia;Centro de Zona B
+3142908;MG;Monte Azul;Centro de Zona B
+3528601;SP;Manduri;Centro de Zona B
+5212808;GO;Mara Rosa;Centro de Zona B
+2112605;MA;Urbano Santos;Centro de Zona B
+3162807;MG;São João Evangelista;Centro de Zona B
+2514503;PB;São José de Piranhas;Centro de Zona B
+4123709;PR;Santa Isabel do Ivaí;Centro de Zona B
+2513406;PB;Santa Luzia;Centro de Zona B
+2110104;MA;Santa Quitéria do Maranhão;Centro de Zona B
+2511301;PB;Piancó;Centro de Zona B
+2706406;AL;Pão de Açúcar;Centro de Zona B
+2511400;PB;Picuí;Centro de Zona B
+2102903;MA;Carutapera;Centro de Zona B
+2516300;PB;Sumé;Centro de Zona B
+4119004;PR;Pérola d'Oeste;Centro de Zona B
+3146305;MG;Padre Paraíso;Centro de Zona B
+4315909;RS;Rodeio Bonito;Centro de Zona B
+2108009;MA;Pastos Bons;Centro de Zona B
+2106326;MA;Maracaçumé;Centro de Zona B
+2516904;PB;Uiraúna;Centro de Zona B
+2504405;PB;Conceição;Centro de Zona B
+2202604;PI;Castelo do Piauí;Centro de Zona B
+2108108;MA;Paulo Ramos;Centro de Zona B
+2932804;BA;Utinga;Centro de Zona B
+2106706;MA;Mirador;Centro de Zona B
+2412609;RN;São Paulo do Potengi;Centro de Zona B
+2205201;PI;Jaicós;Centro de Zona B
+3170909;MG;Varzelândia;Centro de Zona B
+4214508;SC;Rio do Campo;Centro de Zona B
+4201000;SC;Anita Garibaldi;Centro de Zona B
+2931053;BA;Tanque Novo;Centro de Zona B
+2105005;MA;Humberto de Campos;Centro de Zona B
+3171808;MG;Virginópolis;Centro de Zona B
+2104008;MA;Esperantinópolis;Centro de Zona B
+5219704;GO;Santa Terezinha de Goiás;Centro de Zona B
+2210805;PI;Simplício Mendes;Centro de Zona B
+3142700;MG;Montalvânia;Centro de Zona B
+3158201;MG;Santa Maria do Suaçuí;Centro de Zona B
+1714203;TO;Natividade;Centro de Zona B
+2400802;RN;Angicos;Centro de Zona B
+3141009;MG;Mato Verde;Centro de Zona B
+2210706;PI;Simões;Centro de Zona B
+2515500;PB;Serra Branca;Centro de Zona B
+2502805;PB;Brejo do Cruz;Centro de Zona B
+1715754;TO;Palmeirópolis;Centro de Zona B
+2406700;RN;Lajes;Centro de Zona B
+2409308;RN;Patu;Centro de Zona B
+3131802;MG;Itabirinha;Centro de Zona B
+3101201;MG;Aiuruoca;Centro de Zona B
+2901304;BA;Andaraí;Centro de Zona B
+3116803;MG;Coluna;Centro de Zona B
+2203206;PI;Curimatá;Centro de Zona B
+3122702;MG;Dom Silvério;Centro de Zona B
+2914109;BA;Ipupiara;Centro de Zona B
+2927903;BA;Santa Inês;Centro de Zona B
+2400901;RN;Antônio Martins;Centro de Zona B
+3524709;SP;Jaguariúna;Centro Local
+3517406;SP;Guaíra;Centro Local
+3541604;SP;Promissão;Centro Local
+3131901;MG;Itabirito;Centro Local
+5220405;GO;São Simão;Centro Local
+1502152;PA;Canaã dos Carajás;Centro Local
+5005400;MS;Maracaju;Centro Local
+5206206;GO;Cristalina;Centro Local
+3512407;SP;Cordeirópolis;Centro Local
+3544251;SP;Rosana;Centro Local
+3140001;MG;Mariana;Centro Local
+3502754;SP;Araçariguama;Centro Local
+2908507;BA;Conceição do Jacuípe;Centro Local
+3202801;ES;Itapemirim;Centro Local
+3304003;RJ;Piraí;Centro Local
+5007802;MS;Selvíria;Centro Local
+3204302;ES;Presidente Kennedy;Centro Local
+3161908;MG;São Gonçalo do Rio Abaixo;Centro Local
+3503802;SP;Arranjo Populacional de Artur Nogueira/SP;Centro Local
+4119301;PR;Pinhão;Centro Local
+2404507;RN;Guamaré;Centro Local
+1505304;PA;Oriximiná;Centro Local
+4114401;PR;Mangueirinha;Centro Local
+3505302;SP;Arranjo Populacional de Barra Bonita - Igaraçu do Tietê/SP;Centro Local
+3519709;SP;Ibiúna;Centro Local
+3520103;SP;Arranjo Populacional de Igarapava/SP;Centro Local
+4103453;PR;Cafelândia;Centro Local
+5007901;MS;Sidrolândia;Centro Local
+5003256;MS;Costa Rica;Centro Local
+4104600;PR;Capitão Leônidas Marques;Centro Local
+3506359;SP;Bertioga;Centro Local
+2928901;BA;São Desidério;Centro Local
+3169356;MG;Três Marias;Centro Local
+5006002;MS;Nova Alvorada do Sul;Centro Local
+3518305;SP;Guararema;Centro Local
+4115705;PR;Arranjo Populacional de Matinhos - Pontal do Paraná/PR;Centro Local
+1507300;PA;São Félix do Xingu;Centro Local
+5200308;GO;Alexânia;Centro Local
+3513702;SP;Descalvado;Centro Local
+3156908;MG;Sacramento;Centro Local
+4114203;PR;Mandaguari;Centro Local
+1508126;PA;Ulianópolis;Centro Local
+4117701;PR;Palmeira;Centro Local
+5102686;MT;Campos de Júlio;Centro Local
+5106240;MT;Nova Ubiratã;Centro Local
+2801207;SE;Canindé de São Francisco;Centro Local
+3556305;SP;Arranjo Populacional de Valparaíso/SP;Centro Local
+3518602;SP;Arranjo Populacional de Guariba/SP;Centro Local
+2904902;BA;Arranjo Populacional de Cachoeira - Muritiba - Governador Mangabeira/BA;Centro Local
+3303807;RJ;Paraty;Centro Local
+5002407;MS;Caarapó;Centro Local
+3531902;SP;Morro Agudo;Centro Local
+3518206;SP;Guararapes;Centro Local
+3540002;SP;Arranjo Populacional de Pompéia/SP;Centro Local
+4117305;PR;Ortigueira;Centro Local
+3301504;RJ;Arranjo Populacional de Cordeiro - Cantagalo/RJ;Centro Local
+2607653;PE;Arranjo Populacional de Itambé/PE - Pedras de Fogo/PB;Centro Local
+5107065;MT;Querência;Centro Local
+3553401;SP;Tanabi;Centro Local
+3303856;RJ;Arranjo Populacional de Paty do Alferes - Miguel Pereira/RJ;Centro Local
+3520301;SP;Arranjo Populacional de Iguape/SP;Centro Local
+5210109;GO;Ipameri;Centro Local
+3542206;SP;Rancharia;Centro Local
+5104609;MT;Itiquira;Centro Local
+4322202;RS;Tupanciretã;Centro Local
+1502103;PA;Cametá;Centro Local
+3512001;SP;Colina;Centro Local
+1301209;AM;Coari;Centro Local
+3553955;SP;Tarumã;Centro Local
+3537107;SP;Pedreira;Centro Local
+2909307;BA;Correntina;Centro Local
+5000203;MS;Água Clara;Centro Local
+3203320;ES;Marataízes;Centro Local
+3127008;MG;Fronteira;Centro Local
+4317608;RS;Santo Antônio da Patrulha;Centro Local
+3529708;SP;Miguelópolis;Centro Local
+3554300;SP;Teodoro Sampaio;Centro Local
+5205471;GO;Chapadão do Céu;Centro Local
+4311205;RS;Júlio de Castilhos;Centro Local
+5210406;GO;Itaberaí;Centro Local
+3509254;SP;Cajati;Centro Local
+3506805;SP;Bocaina;Centro Local
+3300803;RJ;Cachoeiras de Macacu;Centro Local
+4101606;PR;Arapoti;Centro Local
+5100607;MT;Alto Taquari;Centro Local
+5219308;GO;Santa Helena de Goiás;Centro Local
+3540200;SP;Pontal;Centro Local
+5004700;MS;Ivinhema;Centro Local
+3204559;ES;Santa Maria de Jetibá;Centro Local
+4125704;PR;São Miguel do Iguaçu;Centro Local
+3527603;SP;Luís Antônio;Centro Local
+3141108;MG;Arranjo Populacional de Matozinhos/MG;Centro Local
+1508357;PA;Vitória do Xingu;Centro Local
+2412203;RN;Arranjo Populacional de São José de Mipibu - Nísia Floresta/RN;Centro Local
+4203907;SC;Arranjo Populacional de Capinzal/SC;Centro Local
+3304151;RJ;Quissamã;Centro Local
+2911105;BA;Formosa do Rio Preto;Centro Local
+3306206;RJ;Vassouras;Centro Local
+5204250;GO;Cachoeira Dourada;Centro Local
+2613008;PE;São Bento do Una;Centro Local
+3304755;RJ;São Francisco de Itabapoana;Centro Local
+4300901;RS;Aratiba;Centro Local
+3526001;SP;Junqueirópolis;Centro Local
+3152808;MG;Prata;Centro Local
+3119302;MG;Coromandel;Centro Local
+1503903;PA;Juruti;Centro Local
+3160702;MG;Santos Dumont;Centro Local
+3510005;SP;Cândido Mota;Centro Local
+5007109;MS;Ribas do Rio Pardo;Centro Local
+5001003;MS;Aparecida do Taboado;Centro Local
+3129509;MG;Ibiá;Centro Local
+3556404;SP;Vargem Grande do Sul;Centro Local
+3201407;ES;Castelo;Centro Local
+4127502;PR;Tibagi;Centro Local
+3548005;SP;Santo Antônio de Posse;Centro Local
+4315701;RS;Rio Pardo;Centro Local
+1507953;PA;Tailândia;Centro Local
+2303501;CE;Cascavel;Centro Local
+1504703;PA;Moju;Centro Local
+3530201;SP;Mirante do Paranapanema;Centro Local
+2500601;PB;Alhandra;Centro Local
+4123501;PR;Santa Helena;Centro Local
+3510807;SP;Casa Branca;Centro Local
+4213104;SC;Arranjo Populacional de Piratuba - Ipira/SC;Centro Local
+3145000;MG;Nova Ponte;Centro Local
+3502200;SP;Angatuba;Centro Local
+3537008;SP;Pedregulho;Centro Local
+5215702;GO;Palmeiras de Goiás;Centro Local
+5213004;GO;Arranjo Populacional de Maurilândia/GO;Centro Local
+1505064;PA;Novo Repartimento;Centro Local
+3505807;SP;Bastos;Centro Local
+5101902;MT;Brasnorte;Centro Local
+5216403;GO;Paraúna;Centro Local
+5203302;GO;Bela Vista de Goiás;Centro Local
+3550407;SP;Arranjo Populacional de São Pedro/SP;Centro Local
+5204300;GO;Caçu;Centro Local
+4126272;PR;Saudade do Iguaçu;Centro Local
+2925204;BA;Pojuca;Centro Local
+3117504;MG;Conceição do Mato Dentro;Centro Local
+1500206;PA;Acará;Centro Local
+2402600;RN;Ceará-Mirim;Centro Local
+2708105;AL;Santana do Mundaú;Centro Local
+5108006;MT;Tapurah;Centro Local
+3117306;MG;Conceição das Alagoas;Centro Local
+3521804;SP;Itaí;Centro Local
+2929305;BA;São Gonçalo dos Campos;Centro Local
+5203500;GO;Bom Jesus de Goiás;Centro Local
+3500303;SP;Aguaí;Centro Local
+3151602;MG;Arranjo Populacional de Planura/MG - Colômbia/SP;Centro Local
+1506708;PA;Santana do Araguaia;Centro Local
+4217501;SC;Seara;Centro Local
+5106307;MT;Paranatinga;Centro Local
+2308708;CE;Morada Nova;Centro Local
+2803203;SE;Itaporanga d'Ajuda;Centro Local
+4216305;SC;São João Batista;Centro Local
+4109609;PR;Guaratuba;Centro Local
+3552106;SP;Socorro;Centro Local
+3147402;MG;Arranjo Populacional de Paraopeba/MG;Centro Local
+5217104;GO;Piracanjuba;Centro Local
+4319604;RS;São Sepé;Centro Local
+3540903;SP;Pradópolis;Centro Local
+5106372;MT;Pedra Preta;Centro Local
+2928802;BA;Santo Estêvão;Centro Local
+4300802;RS;Arranjo Populacional de Antônio Prado/RS;Centro Local
+4211751;SC;Arranjo Populacional de Otacílio Costa/SC;Centro Local
+2933208;BA;Arranjo Populacional de Vera Cruz - Itaparica/BA;Centro Local
+3304805;RJ;São Fidélis;Centro Local
+4111902;PR;Jaguapitã;Centro Local
+3547601;SP;Santa Rosa de Viterbo;Centro Local
+5213756;GO;Montividiu;Centro Local
+4309001;RS;Giruá;Centro Local
+4110102;PR;Imbituva;Centro Local
+3133006;MG;Itamonte;Centro Local
+3529609;SP;Meridiano;Centro Local
+5207402;GO;Edéia;Centro Local
+3200409;ES;Anchieta;Centro Local
+1713205;TO;Arranjo Populacional de Miracema do Tocantins/TO;Centro Local
+4313201;RS;Nova Petrópolis;Centro Local
+3514304;SP;Dourado;Centro Local
+3114303;MG;Carmo do Paranaíba;Centro Local
+1505809;PA;Portel;Centro Local
+3157203;MG;Santa Bárbara;Centro Local
+4119103;PR;Piên;Centro Local
+4321303;RS;Taquari;Centro Local
+3159803;MG;Santa Vitória;Centro Local
+3201902;ES;Domingos Martins;Centro Local
+5101407;MT;Aripuanã;Centro Local
+2704500;AL;Arranjo Populacional de Maragogi/AL - São José da Coroa Grande/PE;Centro Local
+3511409;SP;Cerqueira César;Centro Local
+4101101;PR;Andirá;Centro Local
+4119400;PR;Piraí do Sul;Centro Local
+3514106;SP;Dois Córregos;Centro Local
+4208104;SC;Itaiópolis;Centro Local
+3300506;RJ;Bom Jardim;Centro Local
+4124400;PR;Arranjo Populacional Internacional de Santo Antônio do Sudoeste/Brasil;Centro Local
+3152006;MG;Pompéu;Centro Local
+1504802;PA;Monte Alegre;Centro Local
+3536604;SP;Arranjo Populacional de Paulo de Faria - Orindiúva/SP;Centro Local
+3507902;SP;Brotas;Centro Local
+2700409;AL;Atalaia;Centro Local
+4312906;RS;Nova Bassano;Centro Local
+3109303;MG;Buritis;Centro Local
+3551603;SP;Serra Negra;Centro Local
+4106605;PR;Cruzeiro do Oeste;Centro Local
+1508308;PA;Viseu;Centro Local
+4205803;SC;Garuva;Centro Local
+3149804;MG;Perdizes;Centro Local
+1507607;PA;São Miguel do Guamá;Centro Local
+1500404;PA;Alenquer;Centro Local
+1502806;PA;Curralinho;Centro Local
+4103602;PR;Cambará;Centro Local
+5107305;MT;São José do Rio Claro;Centro Local
+1502939;PA;Dom Eliseu;Centro Local
+4124806;PR;São João;Centro Local
+5004502;MS;Itaporã;Centro Local
+3169604;MG;Tupaciguara;Centro Local
+3550209;SP;São Miguel Arcanjo;Centro Local
+1301308;AM;Codajás;Centro Local
+3151404;MG;Arranjo Populacional de Pitangui/MG;Centro Local
+2313500;CE;Trairi;Centro Local
+3535804;SP;Paranapanema;Centro Local
+4127403;PR;Terra Roxa;Centro Local
+3157708;MG;Santa Juliana;Centro Local
+2601904;PE;Bezerros;Centro Local
+1508001;PA;Tomé-Açu;Centro Local
+4319000;RS;São Marcos;Centro Local
+3512209;SP;Conchal;Centro Local
+1301852;AM;Iranduba;Centro Local
+2302206;CE;Beberibe;Centro Local
+5002209;MS;Bonito;Centro Local
+5204409;GO;Caiapônia;Centro Local
+4316709;RS;Santa Bárbara do Sul;Centro Local
+3105400;MG;Barão de Cocais;Centro Local
+3162005;MG;São Gonçalo do Sapucaí;Centro Local
+4120002;PR;Porecatu;Centro Local
+3519105;SP;Iacanga;Centro Local
+1506500;PA;Santa Izabel do Pará;Centro Local
+4311007;RS;Jaguarão;Centro Local
+5000856;MS;Angélica;Centro Local
+3531407;SP;Monte Aprazível;Centro Local
+4318200;RS;São Francisco de Paula;Centro Local
+3528007;SP;Macatuba;Centro Local
+4106506;PR;Coronel Vivida;Centro Local
+5103007;MT;Chapada dos Guimarães;Centro Local
+3547502;SP;Santa Rita do Passa Quatro;Centro Local
+4102109;PR;Astorga;Centro Local
+3533007;SP;Arranjo Populacional de Nova Granada/SP;Centro Local
+5104526;MT;Ipiranga do Norte;Centro Local
+5007935;MS;Sonora;Centro Local
+5106232;MT;Nova Olímpia;Centro Local
+4208450;SC;Itapoá;Centro Local
+3129707;MG;Ibiraci;Centro Local
+5004601;MS;Itaquiraí;Centro Local
+5200134;GO;Acreúna;Centro Local
+3535309;SP;Palmital;Centro Local
+1505106;PA;Óbidos;Centro Local
+3551900;SP;Severínia;Centro Local
+3530102;SP;Mirandópolis;Centro Local
+4106308;PR;Corbélia;Centro Local
+4316303;RS;Roque Gonzales;Centro Local
+5105606;MT;Matupá;Centro Local
+3522901;SP;Itapuí;Centro Local
+3500501;SP;Arranjo Populacional de Águas de Lindóia/SP;Centro Local
+4200101;SC;Abelardo Luz;Centro Local
+4113908;PR;Mallet;Centro Local
+3155504;MG;Rio Paranaíba;Centro Local
+3514908;SP;Elias Fausto;Centro Local
+3537909;SP;Pilar do Sul;Centro Local
+3511003;SP;Castilho;Centro Local
+3545506;SP;Sandovalina;Centro Local
+1502772;PA;Curionópolis;Centro Local
+5209952;GO;Arranjo Populacional de Indiara/GO;Centro Local
+4217006;SC;São Ludgero;Centro Local
+3130705;MG;Indianópolis;Centro Local
+5100409;MT;Alto Garças;Centro Local
+2907202;BA;Casa Nova;Centro Local
+5001243;MS;Aral Moreira;Centro Local
+1100452;RO;Buritis;Centro Local
+2300200;CE;Acaraú;Centro Local
+2615409;PE;Toritama;Centro Local
+3515202;SP;Estrela d'Oeste;Centro Local
+3521705;SP;Itaberá;Centro Local
+2916302;BA;Itapebi;Centro Local
+3116605;MG;Cláudio;Centro Local
+3142809;MG;Monte Alegre de Minas;Centro Local
+4105300;PR;Céu Azul;Centro Local
+4204558;SC;Correia Pinto;Centro Local
+3536406;SP;Paulicéia;Centro Local
+3171006;MG;Vazante;Centro Local
+3140704;MG;Mateus Leme;Centro Local
+2104800;MA;Grajaú;Centro Local
+4126504;PR;Sertanópolis;Centro Local
+4121703;PR;Reserva;Centro Local
+1504455;PA;Medicilândia;Centro Local
+3535002;SP;Palestina;Centro Local
+4306908;RS;Encruzilhada do Sul;Centro Local
+3162948;MG;São José da Barra;Centro Local
+3113206;MG;Carandaí;Centro Local
+2614204;PE;Sirinhaém;Centro Local
+3529203;SP;Martinópolis;Centro Local
+3521903;SP;Itajobi;Centro Local
+1505031;PA;Novo Progresso;Centro Local
+2110005;MA;Santa Luzia;Centro Local
+3508603;SP;Cachoeira Paulista;Centro Local
+3204708;ES;São Gabriel da Palha;Centro Local
+3123601;MG;Elói Mendes;Centro Local
+2515302;PB;Sapé;Centro Local
+5103304;MT;Comodoro;Centro Local
+3302809;RJ;Arranjo Populacional de Mendes - Engenheiro Paulo de Frontin/RJ;Centro Local
+2105401;MA;Itapecuru Mirim;Centro Local
+4218509;SC;Treze Tílias;Centro Local
+3509403;SP;Cajuru;Centro Local
+1303536;AM;Presidente Figueiredo;Centro Local
+1100098;RO;Espigão D'Oeste;Centro Local
+4316006;RS;Rolante;Centro Local
+2407203;RN;Macau;Centro Local
+3205069;ES;Venda Nova do Imigrante;Centro Local
+3111101;MG;Campina Verde;Centro Local
+2414407;RN;Touros;Centro Local
+1505437;PA;Ourilândia do Norte;Centro Local
+4210001;SC;Luiz Alves;Centro Local
+1501782;PA;Breu Branco;Centro Local
+5105903;MT;Nobres;Centro Local
+5107008;MT;Poxoréu;Centro Local
+3517604;SP;Guapiara;Centro Local
+4114005;PR;Mamborê;Centro Local
+3516903;SP;General Salgado;Centro Local
+3110509;MG;Camanducaia;Centro Local
+5107768;MT;Santa Rita do Trivelato;Centro Local
+5108501;MT;Vera;Centro Local
+4101200;PR;Antonina;Centro Local
+4112801;PR;Joaquim Távora;Centro Local
+4302352;RS;Bom Princípio;Centro Local
+3135050;MG;Jaíba;Centro Local
+1505486;PA;Pacajá;Centro Local
+4116703;PR;Nova Aurora;Centro Local
+1506187;PA;Rondon do Pará;Centro Local
+4211009;SC;Mondaí;Centro Local
+2907509;BA;Catu;Centro Local
+3528809;SP;Maracaí;Centro Local
+1100320;RO;São Miguel do Guaporé;Centro Local
+5220207;GO;São Miguel do Araguaia;Centro Local
+5107800;MT;Santo Antônio do Leverger;Centro Local
+4204707;SC;Cunha Porã;Centro Local
+4312617;RS;Muitos Capões;Centro Local
+1503705;PA;Itupiranga;Centro Local
+5106505;MT;Poconé;Centro Local
+4210605;SC;Massaranduba;Centro Local
+4211504;SC;Nova Trento;Centro Local
+3540804;SP;Potirendaba;Centro Local
+1716604;TO;Peixe;Centro Local
+1400472;RR;Rorainópolis;Centro Local
+2401453;RN;Baraúna;Centro Local
+3536208;SP;Pariquera-Açu;Centro Local
+1508159;PA;Uruará;Centro Local
+4110409;PR;Indianópolis;Centro Local
+3147204;MG;Paraguaçu;Centro Local
+2902906;BA;Barra do Choça;Centro Local
+3134905;MG;Jacutinga;Centro Local
+2704203;AL;Limoeiro de Anadia;Centro Local
+4301305;RS;Arroio Grande;Centro Local
+2401107;RN;Areia Branca;Centro Local
+1301704;AM;Humaitá;Centro Local
+4107256;PR;Douradina;Centro Local
+3531506;SP;Monte Azul Paulista;Centro Local
+4213708;SC;Pouso Redondo;Centro Local
+2102325;MA;Buriticupu;Centro Local
+1501907;PA;Bujaru;Centro Local
+2910602;BA;Esplanada;Centro Local
+2112001;MA;Tasso Fragoso;Centro Local
+3553302;SP;Tambaú;Centro Local
+3203056;ES;Jaguaré;Centro Local
+3160405;MG;Santo Antônio do Monte;Centro Local
+1503804;PA;Jacundá;Centro Local
+1505205;PA;Oeiras do Pará;Centro Local
+4118105;PR;Arranjo Populacional de Paranacity/PR;Centro Local
+4104428;PR;Candói;Centro Local
+3133758;MG;Itaú de Minas;Centro Local
+3200201;ES;Alegre;Centro Local
+5002308;MS;Brasilândia;Centro Local
+3205010;ES;Sooretama;Centro Local
+5006275;MS;Paraíso das Águas;Centro Local
+3111606;MG;Campos Gerais;Centro Local
+2807105;SE;Simão Dias;Centro Local
+3505609;SP;Barrinha;Centro Local
+4121802;PR;Ribeirão Claro;Centro Local
+1503457;PA;Ipixuna do Pará;Centro Local
+4122008;PR;Rio Azul;Centro Local
+4111209;PR;Itapejara d'Oeste;Centro Local
+4319158;RS;São Miguel das Missões;Centro Local
+1100015;RO;Alta Floresta D'Oeste;Centro Local
+1302702;AM;Manicoré;Centro Local
+2602100;PE;Bom Conselho;Centro Local
+3303005;RJ;Miracema;Centro Local
+1200500;AC;Sena Madureira;Centro Local
+3144607;MG;Nepomuceno;Centro Local
+2926202;BA;Riachão das Neves;Centro Local
+2923001;BA;Nova Viçosa;Centro Local
+2106755;MA;Miranda do Norte;Centro Local
+3533601;SP;Nuporanga;Centro Local
+2925105;BA;Poções;Centro Local
+5106422;MT;Peixoto de Azevedo;Centro Local
+2910503;BA;Entre Rios;Centro Local
+3301207;RJ;Carmo;Centro Local
+4105706;PR;Clevelândia;Centro Local
+5005608;MS;Miranda;Centro Local
+5103254;MT;Colniza;Centro Local
+3501004;SP;Altinópolis;Centro Local
+5008008;MS;Terenos;Centro Local
+3153400;MG;Presidente Olegário;Centro Local
+5215306;GO;Orizona;Centro Local
+2609501;PE;Nazaré da Mata;Centro Local
+5214002;GO;Mozarlândia;Centro Local
+3144102;MG;Muzambinho;Centro Local
+1507979;PA;Terra Santa;Centro Local
+4125100;PR;São João do Triunfo;Centro Local
+4208807;SC;Jaguaruna;Centro Local
+3305158;RJ;São José do Vale do Rio Preto;Centro Local
+3546306;SP;Santa Cruz das Palmeiras;Centro Local
+3118205;MG;Conquista;Centro Local
+2905404;BA;Cairu;Centro Local
+3541703;SP;Quatá;Centro Local
+2306900;CE;Jaguaribe;Centro Local
+4300505;RS;Alpestre;Centro Local
+3203403;ES;Mimoso do Sul;Centro Local
+1711902;TO;Lagoa da Confusão;Centro Local
+4102802;PR;Bela Vista do Paraíso;Centro Local
+4126306;PR;Sengés;Centro Local
+4126801;PR;Tapejara;Centro Local
+4305454;RS;Arranjo Populacional de Cidreira - Balneário Pinhal/RS;Centro Local
+5205901;GO;Corumbaíba;Centro Local
+4101705;PR;Araruna;Centro Local
+5217708;GO;Pontalina;Centro Local
+2408300;RN;Nova Cruz;Centro Local
+3550902;SP;São Simão;Centro Local
+3524600;SP;Jacupiranga;Centro Local
+1303569;AM;Rio Preto da Eva;Centro Local
+4322251;RS;Tupandi;Centro Local
+3114402;MG;Carmo do Rio Claro;Centro Local
+3538600;SP;Piracaia;Centro Local
+2913705;BA;Inhambupe;Centro Local
+3526209;SP;Juquitiba;Centro Local
+4315800;RS;Roca Sales;Centro Local
+3555356;SP;Ubarana;Centro Local
+4305306;RS;Chapada;Centro Local
+3508801;SP;Cafelândia;Centro Local
+3515152;SP;Engenheiro Coelho;Centro Local
+4318101;RS;São Francisco de Assis;Centro Local
+3143203;MG;Monte Santo de Minas;Centro Local
+3538907;SP;Arranjo Populacional de Pirajuí/SP;Centro Local
+2612604;PE;Santa Maria da Boa Vista;Centro Local
+2701407;AL;Campo Alegre;Centro Local
+1302405;AM;Lábrea;Centro Local
+2306553;CE;Itarema;Centro Local
+1500347;PA;Água Azul do Norte;Centro Local
+3204609;ES;Santa Teresa;Centro Local
+2204501;PI;Guadalupe;Centro Local
+5220504;GO;Serranópolis;Centro Local
+1200609;AC;Tarauacá;Centro Local
+2400703;RN;Alto do Rodrigues;Centro Local
+5007406;MS;Rio Verde de Mato Grosso;Centro Local
+2708501;AL;São Luís do Quitunde;Centro Local
+3139508;MG;Manhumirim;Centro Local
+2931905;BA;Tucano;Centro Local
+5105507;MT;Vila Bela da Santíssima Trindade;Centro Local
+3534757;SP;Ouroeste;Centro Local
+5103452;MT;Denise;Centro Local
+2300754;CE;Amontada;Centro Local
+2706901;AL;Pilar;Centro Local
+5216452;GO;Perolândia;Centro Local
+3201605;ES;Conceição da Barra;Centro Local
+4302709;RS;Butiá;Centro Local
+4315305;RS;Quaraí;Centro Local
+2401008;RN;Apodi;Centro Local
+1100338;RO;Nova Mamoré;Centro Local
+2925501;BA;Prado;Centro Local
+3529906;SP;Miracatu;Centro Local
+3204104;ES;Pinheiros;Centro Local
+2310209;CE;Paracuru;Centro Local
+1506203;PA;Salinópolis;Centro Local
+5218904;GO;Rubiataba;Centro Local
+4313656;RS;Palmares do Sul;Centro Local
+2611804;PE;Ribeirão;Centro Local
+4314472;RS;Pinhal Grande;Centro Local
+2109809;MA;Arranjo Populacional de Santa Helena - Turilândia/MA;Centro Local
+2310258;CE;Paraipaba;Centro Local
+3101102;MG;Aimorés;Centro Local
+5005251;MS;Laguna Carapã;Centro Local
+2803005;SE;Itabaianinha;Centro Local
+5201306;GO;Anicuns;Centro Local
+2606101;PE;Glória do Goitá;Centro Local
+3543006;SP;Ribeirão Branco;Centro Local
+1506161;PA;Rio Maria;Centro Local
+3166808;MG;Serra do Salitre;Centro Local
+5108907;MT;Nova Maringá;Centro Local
+3204351;ES;Rio Bananal;Centro Local
+2930204;BA;Sento Sé;Centro Local
+3517703;SP;Guará;Centro Local
+5106299;MT;Paranaíta;Centro Local
+3519808;SP;Icém;Centro Local
+2603207;PE;Arranjo Populacional de Caetés - Capoeiras/PE;Centro Local
+3143401;MG;Monte Sião;Centro Local
+3523602;SP;Itirapina;Centro Local
+4311155;RS;Jóia;Centro Local
+5003801;MS;Fátima do Sul;Centro Local
+3305604;RJ;Silva Jardim;Centro Local
+2506004;PB;Esperança;Centro Local
+4205308;SC;Faxinal dos Guedes;Centro Local
+4315503;RS;Restinga Sêca;Centro Local
+3133105;MG;Itanhandu;Centro Local
+4204004;SC;Catanduvas;Centro Local
+2920601;BA;Maragogipe;Centro Local
+2112803;MA;Viana;Centro Local
+3111408;MG;Campo Florido;Centro Local
+3140902;MG;Matipó;Centro Local
+4115408;PR;Marmeleiro;Centro Local
+5007554;MS;Santa Rita do Pardo;Centro Local
+3149903;MG;Perdões;Centro Local
+2313609;CE;Ubajara;Centro Local
+5004304;MS;Iguatemi;Centro Local
+4127205;PR;Terra Boa;Centro Local
+2709152;AL;Teotônio Vilela;Centro Local
+4107504;PR;Engenheiro Beltrão;Centro Local
+3547700;SP;Santo Anastácio;Centro Local
+3532009;SP;Morungaba;Centro Local
+4321006;RS;Tapera;Centro Local
+1302900;AM;Maués;Centro Local
+4110508;PR;Ipiranga;Centro Local
+5002605;MS;Camapuã;Centro Local
+2701100;AL;Branquinha;Centro Local
+4101903;PR;Assaí;Centro Local
+2111607;MA;São Raimundo das Mangabeiras;Centro Local
+2616308;PE;Vicência;Centro Local
+5204805;GO;Campo Alegre de Goiás;Centro Local
+2906907;BA;Caravelas;Centro Local
+4217907;SC;Tangará;Centro Local
+5200555;GO;Alto Horizonte;Centro Local
+2902104;BA;Araci;Centro Local
+2921906;BA;Mucugê;Centro Local
+1100254;RO;Presidente Médici;Centro Local
+4203303;SC;Campo Alegre;Centro Local
+3507407;SP;Borborema;Centro Local
+3133402;MG;Itapagipe;Centro Local
+4318507;RS;São José do Norte;Centro Local
+4201257;SC;Apiúna;Centro Local
+2930774;BA;Sobradinho;Centro Local
+4314464;RS;Pinhal da Serra;Centro Local
+3508009;SP;Buri;Centro Local
+3114204;MG;Carmo do Cajuru;Centro Local
+1504000;PA;Limoeiro do Ajuru;Centro Local
+4308102;RS;Feliz;Centro Local
+2313807;CE;Uruburetama;Centro Local
+3205036;ES;Vargem Alta;Centro Local
+3114501;MG;Carmópolis de Minas;Centro Local
+2314102;CE;Viçosa do Ceará;Centro Local
+3162906;MG;São João Nepomuceno;Centro Local
+3203346;ES;Marechal Floriano;Centro Local
+4127965;PR;Turvo;Centro Local
+5103056;MT;Cláudia;Centro Local
+5104203;MT;Guiratinga;Centro Local
+2304707;CE;Granja;Centro Local
+4124509;PR;Santo Inácio;Centro Local
+1503093;PA;Goianésia do Pará;Centro Local
+3128303;MG;Guaranésia;Centro Local
+5222005;GO;Vianópolis;Centro Local
+3126703;MG;Francisco Sá;Centro Local
+2602803;PE;Buíque;Centro Local
+5214838;GO;Nova Crixás;Centro Local
+2311603;CE;Arranjo Populacional de Redenção - Acarape/CE;Centro Local
+5103700;MT;Feliz Natal;Centro Local
+5107792;MT;Santo Antônio do Leste;Centro Local
+2916500;BA;Itapicuru;Centro Local
+3305703;RJ;Sumidouro;Centro Local
+2307007;CE;Jaguaruana;Centro Local
+2603009;PE;Cabrobó;Centro Local
+4122503;PR;Roncador;Centro Local
+5107941;MT;Tabaporã;Centro Local
+1708205;TO;Formoso do Araguaia;Centro Local
+2408805;RN;Parazinho;Centro Local
+2302404;CE;Boa Viagem;Centro Local
+3520905;SP;Ipaussu;Centro Local
+3551801;SP;Sete Barras;Centro Local
+1503309;PA;Igarapé-Miri;Centro Local
+2310704;CE;Pentecoste;Centro Local
+1508209;PA;Vigia;Centro Local
+5106216;MT;Nova Canaã do Norte;Centro Local
+3511607;SP;Cesário Lange;Centro Local
+2605103;PE;Custódia;Centro Local
+2602308;PE;Bonito;Centro Local
+2704005;AL;Junqueiro;Centro Local
+4115358;PR;Maripá;Centro Local
+3548054;SP;Arranjo Populacional de Santo Antônio do Aracanguá/SP;Centro Local
+3155702;MG;Rio Piracicaba;Centro Local
+4110953;PR;Itaipulândia;Centro Local
+5106281;MT;Novo São Joaquim;Centro Local
+3139607;MG;Mantena;Centro Local
+4215505;SC;Santa Cecília;Centro Local
+4312708;RS;Nonoai;Centro Local
+4110607;PR;Iporã;Centro Local
+5103858;MT;Gaúcha do Norte;Centro Local
+4214201;SC;Quilombo;Centro Local
+3515400;SP;Fartura;Centro Local
+3113701;MG;Carlos Chagas;Centro Local
+4114500;PR;Manoel Ribas;Centro Local
+3544202;SP;Arranjo Populacional de Riolândia/SP;Centro Local
+3130309;MG;Iguatama;Centro Local
+4118907;PR;Pérola;Centro Local
+3521309;SP;Ipuã;Centro Local
+1600501;AP;Oiapoque;Centro Local
+5106802;MT;Porto dos Gaúchos;Centro Local
+5217203;GO;Piranhas;Centro Local
+4127601;PR;Tijucas do Sul;Centro Local
+5107107;MT;São José dos Quatro Marcos;Centro Local
+4122701;PR;Sabáudia;Centro Local
+3519501;SP;Ibirarema;Centro Local
+3200300;ES;Alfredo Chaves;Centro Local
+2902708;BA;Barra;Centro Local
+3204203;ES;Piúma;Centro Local
+3111507;MG;Campos Altos;Centro Local
+1600238;AP;Ferreira Gomes;Centro Local
+3556909;SP;Vista Alegre do Alto;Centro Local
+3101904;MG;Alpinópolis;Centro Local
+5217302;GO;Pirenópolis;Centro Local
+2201200;PI;Barras;Centro Local
+3115102;MG;Cássia;Centro Local
+4305009;RS;Catuípe;Centro Local
+2200400;PI;Altos;Centro Local
+3526100;SP;Juquiá;Centro Local
+2917359;BA;Jaborandi;Centro Local
+3124807;MG;Estrela do Sul;Centro Local
+1200450;AC;Senador Guiomard;Centro Local
+5222054;GO;Vicentinópolis;Centro Local
+5002001;MS;Batayporã;Centro Local
+2412559;RN;São Miguel do Gostoso;Centro Local
+4314605;RS;Piratini;Centro Local
+2101251;MA;Bacabeira;Centro Local
+3202108;ES;Ecoporanga;Centro Local
+3203130;ES;João Neiva;Centro Local
+3144003;MG;Mutum;Centro Local
+4305702;RS;Condor;Centro Local
+4316501;RS;Arranjo Populacional de Salvador do Sul/RS;Centro Local
+1506195;PA;Rurópolis;Centro Local
+1200302;AC;Feijó;Centro Local
+4123006;PR;Salto do Lontra;Centro Local
+4321105;RS;Tapes;Centro Local
+2102804;MA;Arranjo Populacional de Carolina/MA;Centro Local
+3111002;MG;Campestre;Centro Local
+2708808;AL;São Sebastião;Centro Local
+2927705;BA;Santa Cruz Cabrália;Centro Local
+5103601;MT;Dom Aquino;Centro Local
+3556107;SP;Valentim Gentil;Centro Local
+5107248;MT;Santa Carmem;Centro Local
+2905800;BA;Camamu;Centro Local
+3556008;SP;Urupês;Centro Local
+3137502;MG;Lagoa Formosa;Centro Local
+4219176;SC;Vargem Bonita;Centro Local
+1501204;PA;Baião;Centro Local
+3128600;MG;Guarda-Mor;Centro Local
+2908309;BA;Arranjo Populacional de Conceição do Almeida - Sapeaçu/BA;Centro Local
+3504404;SP;Avanhandava;Centro Local
+2611309;PE;Pombos;Centro Local
+1507904;PA;Arranjo Populacional de Soure - Salvaterra/PA;Centro Local
+3304409;RJ;Rio Claro;Centro Local
+4100509;PR;Altônia;Centro Local
+3300902;RJ;Cambuci;Centro Local
+1503200;PA;Igarapé-Açu;Centro Local
+4112959;PR;Juranda;Centro Local
+3508207;SP;Buritizal;Centro Local
+2928000;BA;Santaluz;Centro Local
+2703205;AL;Igreja Nova;Centro Local
+2914406;BA;Iraquara;Centro Local
+4116059;PR;Missal;Centro Local
+2914653;BA;Itabela;Centro Local
+3301157;RJ;Cardoso Moreira;Centro Local
+3302056;RJ;Italva;Centro Local
+3109709;MG;Cachoeira de Minas;Centro Local
+4302303;RS;Bom Jesus;Centro Local
+2308401;CE;Missão Velha;Centro Local
+3202454;ES;Ibatiba;Centro Local
+4312500;RS;Mostardas;Centro Local
+3111804;MG;Canápolis;Centro Local
+4127304;PR;Terra Rica;Centro Local
+4127007;PR;Teixeira Soares;Centro Local
+4216107;SC;São Domingos;Centro Local
+2602605;PE;Brejo da Madre de Deus;Centro Local
+3517901;SP;Guaraci;Centro Local
+2917300;BA;Ituberá;Centro Local
+4105607;PR;Cidade Gaúcha;Centro Local
+4207908;SC;Irineópolis;Centro Local
+4121505;PR;Rebouças;Centro Local
+5003751;MS;Eldorado;Centro Local
+2211100;PI;União;Centro Local
+4118006;PR;Paraíso do Norte;Centro Local
+2311504;CE;Quixeré;Centro Local
+5001508;MS;Bandeirantes;Centro Local
+3512308;SP;Conchas;Centro Local
+4127957;PR;Tupãssi;Centro Local
+1400209;RR;Caracaraí;Centro Local
+3110905;MG;Campanha;Centro Local
+1502954;PA;Eldorado do Carajás;Centro Local
+2613107;PE;São Caitano;Centro Local
+3130200;MG;Igaratinga;Centro Local
+4123907;PR;Santa Mariana;Centro Local
+2932200;BA;Arranjo Populacional de Ubaitaba - Aurelino Leal/BA;Centro Local
+3544905;SP;Sales Oliveira;Centro Local
+2600708;PE;Aliança;Centro Local
+2314003;CE;Várzea Alegre;Centro Local
+3124005;MG;Ervália;Centro Local
+2933505;BA;Wenceslau Guimarães;Centro Local
+2404200;RN;Goianinha;Centro Local
+3137700;MG;Lajinha;Centro Local
+4320206;RS;Seberi;Centro Local
+4112751;PR;Jesuítas;Centro Local
+1101492;RO;São Francisco do Guaporé;Centro Local
+4209607;SC;Lauro Müller;Centro Local
+1507201;PA;São Domingos do Capim;Centro Local
+4200408;SC;Água Doce;Centro Local
+3304102;RJ;Porciúncula;Centro Local
+4306007;RS;Crissiumal;Centro Local
+2602209;PE;Bom Jardim;Centro Local
+1500305;PA;Afuá;Centro Local
+5206909;GO;Davinópolis;Centro Local
+2108504;MA;Pindaré-Mirim;Centro Local
+3147600;MG;Passa Quatro;Centro Local
+1600535;AP;Porto Grande;Centro Local
+1100940;RO;Cujubim;Centro Local
+1503044;PA;Floresta do Araguaia;Centro Local
+4107108;PR;Diamante do Norte;Centro Local
+4301909;RS;Barra do Ribeiro;Centro Local
+3105905;MG;Barroso;Centro Local
+3550803;SP;São Sebastião da Grama;Centro Local
+3532900;SP;Nova Europa;Centro Local
+4316105;RS;Ronda Alta;Centro Local
+2600500;PE;Águas Belas;Centro Local
+3138625;MG;Limeira do Oeste;Centro Local
+3506706;SP;Boa Esperança do Sul;Centro Local
+2801306;SE;Capela;Centro Local
+2609709;PE;Orobó;Centro Local
+1507003;PA;Santo Antônio do Tauá;Centro Local
+5006903;MS;Porto Murtinho;Centro Local
+4117222;PR;Nova Santa Rosa;Centro Local
+2912202;BA;Ibicoara;Centro Local
+2921500;BA;Monte Santo;Centro Local
+2104552;MA;Governador Edison Lobão;Centro Local
+3552551;SP;Suzanápolis;Centro Local
+3532405;SP;Nazaré Paulista;Centro Local
+3144706;MG;Nova Era;Centro Local
+1508050;PA;Trairão;Centro Local
+4207700;SC;Ipumirim;Centro Local
+1500859;PA;Anapu;Centro Local
+1500909;PA;Augusto Corrêa;Centro Local
+2906303;BA;Canavieiras;Centro Local
+3508702;SP;Caconde;Centro Local
+4305900;RS;Coronel Bicaco;Centro Local
+1300706;AM;Boca do Acre;Centro Local
+4118808;PR;Peabiru;Centro Local
+1100148;RO;Nova Brasilândia D'Oeste;Centro Local
+2807600;SE;Umbaúba;Centro Local
+4302907;RS;Cacequi;Centro Local
+3203700;ES;Muniz Freire;Centro Local
+4106803;PR;Cruz Machado;Centro Local
+2307403;CE;Arranjo Populacional de Jucás - Cariús/CE;Centro Local
+2503001;PB;Caaporã;Centro Local
+3112000;MG;Candeias;Centro Local
+2109601;MA;Rosário;Centro Local
+5107701;MT;Rosário Oeste;Centro Local
+2916856;BA;Itatim;Centro Local
+2111508;MA;São Mateus do Maranhão;Centro Local
+3114550;MG;Carneirinho;Centro Local
+4127858;PR;Três Barras do Paraná;Centro Local
+4317707;RS;Santo Antônio das Missões;Centro Local
+5105200;MT;Juscimeira;Centro Local
+4121208;PR;Quitandinha;Centro Local
+3159902;MG;Santo Antônio do Amparo;Centro Local
+2921104;BA;Medeiros Neto;Centro Local
+5201504;GO;Aporé;Centro Local
+4117255;PR;Nova Prata do Iguaçu;Centro Local
+4116208;PR;Morretes;Centro Local
+4104402;PR;Cândido de Abreu;Centro Local
+5203906;GO;Buriti Alegre;Centro Local
+5107354;MT;São José do Xingu;Centro Local
+3140506;MG;Martinho Campos;Centro Local
+4301503;RS;Augusto Pestana;Centro Local
+1500958;PA;Aurora do Pará;Centro Local
+1600154;AP;Pedra Branca do Amapari;Centro Local
+4119806;PR;Planalto;Centro Local
+3536000;SP;Parapuã;Centro Local
+4108502;PR;General Carneiro;Centro Local
+1506583;PA;Santa Maria das Barreiras;Centro Local
+1304302;AM;Urucará;Centro Local
+2205508;PI;José de Freitas;Centro Local
+2413359;RN;Serra do Mel;Centro Local
+1703867;TO;Cariri do Tocantins;Centro Local
+3154002;MG;Raul Soares;Centro Local
+1301159;AM;Careiro da Várzea;Centro Local
+4312807;RS;Nova Araçá;Centro Local
+3110707;MG;Cambuquira;Centro Local
+3556800;SP;Viradouro;Centro Local
+3552304;SP;Sud Mennucci;Centro Local
+4102901;PR;Bituruna;Centro Local
+2615607;PE;Trindade;Centro Local
+2112407;MA;Turiaçu;Centro Local
+2312700;CE;Senador Pompeu;Centro Local
+3553609;SP;Tapiratiba;Centro Local
+3204054;ES;Pedro Canário;Centro Local
+2800670;SE;Boquim;Centro Local
+3555109;SP;Arranjo Populacional de Tupi Paulista/SP;Centro Local
+4208708;SC;Jacinto Machado;Centro Local
+2917706;BA;Jaguarari;Centro Local
+4100202;PR;Arranjo Populacional de Adrianópolis/PR - Ribeira/SP;Centro Local
+4302501;RS;Bossoroca;Centro Local
+2608503;PE;Lagoa de Itaenga;Centro Local
+3202603;ES;Iconha;Centro Local
+2702900;AL;Girau do Ponciano;Centro Local
+5200100;GO;Abadiânia;Centro Local
+2932507;BA;Una;Centro Local
+1300300;AM;Autazes;Centro Local
+4309506;RS;Guarani das Missões;Centro Local
+1100403;RO;Alto Paraíso;Centro Local
+3510302;SP;Capela do Alto;Centro Local
+2414209;RN;Tibau do Sul;Centro Local
+5220009;GO;São João d'Aliança;Centro Local
+4308458;RS;Fortaleza dos Valos;Centro Local
+5213707;GO;Montes Claros de Goiás;Centro Local
+5205513;GO;Cocalzinho de Goiás;Centro Local
+4314506;RS;Pinheiro Machado;Centro Local
+3146503;MG;Pains;Centro Local
+4123808;PR;Santa Izabel do Oeste;Centro Local
+2100600;MA;Amarante do Maranhão;Centro Local
+3532603;SP;Nhandeara;Centro Local
+2903409;BA;Belmonte;Centro Local
+2614105;PE;Sertânia;Centro Local
+4111407;PR;Ivaí;Centro Local
+3532827;SP;Nova Campina;Centro Local
+2112704;MA;Vargem Grande;Centro Local
+2923803;BA;Paripiranga;Centro Local
+3504305;SP;Avaí;Centro Local
+4300059;RS;Água Santa;Centro Local
+3164605;MG;São Sebastião do Oeste;Centro Local
+2804607;SE;Nossa Senhora das Dores;Centro Local
+4217303;SC;Saudades;Centro Local
+2313104;CE;Tabuleiro do Norte;Centro Local
+2112902;MA;Vitória do Mearim;Centro Local
+2917003;BA;Itiúba;Centro Local
+2901106;BA;Amélia Rodrigues;Centro Local
+2930154;BA;Serra do Ramalho;Centro Local
+1504604;PA;Mocajuba;Centro Local
+1506005;PA;Prainha;Centro Local
+2102002;MA;Bom Jardim;Centro Local
+4313102;RS;Nova Palma;Centro Local
+4202602;SC;Bom Retiro;Centro Local
+3145109;MG;Nova Resende;Centro Local
+3127800;MG;Grão Mogol;Centro Local
+4104709;PR;Carlópolis;Centro Local
+3104601;MG;Astolfo Dutra;Centro Local
+4128609;PR;Verê;Centro Local
+2614857;PE;Tamandaré;Centro Local
+3536109;SP;Pardinho;Centro Local
+4206405;SC;Guaraciaba;Centro Local
+2112308;MA;Tuntum;Centro Local
+4214706;SC;Rio dos Cedros;Centro Local
+4108205;PR;Formosa do Oeste;Centro Local
+4122156;PR;Rio Bonito do Iguaçu;Centro Local
+5200175;GO;Água Fria de Goiás;Centro Local
+2608750;PE;Lagoa Grande;Centro Local
+3124302;MG;Espinosa;Centro Local
+4304655;RS;Capão do Cipó;Centro Local
+3106903;MG;Arranjo Populacional de Bicas/MG;Centro Local
+2511905;PB;Pitimbu;Centro Local
+1703842;TO;Campos Lindos;Centro Local
+1100924;RO;Chupinguaia;Centro Local
+2100501;MA;Arranjo Populacional de Alto Parnaíba/MA - Santa Filomena/PI;Centro Local
+4126009;PR;Arranjo Populacional de São Sebastião da Amoreira/PR;Centro Local
+2611903;PE;Rio Formoso;Centro Local
+3169000;MG;Tocantins;Centro Local
+4216800;SC;São José do Cerrito;Centro Local
+2806008;SE;Ribeirópolis;Centro Local
+4105003;PR;Catanduvas;Centro Local
+2307809;CE;Marco;Centro Local
+3539608;SP;Planalto;Centro Local
+5005152;MS;Juti;Centro Local
+4313953;RS;Pantano Grande;Centro Local
+4200705;SC;Alfredo Wagner;Centro Local
+4120507;PR;Primeiro de Maio;Centro Local
+5204003;GO;Cabeceiras;Centro Local
+1303809;AM;São Gabriel da Cachoeira;Centro Local
+1700707;TO;Alvorada;Centro Local
+1400308;RR;Mucajaí;Centro Local
+2706802;AL;Piaçabuçu;Centro Local
+4115754;PR;Mauá da Serra;Centro Local
+4100608;PR;Alto Paraná;Centro Local
+4309902;RS;Ibiraiaras;Centro Local
+3519006;SP;Herculândia;Centro Local
+2105427;MA;Itinga do Maranhão;Centro Local
+4118709;PR;Paulo Frontin;Centro Local
+3513900;SP;Divinolândia;Centro Local
+4322301;RS;Tuparendi;Centro Local
+2909901;BA;Curaçá;Centro Local
+5205455;GO;Cezarina;Centro Local
+3102308;MG;Alvinópolis;Centro Local
+4122602;PR;Rondon;Centro Local
+3118403;MG;Conselheiro Pena;Centro Local
+1506609;PA;Santa Maria do Pará;Centro Local
+5105580;MT;Marcelândia;Centro Local
+2110203;MA;Santa Rita;Centro Local
+4114906;PR;Marilândia do Sul;Centro Local
+2915502;BA;Itajuípe;Centro Local
+1502764;PA;Cumaru do Norte;Centro Local
+1300607;AM;Benjamin Constant;Centro Local
+4203501;SC;Campo Erê;Centro Local
+4124608;PR;São Carlos do Ivaí;Centro Local
+2310506;CE;Pedra Branca;Centro Local
+3103900;MG;Araújos;Centro Local
+5004908;MS;Jaraguari;Centro Local
+1502905;PA;Curuçá;Centro Local
+2701001;AL;Boca da Mata;Centro Local
+2604205;PE;Catende;Centro Local
+3523503;SP;Itatinga;Centro Local
+1300805;AM;Borba;Centro Local
+4126678;PR;Tamarana;Centro Local
+2110609;MA;São Bernardo;Centro Local
+1200385;AC;Plácido de Castro;Centro Local
+2805406;SE;Poço Redondo;Centro Local
+4300208;RS;Ajuricaba;Centro Local
+1301001;AM;Carauari;Centro Local
+4123303;PR;Santa Cruz de Monte Castelo;Centro Local
+2914901;BA;Itacaré;Centro Local
+2309300;CE;Nova Russas;Centro Local
+3104106;MG;Arceburgo;Centro Local
+2705101;AL;Matriz de Camaragibe;Centro Local
+3151701;MG;Poço Fundo;Centro Local
+5105002;MT;Jauru;Centro Local
+4126405;PR;Sertaneja;Centro Local
+3157906;MG;Santa Margarida;Centro Local
+4314001;RS;Paraí;Centro Local
+4125308;PR;São Jorge do Ivaí;Centro Local
+1502756;PA;Concórdia do Pará;Centro Local
+2401206;RN;Arês;Centro Local
+4125803;PR;São Pedro do Ivaí;Centro Local
+4105201;PR;Cerro Azul;Centro Local
+2307254;CE;Jijoca de Jericoacoara;Centro Local
+4320503;RS;Sertão;Centro Local
+1505650;PA;Placas;Centro Local
+2803302;SE;Japaratuba;Centro Local
+3132701;MG;Itambacuri;Centro Local
+2900801;BA;Alcobaça;Centro Local
+3517802;SP;Guaraçaí;Centro Local
+1714880;TO;Nova Olinda;Centro Local
+4215109;SC;Rodeio;Centro Local
+3124500;MG;Estiva;Centro Local
+3201159;ES;Brejetuba;Centro Local
+2100907;MA;Araioses;Centro Local
+4218905;SC;Urubici;Centro Local
+3200706;ES;Atílio Vivacqua;Centro Local
+2506905;PB;Itabaiana;Centro Local
+5102603;MT;Campinápolis;Centro Local
+2205706;PI;Luís Correia;Centro Local
+4204400;SC;Coronel Freitas;Centro Local
+5204102;GO;Cachoeira Alta;Centro Local
+2411502;RN;Arranjo Populacional de Santo Antônio/RN;Centro Local
+3164407;MG;São Sebastião da Bela Vista;Centro Local
+3143500;MG;Morada Nova de Minas;Centro Local
+3125705;MG;Felixlândia;Centro Local
+3115359;MG;Catas Altas;Centro Local
+4314308;RS;Pejuçara;Centro Local
+2600401;PE;Água Preta;Centro Local
+3552601;SP;Tabapuã;Centro Local
+3143005;MG;Monte Belo;Centro Local
+4202206;SC;Benedito Novo;Centro Local
+2705507;AL;Murici;Centro Local
+2908200;BA;Conceição da Feira;Centro Local
+2606606;PE;Ibimirim;Centro Local
+2607307;PE;Ipubi;Centro Local
+3535606;SP;Paraibuna;Centro Local
+5005103;MS;Jateí;Centro Local
+4125209;PR;São Jorge d'Oeste;Centro Local
+3535408;SP;Panorama;Centro Local
+2908606;BA;Conde;Centro Local
+2102036;MA;Bom Jesus das Selvas;Centro Local
+4100707;PR;Alto Piquiri;Centro Local
+5107180;MT;Ribeirão Cascalheira;Centro Local
+3155603;MG;Rio Pardo de Minas;Centro Local
+2805604;SE;Porto da Folha;Centro Local
+5205000;GO;Carmo do Rio Verde;Centro Local
+4121604;PR;Renascença;Centro Local
+3539004;SP;Pirangi;Centro Local
+2708303;AL;São José da Laje;Centro Local
+4209508;SC;Laurentino;Centro Local
+3303104;RJ;Natividade;Centro Local
+2903276;BA;Barrocas;Centro Local
+2500403;PB;Alagoa Nova;Centro Local
+4310405;RS;Independência;Centro Local
+1507151;PA;São Domingos do Araguaia;Centro Local
+5005806;MS;Nioaque;Centro Local
+2906808;BA;Cansanção;Centro Local
+1302553;AM;Manaquiri;Centro Local
+4215455;SC;Sangão;Centro Local
+1400050;RR;Alto Alegre;Centro Local
+3138609;MG;Lima Duarte;Centro Local
+3112703;MG;Capitão Enéas;Centro Local
+5205307;GO;Cavalcante;Centro Local
+1400159;RR;Bonfim;Centro Local
+4311502;RS;Lavras do Sul;Centro Local
+2928406;BA;Santa Rita de Cássia;Centro Local
+2609006;PE;Macaparana;Centro Local
+2922508;BA;Nazaré;Centro Local
+2613503;PE;São José do Belmonte;Centro Local
+5003454;MS;Deodápolis;Centro Local
+3202702;ES;Itaguaçu;Centro Local
+3150703;MG;Pirajuba;Centro Local
+2305357;CE;Icapuí;Centro Local
+5004403;MS;Inocência;Centro Local
+4209706;SC;Lebon Régis;Centro Local
+4117800;PR;Palmital;Centro Local
+4100806;PR;Alvorada do Sul;Centro Local
+5103908;MT;General Carneiro;Centro Local
+3133600;MG;Itapeva;Centro Local
+2402303;RN;Caraúbas;Centro Local
+2916807;BA;Itarantim;Centro Local
+4207650;SC;Iporã do Oeste;Centro Local
+1100346;RO;Alvorada D'Oeste;Centro Local
+3519907;SP;Iepê;Centro Local
+4125001;PR;São João do Ivaí;Centro Local
+4312609;RS;Muçum;Centro Local
+2905305;BA;Cafarnaum;Centro Local
+1101401;RO;Monte Negro;Centro Local
+3205176;ES;Vila Valério;Centro Local
+4219200;SC;Vidal Ramos;Centro Local
+4128401;PR;Uraí;Centro Local
+2926400;BA;Riacho de Santana;Centro Local
+4118600;PR;Paula Freitas;Centro Local
+4116109;PR;Moreira Sales;Centro Local
+1301100;AM;Careiro;Centro Local
+4113734;PR;Luiziana;Centro Local
+3144508;MG;Nazareno;Centro Local
+2409902;RN;Pendências;Centro Local
+3108404;MG;Botelhos;Centro Local
+4314779;RS;Pontão;Centro Local
+4128559;PR;Vera Cruz do Oeste;Centro Local
+5207352;GO;Edealina;Centro Local
+2914505;BA;Irará;Centro Local
+2500304;PB;Alagoa Grande;Centro Local
+4319802;RS;São Vicente do Sul;Centro Local
+5108055;MT;Terra Nova do Norte;Centro Local
+3113909;MG;Carmo da Cachoeira;Centro Local
+2605905;PE;Gameleira;Centro Local
+3541901;SP;Queluz;Centro Local
+2201150;PI;Baixa Grande do Ribeiro;Centro Local
+1503754;PA;Jacareacanga;Centro Local
+4311718;RS;Maçambará;Centro Local
+2509305;PB;Mataraca;Centro Local
+3128105;MG;Guapé;Centro Local
+2602001;PE;Bodocó;Centro Local
+4115309;PR;Mariópolis;Centro Local
+1100072;RO;Corumbiara;Centro Local
+2709103;AL;Taquarana;Centro Local
+3552700;SP;Tabatinga;Centro Local
+3538204;SP;Pinhalzinho;Centro Local
+1504901;PA;Muaná;Centro Local
+2406502;RN;Lagoa Nova;Centro Local
+3514601;SP;Dumont;Centro Local
+2101004;MA;Arari;Centro Local
+3132206;MG;Itaguara;Centro Local
+2608107;PE;João Alfredo;Centro Local
+3145307;MG;Novo Cruzeiro;Centro Local
+3301603;RJ;Duas Barras;Centro Local
+3535705;SP;Paraíso;Centro Local
+4123402;PR;Santa Fé;Centro Local
+2800209;SE;Aquidabã;Centro Local
+3202652;ES;Irupi;Centro Local
+4128534;PR;Ventania;Centro Local
+4207684;SC;Ipuaçu;Centro Local
+4302220;RS;Boa Vista do Cadeado;Centro Local
+3202504;ES;Ibiraçu;Centro Local
+2920700;BA;Maraú;Centro Local
+1600402;AP;Mazagão;Centro Local
+3523305;SP;Itariri;Centro Local
+2805505;SE;Poço Verde;Centro Local
+3137403;MG;Lagoa Dourada;Centro Local
+1508035;PA;Tracuateua;Centro Local
+4104451;PR;Cantagalo;Centro Local
+2613800;PE;São Vicente Férrer;Centro Local
+4214904;SC;Rio Fortuna;Centro Local
+4112504;PR;Jardim Alegre;Centro Local
+1100379;RO;Alto Alegre dos Parecis;Centro Local
+3518503;SP;Guareí;Centro Local
+4311106;RS;Jaguari;Centro Local
+3109501;MG;Cabo Verde;Centro Local
+2102101;MA;Brejo;Centro Local
+1501725;PA;Brasil Novo;Centro Local
+2918803;BA;Laje;Centro Local
+5211305;GO;Itarumã;Centro Local
+2702108;AL;Colônia Leopoldina;Centro Local
+2308005;CE;Massapê;Centro Local
+3512902;SP;Cosmorama;Centro Local
+1505908;PA;Porto de Moz;Centro Local
+1200013;AC;Acrelândia;Centro Local
+4322533;RS;Vale do Sol;Centro Local
+3161007;MG;São Domingos do Prata;Centro Local
+2605004;PE;Cupira;Centro Local
+4108007;PR;Florestópolis;Centro Local
+2313955;CE;Varjota;Centro Local
+4107009;PR;Curiúva;Centro Local
+2708402;AL;São José da Tapera;Centro Local
+3204658;ES;São Domingos do Norte;Centro Local
+3110301;MG;Caldas;Centro Local
+4103222;PR;Bom Sucesso do Sul;Centro Local
+2401859;RN;Arranjo Populacional de Caiçara do Norte/RN;Centro Local
+4110805;PR;Iretama;Centro Local
+1400175;RR;Cantá;Centro Local
+3542909;SP;Ribeirão Bonito;Centro Local
+4210803;SC;Meleiro;Centro Local
+4200200;SC;Agrolândia;Centro Local
+2610806;PE;Pedra;Centro Local
+4306502;RS;Dom Feliciano;Centro Local
+3145455;MG;Olhos-d'Água;Centro Local
+2615003;PE;Taquaritinga do Norte;Centro Local
+3146909;MG;Papagaios;Centro Local
+3514809;SP;Eldorado;Centro Local
+5104906;MT;Jangada;Centro Local
+3123007;MG;Dores de Campos;Centro Local
+2605301;PE;Exu;Centro Local
+2925006;BA;Planalto;Centro Local
+1200807;AC;Porto Acre;Centro Local
+4321667;RS;Três Cachoeiras;Centro Local
+2512002;PB;Pocinhos;Centro Local
+4301107;RS;Arroio dos Ratos;Centro Local
+2910750;BA;Fátima;Centro Local
+4311759;RS;Manoel Viana;Centro Local
+2100956;MA;Arame;Centro Local
+4218608;SC;Trombudo Central;Centro Local
+3203353;ES;Marilândia;Centro Local
+4120655;PR;Quarto Centenário;Centro Local
+4107538;PR;Entre Rios do Oeste;Centro Local
+2925758;BA;Presidente Tancredo Neves;Centro Local
+2110039;MA;Santa Luzia do Paruá;Centro Local
+3519402;SP;Ibirá;Centro Local
+1100700;RO;Campo Novo de Rondônia;Centro Local
+2915809;BA;Itambé;Centro Local
+2921203;BA;Miguel Calmon;Centro Local
+4204905;SC;Descanso;Centro Local
+2600302;PE;Agrestina;Centro Local
+1503077;PA;Garrafão do Norte;Centro Local
+2307502;CE;Lavras da Mangabeira;Centro Local
+4208005;SC;Itá;Centro Local
+2305902;CE;Ipueiras;Centro Local
+3201001;ES;Boa Esperança;Centro Local
+4212007;SC;Palma Sola;Centro Local
+2911808;BA;Guaratinga;Centro Local
+1300508;AM;Barreirinha;Centro Local
+4304309;RS;Cândido Godói;Centro Local
+2908101;BA;Cocos;Centro Local
+2304509;CE;Frecheirinha;Centro Local
+1713304;TO;Miranorte;Centro Local
+2916005;BA;Itanhém;Centro Local
+1720903;TO;Taguatinga;Centro Local
+3543808;SP;Rinópolis;Centro Local
+1503507;PA;Irituia;Centro Local
+4107405;PR;Enéas Marques;Centro Local
+1504406;PA;Marapanim;Centro Local
+2112852;MA;Vila Nova dos Martírios;Centro Local
+4220000;SC;Balneário Rincão;Centro Local
+3504909;SP;Bananal;Centro Local
+3104304;MG;Areado;Centro Local
+2100436;MA;Alto Alegre do Maranhão;Centro Local
+1304104;AM;Tapauá;Centro Local
+3545407;SP;Salto Grande;Centro Local
+3529500;SP;Mendonça;Centro Local
+2918357;BA;João Dourado;Centro Local
+4304671;RS;Capivari do Sul;Centro Local
+4316956;RS;Santa Maria do Herval;Centro Local
+2109502;MA;Riachão;Centro Local
+1200708;AC;Xapuri;Centro Local
+3514502;SP;Duartina;Centro Local
+2609808;PE;Orocó;Centro Local
+4121901;PR;Ribeirão do Pinhal;Centro Local
+2703809;AL;Joaquim Gomes;Centro Local
+2801702;SE;Cristinápolis;Centro Local
+5106109;MT;Nossa Senhora do Livramento;Centro Local
+3511904;SP;Clementina;Centro Local
+2912707;BA;Ibirapitanga;Centro Local
+3131604;MG;Iraí de Minas;Centro Local
+3513603;SP;Cunha;Centro Local
+4113007;PR;Jussara;Centro Local
+5000807;MS;Anaurilândia;Centro Local
+2310803;CE;Pereiro;Centro Local
+3204005;ES;Pancas;Centro Local
+3102001;MG;Alterosa;Centro Local
+4314209;RS;Arranjo Populacional de Pedro Osório - Cerrito/RS;Centro Local
+5007703;MS;Sete Quedas;Centro Local
+4103008;PR;Boa Esperança;Centro Local
+5209937;GO;Inaciolândia;Centro Local
+3120201;MG;Cristais;Centro Local
+4115101;PR;Mariluz;Centro Local
+5104542;MT;Itanhangá;Centro Local
+5106778;MT;Porto Alegre do Norte;Centro Local
+5212105;GO;Joviânia;Centro Local
+4320305;RS;Selbach;Centro Local
+2409506;RN;Pedra Grande;Centro Local
+5222302;GO;Vila Propício;Centro Local
+2801405;SE;Carira;Centro Local
+4301800;RS;Barracão;Centro Local
+2305605;CE;Independência;Centro Local
+3118809;MG;Coração de Jesus;Centro Local
+2922409;BA;Mutuípe;Centro Local
+2925956;BA;Rafael Jambeiro;Centro Local
+1303106;AM;Nova Olinda do Norte;Centro Local
+1504307;PA;Maracanã;Centro Local
+4203402;SC;Campo Belo do Sul;Centro Local
+4303806;RS;Campinas do Sul;Centro Local
+2805802;SE;Riachão do Dantas;Centro Local
+3117702;MG;Conceição do Rio Verde;Centro Local
+3161700;MG;São Gonçalo do Abaeté;Centro Local
+5008404;MS;Vicentina;Centro Local
+3510708;SP;Cardoso;Centro Local
+3108206;MG;Bonfinópolis de Minas;Centro Local
+5207253;GO;Doverlândia;Centro Local
+2912806;BA;Ibirapuã;Centro Local
+4105102;PR;Centenário do Sul;Centro Local
+2924405;BA;Pilão Arcado;Centro Local
+2501104;PB;Areia;Centro Local
+4117008;PR;Nova Fátima;Centro Local
+2931004;BA;Tanhaçu;Centro Local
+2310852;CE;Pindoretama;Centro Local
+2610509;PE;Passira;Centro Local
+3137536;MG;Lagoa Grande;Centro Local
+5219258;GO;Santa Fé de Goiás;Centro Local
+4305975;RS;Coxilha;Centro Local
+2310308;CE;Parambu;Centro Local
+1503101;PA;Gurupá;Centro Local
+1505700;PA;Ponta de Pedras;Centro Local
+1100080;RO;Costa Marques;Centro Local
+3518859;SP;Guatapará;Centro Local
+5218102;GO;Portelândia;Centro Local
+3139300;MG;Manga;Centro Local
+3113008;MG;Arranjo Populacional de Caraí/MG;Centro Local
+3201704;ES;Conceição do Castelo;Centro Local
+4112405;PR;Japurá;Centro Local
+1303908;AM;São Paulo de Olivença;Centro Local
+2604601;PE;Condado;Centro Local
+3142601;MG;Monsenhor Paulo;Centro Local
+2930907;BA;Tabocas do Brejo Velho;Centro Local
+3202900;ES;Itarana;Centro Local
+2302305;CE;Bela Cruz;Centro Local
+3104502;MG;Arinos;Centro Local
+5006408;MS;Pedro Gomes;Centro Local
+4124707;PR;São Jerônimo da Serra;Centro Local
+3132909;MG;Itamogi;Centro Local
+3506300;SP;Bernardino de Campos;Centro Local
+4110078;PR;Imbaú;Centro Local
+4323408;RS;Vila Maria;Centro Local
+3509908;SP;Cananéia;Centro Local
+5221700;GO;Uruana;Centro Local
+2801009;SE;Campo do Brito;Centro Local
+4216255;SC;São João do Oeste;Centro Local
+4103040;PR;Boa Ventura de São Roque;Centro Local
+4309803;RS;Ibiaçá;Centro Local
+3553856;SP;Taquarivaí;Centro Local
+2206209;PI;Miguel Alves;Centro Local
+3525508;SP;Joanópolis;Centro Local
+2302701;CE;Campos Sales;Centro Local
+2608453;PE;Lagoa do Carro;Centro Local
+3112802;MG;Capitólio;Centro Local
+4319109;RS;São Martinho;Centro Local
+2613206;PE;São João;Centro Local
+2105500;MA;João Lisboa;Centro Local
+2923704;BA;Paratinga;Centro Local
+3557204;SP;Chavantes;Centro Local
+3204500;ES;Santa Leopoldina;Centro Local
+1505635;PA;Piçarra;Centro Local
+4121000;PR;Querência do Norte;Centro Local
+5000906;MS;Antônio João;Centro Local
+3500907;SP;Altair;Centro Local
+1101500;RO;Seringueiras;Centro Local
+2703759;AL;Jequiá da Praia;Centro Local
+3108552;MG;Brasilândia de Minas;Centro Local
+3507308;SP;Boracéia;Centro Local
+3554706;SP;Torrinha;Centro Local
+4115853;PR;Mercedes;Centro Local
+2707107;AL;Piranhas;Centro Local
+4109906;PR;Icaraíma;Centro Local
+3134608;MG;Jaboticatubas;Centro Local
+3534906;SP;Pacaembu;Centro Local
+2932705;BA;Uruçuca;Centro Local
+2308302;CE;Milagres;Centro Local
+2603702;PE;Canhotinho;Centro Local
+4206108;SC;Grão Pará;Centro Local
+5106828;MT;Porto Esperidião;Centro Local
+3170750;MG;Varjão de Minas;Centro Local
+1302306;AM;Jutaí;Centro Local
+2911303;BA;Gentio do Ouro;Centro Local
+2605152;PE;Dormentes;Centro Local
+4117057;PR;Nova Laranjeiras;Centro Local
+2911907;BA;Iaçu;Centro Local
+4308706;RS;Gaurama;Centro Local
+4320677;RS;Sinimbu;Centro Local
+4116802;PR;Nova Cantu;Centro Local
+1101708;RO;Urupá;Centro Local
+5002159;MS;Bodoquena;Centro Local
+4207809;SC;Irani;Centro Local
+2610301;PE;Paranatama;Centro Local
+4214607;SC;Rio do Oeste;Centro Local
+2913507;BA;Iguaí;Centro Local
+3114105;MG;Carmo de Minas;Centro Local
+3130507;MG;Ilicínea;Centro Local
+3102803;MG;Andrelândia;Centro Local
+1507409;PA;São Francisco do Pará;Centro Local
+2925907;BA;Quijingue;Centro Local
+4306957;RS;Entre Rios do Sul;Centro Local
+3117108;MG;Conceição da Aparecida;Centro Local
+4301057;RS;Arroio do Sal;Centro Local
+2312007;CE;Santana do Acaraú;Centro Local
+3550506;SP;São Pedro do Turvo;Centro Local
+2907103;BA;Carinhanha;Centro Local
+2917904;BA;Jandaíra;Centro Local
+5204706;GO;Campinorte;Centro Local
+2923100;BA;Olindina;Centro Local
+2919157;BA;Lapão;Centro Local
+2509107;PB;Mari;Centro Local
+4111555;PR;Ivaté;Centro Local
+1716208;TO;Paranã;Centro Local
+4307401;RS;Esmeralda;Centro Local
+2313203;CE;Tamboril;Centro Local
+5003488;MS;Dois Irmãos do Buriti;Centro Local
+2917201;BA;Ituaçu;Centro Local
+2905909;BA;Campo Alegre de Lourdes;Centro Local
+4213807;SC;Arranjo Populacional de Praia Grande/SC;Centro Local
+2607505;PE;Itaíba;Centro Local
+2611507;PE;Quipapá;Centro Local
+4317004;RS;Santana da Boa Vista;Centro Local
+2709202;AL;Traipu;Centro Local
+1101302;RO;Mirante da Serra;Centro Local
+2932002;BA;Uauá;Centro Local
+3164308;MG;São Roque de Minas;Centro Local
+3162401;MG;São João da Ponte;Centro Local
+4108957;PR;Guamiranga;Centro Local
+4307831;RS;Eugênio de Castro;Centro Local
+2802304;SE;Frei Paulo;Centro Local
+5007950;MS;Tacuru;Centro Local
+2305308;CE;Ibiapina;Centro Local
+3204401;ES;Rio Novo do Sul;Centro Local
+5103379;MT;Cotriguaçu;Centro Local
+4305439;RS;Chuí;Centro Local
+2301208;CE;Aracoiaba;Centro Local
+3115805;MG;Centralina;Centro Local
+2407807;RN;Monte Alegre;Centro Local
+3117900;MG;Congonhal;Centro Local
+4301701;RS;Barão de Cotegipe;Centro Local
+4126355;PR;Serranópolis do Iguaçu;Centro Local
+5106158;MT;Nova Bandeirantes;Centro Local
+2309508;CE;Orós;Centro Local
+2106904;MA;Monção;Centro Local
+3545704;SP;Santa Albertina;Centro Local
+4304002;RS;Campo Novo;Centro Local
+2107803;MA;Parnarama;Centro Local
+1101203;RO;Ministro Andreazza;Centro Local
+3202256;ES;Governador Lindenberg;Centro Local
+1200336;AC;Mâncio Lima;Centro Local
+2304251;CE;Cruz;Centro Local
+3305901;RJ;Trajano de Moraes;Centro Local
+1500701;PA;Anajás;Centro Local
+4311130;RS;Jari;Centro Local
+3305307;RJ;São Sebastião do Alto;Centro Local
+3304508;RJ;Rio das Flores;Centro Local
+2104677;MA;Governador Nunes Freire;Centro Local
+2406106;RN;Jucurutu;Centro Local
+3553005;SP;Taguaí;Centro Local
+2806206;SE;Salgado;Centro Local
+2601607;PE;Belém do São Francisco;Centro Local
+4215679;SC;Santa Terezinha;Centro Local
+3516002;SP;Flórida Paulista;Centro Local
+3100302;MG;Abre Campo;Centro Local
+5209150;GO;Gouvelândia;Centro Local
+4210308;SC;Major Vieira;Centro Local
+1303007;AM;Arranjo Populacional de Nhamundá/AM;Centro Local
+4108908;PR;Guairaçá;Centro Local
+4218251;SC;Timbó Grande;Centro Local
+3506409;SP;Bilac;Centro Local
+4300703;RS;Anta Gorda;Centro Local
+3535200;SP;Palmeira d'Oeste;Centro Local
+2915205;BA;Itagibá;Centro Local
+1600709;AP;Tartarugalzinho;Centro Local
+2600906;PE;Amaraji;Centro Local
+2932309;BA;Ubatã;Centro Local
+3517208;SP;Guaiçara;Centro Local
+2932101;BA;Ubaíra;Centro Local
+4219606;SC;Xavantina;Centro Local
+4306734;RS;Doutor Maurício Cardoso;Centro Local
+2200509;PI;Arranjo Populacional de Amarante/PI - São Francisco do Maranhão/MA;Centro Local
+3109451;MG;Cabeceira Grande;Centro Local
+4316204;RS;Rondinha;Centro Local
+1300144;AM;Apuí;Centro Local
+4305603;RS;Colorado;Centro Local
+4310363;RS;Imigrante;Centro Local
+4203105;SC;Caibi;Centro Local
+3123908;MG;Entre Rios de Minas;Centro Local
+5212303;GO;Leopoldo de Bulhões;Centro Local
+2204303;PI;Fronteiras;Centro Local
+4302006;RS;Barros Cassal;Centro Local
+3101003;MG;Águas Vermelhas;Centro Local
+3132107;MG;Itacarambi;Centro Local
+2303808;CE;Cedro;Centro Local
+3168903;MG;Tiros;Centro Local
+1200427;AC;Rodrigues Alves;Centro Local
+3305133;RJ;São José de Ubá;Centro Local
+4127908;PR;Tuneiras do Oeste;Centro Local
+5221197;GO;Terezópolis de Goiás;Centro Local
+4314704;RS;Planalto;Centro Local
+5003157;MS;Coronel Sapucaia;Centro Local
+4108320;PR;Francisco Alves;Centro Local
+2609105;PE;Machados;Centro Local
+4301651;RS;Barão;Centro Local
+2702603;AL;Feira Grande;Centro Local
+2929107;BA;São Felipe;Centro Local
+3139102;MG;Madre de Deus de Minas;Centro Local
+3555802;SP;Urânia;Centro Local
+3150505;MG;Pimenta;Centro Local
+2910404;BA;Encruzilhada;Centro Local
+3154408;MG;Ressaquinha;Centro Local
+1702000;TO;Araguaçu;Centro Local
+1504950;PA;Nova Esperança do Piriá;Centro Local
+2701704;AL;Capela;Centro Local
+2107100;MA;Arranjo Populacional de Morros - Axixá/MA;Centro Local
+4308300;RS;Fontoura Xavier;Centro Local
+2804904;SE;Pacatuba;Centro Local
+4103354;PR;Braganey;Centro Local
+4103370;PR;Brasilândia do Sul;Centro Local
+3100104;MG;Abadia dos Dourados;Centro Local
+5216304;GO;Paranaiguara;Centro Local
+3156809;MG;Sabinópolis;Centro Local
+3204955;ES;São Roque do Canaã;Centro Local
+2908903;BA;Coração de Maria;Centro Local
+2800506;SE;Areia Branca;Centro Local
+2904308;BA;Arranjo Populacional de Brejões - Nova Itarana/BA;Centro Local
+2404309;RN;Governador Dix-Sept Rosado;Centro Local
+4123857;PR;Santa Maria do Oeste;Centro Local
+3154903;MG;Rio Casca;Centro Local
+1507706;PA;São Sebastião da Boa Vista;Centro Local
+4313805;RS;Palmitinho;Centro Local
+3548609;SP;São Bento do Sapucaí;Centro Local
+4125753;PR;São Pedro do Iguaçu;Centro Local
+4109658;PR;Honório Serpa;Centro Local
+2612406;PE;Sanharó;Centro Local
+2307106;CE;Jardim;Centro Local
+3136900;MG;Juruaia;Centro Local
+1502509;PA;Chaves;Centro Local
+2309409;CE;Novo Oriente;Centro Local
+3126208;MG;Formoso;Centro Local
+3520202;SP;Igaratá;Centro Local
+2604502;PE;Chã Grande;Centro Local
+2922904;BA;Nova Soure;Centro Local
+3152600;MG;Arranjo Populacional de Pouso Alto/MG;Centro Local
+2913457;BA;Igrapiúna;Centro Local
+4215406;SC;Salto Veloso;Centro Local
+2904704;BA;Buerarema;Centro Local
+3161809;MG;São Gonçalo do Pará;Centro Local
+2931202;BA;Taperoá;Centro Local
+1300102;AM;Anori;Centro Local
+2303204;CE;Caririaçu;Centro Local
+4113601;PR;Lobato;Centro Local
+1505403;PA;Ourém;Centro Local
+4120705;PR;Quatiguá;Centro Local
+5219712;GO;Santo Antônio da Barra;Centro Local
+5105234;MT;Lambari D'Oeste;Centro Local
+4302238;RS;Boa Vista do Incra;Centro Local
+4202057;SC;Balneário Barra do Sul;Centro Local
+3116159;MG;Chapada Gaúcha;Centro Local
+2301703;CE;Aurora;Centro Local
+1304260;AM;Uarini;Centro Local
+3164209;MG;São Romão;Centro Local
+3204807;ES;São José do Calçado;Centro Local
+2100477;MA;Alto Alegre do Pindaré;Centro Local
+4106001;PR;Congonhinhas;Centro Local
+5007505;MS;Rochedo;Centro Local
+1200351;AC;Marechal Thaumaturgo;Centro Local
+3118700;MG;Coqueiral;Centro Local
+1504505;PA;Melgaço;Centro Local
+3142205;MG;Miraí;Centro Local
+2611408;PE;Primavera;Centro Local
+2906709;BA;Cândido Sales;Centro Local
+4301875;RS;Barra do Quaraí;Centro Local
+3167608;MG;Simonésia;Centro Local
+2906204;BA;Canarana;Centro Local
+1200179;AC;Capixaba;Centro Local
+4303558;RS;Camargo;Centro Local
+4103305;PR;Borrazópolis;Centro Local
+2912103;BA;Ibicaraí;Centro Local
+4319125;RS;São Martinho da Serra;Centro Local
+2100709;MA;Anajatuba;Centro Local
+3108909;MG;Brazópolis;Centro Local
+4207205;SC;Imaruí;Centro Local
+2802809;SE;Indiaroba;Centro Local
+5004007;MS;Glória de Dourados;Centro Local
+2806305;SE;Santa Luzia do Itanhy;Centro Local
+2615805;PE;Tupanatinga;Centro Local
+5108204;MT;Arranjo Populacional de Torixoréu/MT - Baliza/GO;Centro Local
+2901353;BA;Andorinha;Centro Local
+5105176;MT;Juruena;Centro Local
+2603108;PE;Cachoeirinha;Centro Local
+2108454;MA;Peritoró;Centro Local
+1501956;PA;Cachoeira do Piriá;Centro Local
+5106265;MT;Novo Mundo;Centro Local
+2108306;MA;Penalva;Centro Local
+4106456;PR;Coronel Domingos Soares;Centro Local
+2502508;PB;Boqueirão;Centro Local
+2912905;BA;Ibirataia;Centro Local
+4127809;PR;Tomazina;Centro Local
+4113452;PR;Lindoeste;Centro Local
+5108956;MT;Nova Monte Verde;Centro Local
+3503406;SP;Arealva;Centro Local
+3540507;SP;Porangaba;Centro Local
+5104559;MT;Itaúba;Centro Local
+2507309;PB;Arranjo Populacional de Jacaraú/PB;Centro Local
+3517000;SP;Getulina;Centro Local
+4308003;RS;Faxinal do Soturno;Centro Local
+4312252;RS;Minas do Leão;Centro Local
+2616001;PE;Venturosa;Centro Local
+3159209;MG;Santa Rita de Caldas;Centro Local
+4210407;SC;Maracajá;Centro Local
+4321329;RS;Arranjo Populacional de Taquaruçu do Sul - Vista Alegre/RS;Centro Local
+1101609;RO;Theobroma;Centro Local
+3203809;ES;Muqui;Centro Local
+2100303;MA;Aldeias Altas;Centro Local
+3304607;RJ;Santa Maria Madalena;Centro Local
+1300201;AM;Atalaia do Norte;Centro Local
+2705002;AL;Mata Grande;Centro Local
+3143609;MG;Morro da Garça;Centro Local
+5208400;GO;Goianápolis;Centro Local
+1502004;PA;Cachoeira do Arari;Centro Local
+4121109;PR;Quinta do Sol;Centro Local
+4305173;RS;Cerro Grande do Sul;Centro Local
+3121209;MG;Delfinópolis;Centro Local
+2304954;CE;Guaiúba;Centro Local
+2500700;PB;São João do Rio do Peixe;Centro Local
+3131505;MG;Ipuiúna;Centro Local
+2106607;MA;Matões;Centro Local
+4211108;SC;Monte Castelo;Centro Local
+4100301;PR;Agudos do Sul;Centro Local
+1501105;PA;Bagre;Centro Local
+2516102;PB;Soledade;Centro Local
+2927309;BA;Salinas da Margarida;Centro Local
+4303301;RS;Caibaté;Centro Local
+5214408;GO;Nazário;Centro Local
+2605400;PE;Feira Nova;Centro Local
+2911402;BA;Glória;Centro Local
+2703106;AL;Igaci;Centro Local
+4112207;PR;Janiópolis;Centro Local
+4214409;SC;Rio das Antas;Centro Local
+3156403;MG;Romaria;Centro Local
+5106182;MT;Nova Lacerda;Centro Local
+2924504;BA;Pindaí;Centro Local
+1303304;AM;Novo Aripuanã;Centro Local
+2913408;BA;Igaporã;Centro Local
+4308409;RS;Formigueiro;Centro Local
+3512704;SP;Corumbataí;Centro Local
+2707503;AL;Porto Real do Colégio;Centro Local
+3170503;MG;Urucânia;Centro Local
+4201505;SC;Armazém;Centro Local
+4314076;RS;Passo do Sobrado;Centro Local
+3162559;MG;São João do Manhuaçu;Centro Local
+3200136;ES;Águia Branca;Centro Local
+4215307;SC;Salete;Centro Local
+2610400;PE;Parnamirim;Centro Local
+4101309;PR;Antônio Olinto;Centro Local
+2929701;BA;Sátiro Dias;Centro Local
+4100103;PR;Abatiá;Centro Local
+4108650;PR;Goioxim;Centro Local
+4203709;SC;Canelinha;Centro Local
+5006358;MS;Paranhos;Centro Local
+5108857;MT;Nova Marilândia;Centro Local
+3120508;MG;Cristina;Centro Local
+2507101;PB;Itapororoca;Centro Local
+2201507;PI;Batalha;Centro Local
+1400456;RR;Pacaraima;Centro Local
+4126108;PR;São Tomé;Centro Local
+4306056;RS;Cristal;Centro Local
+2700706;AL;Batalha;Centro Local
+2704401;AL;Major Isidoro;Centro Local
+3515608;SP;Fernando Prestes;Centro Local
+2610202;PE;Panelas;Centro Local
+3529807;SP;Mineiros do Tietê;Centro Local
+2102200;MA;Buriti;Centro Local
+3114006;MG;Carmo da Mata;Centro Local
+2313005;CE;Solonópole;Centro Local
+1101005;RO;Governador Jorge Teixeira;Centro Local
+2932606;BA;Urandi;Centro Local
+5202502;GO;Aruanã;Centro Local
+4212700;SC;Petrolândia;Centro Local
+3165008;MG;São Tiago;Centro Local
+4320552;RS;Sertão Santana;Centro Local
+4315404;RS;Redentora;Centro Local
+4104055;PR;Campo Bonito;Centro Local
+1703909;TO;Caseara;Centro Local
+2912301;BA;Ibicuí;Centro Local
+4211405;SC;Nova Erechim;Centro Local
+1303700;AM;Santo Antônio do Içá;Centro Local
+2926509;BA;Ribeira do Amparo;Centro Local
+2306108;CE;Irauçuba;Centro Local
+3147709;MG;Passa Tempo;Centro Local
+2901205;BA;Anagé;Centro Local
+3137106;MG;Lagamar;Centro Local
+5200605;GO;Alto Paraíso de Goiás;Centro Local
+3149705;MG;Perdigão;Centro Local
+4120853;PR;Quatro Pontes;Centro Local
+5006259;MS;Novo Horizonte do Sul;Centro Local
+4211058;SC;Monte Carlo;Centro Local
+2923209;BA;Oliveira dos Brejinhos;Centro Local
+4104105;PR;Campo do Tenente;Centro Local
+2108702;MA;Pio XII;Centro Local
+3152709;MG;Prados;Centro Local
+5102793;MT;Carlinda;Centro Local
+2917805;BA;Jaguaripe;Centro Local
+3525607;SP;João Ramalho;Centro Local
+2908002;BA;Coaraci;Centro Local
+1200138;AC;Bujari;Centro Local
+3506904;SP;Bofete;Centro Local
+4216404;SC;São João do Sul;Centro Local
+4119202;PR;Pinhalão;Centro Local
+3204252;ES;Arranjo Populacional de Ponto Belo - Mucurici/ES;Centro Local
+4107801;PR;Floraí;Centro Local
+2700607;AL;Barra de São Miguel;Centro Local
+2904050;BA;Bonito;Centro Local
+3158300;MG;Santana da Vargem;Centro Local
+4322905;RS;Viadutos;Centro Local
+4201703;SC;Ascurra;Centro Local
+4323200;RS;Victor Graeff;Centro Local
+3500550;SP;Águas de Santa Bárbara;Centro Local
+4118857;PR;Perobal;Centro Local
+2702355;AL;Craíbas;Centro Local
+4110201;PR;Inácio Martins;Centro Local
+1300409;AM;Barcelos;Centro Local
+2105153;MA;Igarapé do Meio;Centro Local
+5000252;MS;Alcinópolis;Centro Local
+3161502;MG;São Geraldo;Centro Local
+4311700;RS;Machadinho;Centro Local
+3306156;RJ;Varre-Sai;Centro Local
+3154200;MG;Resende Costa;Centro Local
+3154507;MG;Riacho dos Machados;Centro Local
+5207808;GO;Firminópolis;Centro Local
+4310504;RS;Iraí;Centro Local
+2927507;BA;Santa Bárbara;Centro Local
+2302008;CE;Barro;Centro Local
+4321956;RS;Trindade do Sul;Centro Local
+2607000;PE;Inajá;Centro Local
+5216908;GO;Pilar de Goiás;Centro Local
+2501005;PB;Araruna;Centro Local
+3202553;ES;Ibitirama;Centro Local
+2932457;BA;Umburanas;Centro Local
+2701308;AL;Cajueiro;Centro Local
+2501906;PB;Belém;Centro Local
+4315107;RS;Porto Xavier;Centro Local
+3302452;RJ;Macuco;Centro Local
+3111309;MG;Campo do Meio;Centro Local
+1101104;RO;Itapuã do Oeste;Centro Local
+1501576;PA;Bom Jesus do Tocantins;Centro Local
+4202131;SC;Bela Vista do Toldo;Centro Local
+2613305;PE;São Joaquim do Monte;Centro Local
+1722081;TO;Wanderlândia;Centro Local
+2611705;PE;Riacho das Almas;Centro Local
+3205150;ES;Vila Pavão;Centro Local
+3135506;MG;Jequeri;Centro Local
+3150802;MG;Piranga;Centro Local
+2202000;PI;Buriti dos Lopes;Centro Local
+2919702;BA;Macarani;Centro Local
+4125407;PR;São José da Boa Vista;Centro Local
+3139805;MG;Mar de Espanha;Centro Local
+2506806;PB;Ingá;Centro Local
+2923357;BA;Ourolândia;Centro Local
+2102309;MA;Buriti Bravo;Centro Local
+2923407;BA;Palmas de Monte Alto;Centro Local
+3119955;MG;Córrego Fundo;Centro Local
+2612000;PE;Sairé;Centro Local
+4107306;PR;Doutor Camargo;Centro Local
+3151305;MG;Piraúba;Centro Local
+3149101;MG;Pedralva;Centro Local
+1400233;RR;Caroebe;Centro Local
+3139904;MG;Maria da Fé;Centro Local
+1501451;PA;Belterra;Centro Local
+3548104;SP;Santo Antônio do Jardim;Centro Local
+1717503;TO;Pium;Centro Local
+2301604;CE;Assaré;Centro Local
+4118451;PR;Pato Bragado;Centro Local
+3549508;SP;São José da Bela Vista;Centro Local
+3128907;MG;Guimarânia;Centro Local
+2603504;PE;Camocim de São Félix;Centro Local
+2512705;PB;Remígio;Centro Local
+4107736;PR;Fernandes Pinheiro;Centro Local
+2931509;BA;Teofilândia;Centro Local
+3537503;SP;Pereiras;Centro Local
+2600203;PE;Afrânio;Centro Local
+1100502;RO;Novo Horizonte do Oeste;Centro Local
+2614808;PE;Tacaratu;Centro Local
+2309458;CE;Ocara;Centro Local
+3547908;SP;Santo Antônio da Alegria;Centro Local
+4213005;SC;Pinheiro Preto;Centro Local
+1301605;AM;Fonte Boa;Centro Local
+2803401;SE;Japoatã;Centro Local
+3165107;MG;São Tomás de Aquino;Centro Local
+2111052;MA;São João do Paraíso;Centro Local
+1507474;PA;São João de Pirabas;Centro Local
+3519204;SP;Iacri;Centro Local
+3152907;MG;Pratápolis;Centro Local
+1709005;TO;Goiatins;Centro Local
+1100296;RO;Santa Luzia D'Oeste;Centro Local
+4216354;SC;São João do Itaperiú;Centro Local
+2102556;MA;Campestre do Maranhão;Centro Local
+2804102;SE;Moita Bonita;Centro Local
+2922102;BA;Mundo Novo;Centro Local
+4206603;SC;Guarujá do Sul;Centro Local
+2301307;CE;Araripe;Centro Local
+4312757;RS;Nova Alvorada;Centro Local
+3538501;SP;Piquete;Centro Local
+2109205;MA;Arranjo Populacional de Presidente Juscelino - Cachoeira Grande/MA;Centro Local
+1300029;AM;Alvarães;Centro Local
+4201901;SC;Aurora;Centro Local
+4121752;PR;Reserva do Iguaçu;Centro Local
+2111763;MA;Senador La Rocque;Centro Local
+3104700;MG;Ataléia;Centro Local
+3518107;SP;Guarantã;Centro Local
+4107553;PR;Farol;Centro Local
+2616209;PE;Vertentes;Centro Local
+5219803;GO;São Domingos;Centro Local
+4313359;RS;Nova Roma do Sul;Centro Local
+4315321;RS;Quevedos;Centro Local
+4308805;RS;General Câmara;Centro Local
+1600204;AP;Calçoene;Centro Local
+2311702;CE;Reriutaba;Centro Local
+1506559;PA;Santa Luzia do Pará;Centro Local
+3526506;SP;Lavínia;Centro Local
+1506351;PA;Santa Bárbara do Pará;Centro Local
+3528700;SP;Marabá Paulista;Centro Local
+3509304;SP;Cajobi;Centro Local
+3158003;MG;Santa Maria de Itabira;Centro Local
+5102694;MT;Canabrava do Norte;Centro Local
+3521507;SP;Irapuã;Centro Local
+4309555;RS;Harmonia;Centro Local
+4303707;RS;Campina das Missões;Centro Local
+3109105;MG;Bueno Brandão;Centro Local
+1300839;AM;Caapiranga;Centro Local
+3203304;ES;Mantenópolis;Centro Local
+5209903;GO;Iaciara;Centro Local
+2301950;CE;Barreira;Centro Local
+4319307;RS;São Paulo das Missões;Centro Local
+2605608;PE;Flores;Centro Local
+4107751;PR;Figueira;Centro Local
+3141306;MG;Medeiros;Centro Local
+2507705;PB;Juazeirinho;Centro Local
+3103009;MG;Antônio Dias;Centro Local
+2924801;BA;Piritiba;Centro Local
+2606507;PE;Iati;Centro Local
+3553500;SP;Tapiraí;Centro Local
+3200169;ES;Água Doce do Norte;Centro Local
+1302801;AM;Maraã;Centro Local
+2107407;MA;Olho d'Água das Cunhãs;Centro Local
+4316436;RS;Saldanha Marinho;Centro Local
+2103174;MA;Centro Novo do Maranhão;Centro Local
+5203401;GO;Bom Jardim de Goiás;Centro Local
+3550001;SP;São Luiz do Paraitinga;Centro Local
+3140852;MG;Matias Cardoso;Centro Local
+2901403;BA;Angical;Centro Local
+4307054;RS;Ernestina;Centro Local
+2405702;RN;Jardim do Seridó;Centro Local
+3165305;MG;São Vicente de Minas;Centro Local
+1600105;AP;Amapá;Centro Local
+2909604;BA;Crisópolis;Centro Local
+2931608;BA;Teolândia;Centro Local
+3528106;SP;Macaubal;Centro Local
+1702406;TO;Arraias;Centro Local
+4314027;RS;Paraíso do Sul;Centro Local
+5103106;MT;Cocalinho;Centro Local
+3161304;MG;São Francisco de Sales;Centro Local
+4218400;SC;Treze de Maio;Centro Local
+2109270;MA;Presidente Sarney;Centro Local
+1301506;AM;Envira;Centro Local
+5205802;GO;Corumbá de Goiás;Centro Local
+4303608;RS;Cambará do Sul;Centro Local
+3502002;SP;Analândia;Centro Local
+5211008;GO;Itapirapuã;Centro Local
+2907608;BA;Central;Centro Local
+2504801;PB;Coremas;Centro Local
+3124906;MG;Eugenópolis;Centro Local
+2306702;CE;Jaguaretama;Centro Local
+2301851;CE;Banabuiú;Centro Local
+2500809;PB;Araçagi;Centro Local
+2311264;CE;Quiterianópolis;Centro Local
+2609303;PE;Mirandiba;Centro Local
+3524204;SP;Jaborandi;Centro Local
+2603900;PE;Carnaíba;Centro Local
+3510906;SP;Cássia dos Coqueiros;Centro Local
+2304459;CE;Fortim;Centro Local
+1303502;AM;Pauini;Centro Local
+2700201;AL;Anadia;Centro Local
+3117801;MG;Conceição dos Ouros;Centro Local
+4310900;RS;Jacutinga;Centro Local
+4202859;SC;Braço do Trombudo;Centro Local
+2604403;PE;Chã de Alegria;Centro Local
+1400506;RR;São João da Baliza;Centro Local
+4303673;RS;Campestre da Serra;Centro Local
+5207907;GO;Flores de Goiás;Centro Local
+2600807;PE;Altinho;Centro Local
+2208809;PI;Regeneração;Centro Local
+2108900;MA;Poção de Pedras;Centro Local
+2106508;MA;Matinha;Centro Local
+2108256;MA;Pedro do Rosário;Centro Local
+4121356;PR;Rancho Alegre D'Oeste;Centro Local
+1400027;RR;Amajari;Centro Local
+2303956;CE;Chorozinho;Centro Local
+3113602;MG;Careaçu;Centro Local
+2203305;PI;Demerval Lobão;Centro Local
+4103503;PR;Califórnia;Centro Local
+2900405;BA;Água Fria;Centro Local
+4107702;PR;Fênix;Centro Local
+2112100;MA;Timbiras;Centro Local
+2608305;PE;Jupi;Centro Local
+4200804;SC;Anchieta;Centro Local
+3168408;MG;Tarumirim;Centro Local
+4109757;PR;Ibema;Centro Local
+5108105;MT;Tesouro;Centro Local
+2930303;BA;Serra Dourada;Centro Local
+3509809;SP;Campos Novos Paulista;Centro Local
+4300471;RS;Almirante Tamandaré do Sul;Centro Local
+2706505;AL;Passo de Camaragibe;Centro Local
+3127602;MG;Gouveia;Centro Local
+2904100;BA;Boquira;Centro Local
+1504752;PA;Mojuí dos Campos;Centro Local
+2902609;BA;Baixa Grande;Centro Local
+3107901;MG;Bom Repouso;Centro Local
+3107802;MG;Bom Jesus do Galho;Centro Local
+1400282;RR;Iracema;Centro Local
+2501302;PB;Aroeiras;Centro Local
+5102850;MT;Castanheira;Centro Local
+4315354;RS;Quinze de Novembro;Centro Local
+3537206;SP;Pedro de Toledo;Centro Local
+2504900;PB;Cruz do Espírito Santo;Centro Local
+3152402;MG;Poté;Centro Local
+2305209;CE;Hidrolândia;Centro Local
+2404705;RN;Ipanguaçu;Centro Local
+3100708;MG;Água Comprida;Centro Local
+2111805;MA;Sítio Novo;Centro Local
+2105104;MA;Icatu;Centro Local
+2107704;MA;Paraibano;Centro Local
+2920908;BA;Mascote;Centro Local
+4309704;RS;Humaitá;Centro Local
+4319208;RS;São Nicolau;Centro Local
+1708254;TO;Fortaleza do Tabocão;Centro Local
+2308906;CE;Morrinhos;Centro Local
+3519253;SP;Iaras;Centro Local
+2304004;CE;Coreaú;Centro Local
+2614006;PE;Serrita;Centro Local
+4302154;RS;Boa Vista das Missões;Centro Local
+3203106;ES;Jerônimo Monteiro;Centro Local
+1504976;PA;Nova Ipixuna;Centro Local
+5107776;MT;Santa Terezinha;Centro Local
+4321857;RS;Três Palmeiras;Centro Local
+5216809;GO;Petrolina de Goiás;Centro Local
+3100609;MG;Água Boa;Centro Local
+2401800;RN;Brejinho;Centro Local
+1100601;RO;Cacaulândia;Centro Local
+4103057;PR;Boa Vista da Aparecida;Centro Local
+3102100;MG;Alto Rio Doce;Centro Local
+3140530;MG;Martins Soares;Centro Local
+2103257;MA;Cidelândia;Centro Local
+2602407;PE;Brejão;Centro Local
+2100808;MA;Anapurus;Centro Local
+2300705;CE;Alto Santo;Centro Local
+3203163;ES;Laranja da Terra;Centro Local
+4313037;RS;Nova Esperança do Sul;Centro Local
+2604700;PE;Correntes;Centro Local
+1100031;RO;Cabixi;Centro Local
+4212403;SC;Pedras Grandes;Centro Local
+3551108;SP;Sarapuí;Centro Local
+1101757;RO;Vale do Anari;Centro Local
+2909208;BA;Coronel João Sá;Centro Local
+1716703;TO;Colméia;Centro Local
+3142106;MG;Miradouro;Centro Local
+2414001;RN;Tangará;Centro Local
+4312302;RS;Miraguaí;Centro Local
+3302304;RJ;Laje do Muriaé;Centro Local
+5100805;MT;Apiacás;Centro Local
+2106003;MA;Lima Campos;Centro Local
+5222203;GO;Vila Boa;Centro Local
+5106190;MT;Nova Santa Helena;Centro Local
+3170438;MG;União de Minas;Centro Local
+2933455;BA;Wanderley;Centro Local
+2506400;PB;Gurinhém;Centro Local
+2904852;BA;Cabaceiras do Paraguaçu;Centro Local
+4300851;RS;Arambaré;Centro Local
+2104099;MA;Formosa da Serra Negra;Centro Local
+2906824;BA;Canudos;Centro Local
+3106408;MG;Belo Vale;Centro Local
+2909703;BA;Cristópolis;Centro Local
+3503109;SP;Arandu;Centro Local
+2401404;RN;Baía Formosa;Centro Local
+4305504;RS;Ciríaco;Centro Local
+2804458;SE;Nossa Senhora Aparecida;Centro Local
+4207403;SC;Imbuia;Centro Local
+3171105;MG;Veríssimo;Centro Local
+2111706;MA;São Vicente Ferrer;Centro Local
+3543204;SP;Ribeirão do Sul;Centro Local
+4313011;RS;Nova Candelária;Centro Local
+2607802;PE;Itaquitinga;Centro Local
+3516804;SP;Arranjo Populacional de Gastão Vidigal - Monções/SP;Centro Local
+1101807;RO;Vale do Paraíso;Centro Local
+4209854;SC;Lindóia do Sul;Centro Local
+3544806;SP;Sales;Centro Local
+2304301;CE;Farias Brito;Centro Local
+3503604;SP;Areiópolis;Centro Local
+2704807;AL;Maribondo;Centro Local
+2922607;BA;Nilo Peçanha;Centro Local
+1400407;RR;Normandia;Centro Local
+3542503;SP;Reginópolis;Centro Local
+2208205;PI;Pio IX;Centro Local
+1713601;TO;Monte do Carmo;Centro Local
+5208152;GO;Gameleira de Goiás;Centro Local
+4215653;SC;Santa Rosa do Sul;Centro Local
+2920106;BA;Mairi;Centro Local
+2111409;MA;São Luís Gonzaga do Maranhão;Centro Local
+2107357;MA;Nova Olinda do Maranhão;Centro Local
+3554409;SP;Terra Roxa;Centro Local
+3514700;SP;Echaporã;Centro Local
+2931400;BA;Teodoro Sampaio;Centro Local
+3502309;SP;Anhembi;Centro Local
+5219001;GO;Sanclerlândia;Centro Local
+5220264;GO;São Miguel do Passa Quatro;Centro Local
+1303601;AM;Santa Isabel do Rio Negro;Centro Local
+2902500;BA;Baianópolis;Centro Local
+2516706;PB;Teixeira;Centro Local
+2104107;MA;Fortaleza dos Nogueiras;Centro Local
+5211404;GO;Itauçu;Centro Local
+2307635;CE;Madalena;Centro Local
+3523800;SP;Itobi;Centro Local
+4205209;SC;Erval Velho;Centro Local
+2922250;BA;Muquém do São Francisco;Centro Local
+2908705;BA;Condeúba;Centro Local
+3202009;ES;Dores do Rio Preto;Centro Local
+2705606;AL;Novo Lino;Centro Local
+2604809;PE;Cortês;Centro Local
+3128402;MG;Guarani;Centro Local
+2700102;AL;Água Branca;Centro Local
+2704104;AL;Lagoa da Canoa;Centro Local
+2502151;PB;Boa Vista;Centro Local
+2803906;SE;Malhador;Centro Local
+1707306;TO;Dueré;Centro Local
+2902054;BA;Araçás;Centro Local
+1700400;TO;Almas;Centro Local
+2920205;BA;Malhada;Centro Local
+3129103;MG;Gurinhatã;Centro Local
+2309805;CE;Pacoti;Centro Local
+4117271;PR;Nova Tebas;Centro Local
+1301803;AM;Ipixuna;Centro Local
+4306304;RS;David Canabarro;Centro Local
+3170529;MG;Urucuia;Centro Local
+3136009;MG;Joaíma;Centro Local
+2909406;BA;Cotegipe;Centro Local
+2900207;BA;Abaré;Centro Local
+2102606;MA;Cândido Mendes;Centro Local
+4111001;PR;Itambaracá;Centro Local
+2306009;CE;Iracema;Centro Local
+2615706;PE;Triunfo;Centro Local
+2311108;CE;Porteiras;Centro Local
+3168507;MG;Teixeiras;Centro Local
+2605459;PE;Fernando de Noronha;Centro Local
+1200344;AC;Manoel Urbano;Centro Local
+2804201;SE;Monte Alegre de Sergipe;Centro Local
+3107604;MG;Bom Jesus da Penha;Centro Local
+3112406;MG;Capetinga;Centro Local
+4208609;SC;Jaborá;Centro Local
+4212270;SC;Passos Maia;Centro Local
+3533205;SP;Nova Independência;Centro Local
+2208908;PI;Ribeiro Gonçalves;Centro Local
+4300661;RS;André da Rocha;Centro Local
+2931301;BA;Tapiramutá;Centro Local
+2910107;BA;Dom Basílio;Centro Local
+4313334;RS;Nova Ramada;Centro Local
+4306379;RS;Dilermando de Aguiar;Centro Local
+5108303;MT;União do Sul;Centro Local
+2107902;MA;Passagem Franca;Centro Local
+2313906;CE;Uruoca;Centro Local
+2306504;CE;Itapiúna;Centro Local
+2909109;BA;Coribe;Centro Local
+2313757;CE;Umirim;Centro Local
+3516606;SP;Gália;Centro Local
+4305959;RS;Cotiporã;Centro Local
+1501006;PA;Aveiro;Centro Local
+4321477;RS;Tiradentes do Sul;Centro Local
+1706506;TO;Darcinópolis;Centro Local
+2608206;PE;Joaquim Nabuco;Centro Local
+2924603;BA;Pindobaçu;Centro Local
+4311601;RS;Liberato Salzano;Centro Local
+4318424;RS;São João da Urtiga;Centro Local
+3539905;SP;Poloni;Centro Local
+1304401;AM;Urucurituba;Centro Local
+2107605;MA;Palmeirândia;Centro Local
+1300631;AM;Beruri;Centro Local
+2102705;MA;Cantanhede;Centro Local
+3516101;SP;Florínea;Centro Local
+2703007;AL;Ibateguara;Centro Local
+3159506;MG;Santa Rita do Itueto;Centro Local
+2929750;BA;Saubara;Centro Local
+2308609;CE;Monsenhor Tabosa;Centro Local
+2402709;RN;Cerro Corá;Centro Local
+3171709;MG;Virgínia;Centro Local
+3162203;MG;São João Batista do Glória;Centro Local
+1507102;PA;São Caetano de Odivelas;Centro Local
+3149200;MG;Pedrinópolis;Centro Local
+4126900;PR;Tapira;Centro Local
+3134004;MG;Itinga;Centro Local
+4107850;PR;Flor da Serra do Sul;Centro Local
+2901155;BA;América Dourada;Centro Local
+2311355;CE;Quixelô;Centro Local
+2306801;CE;Jaguaribara;Centro Local
+1303205;AM;Novo Airão;Centro Local
+3166907;MG;Serrania;Centro Local
+5214861;GO;Nova Glória;Centro Local
+2612307;PE;Saloá;Centro Local
+1506104;PA;Primavera;Centro Local
+3167400;MG;Silvianópolis;Centro Local
+4304952;RS;Caseiros;Centro Local
+4113403;PR;Leópolis;Centro Local
+2931707;BA;Terra Nova;Centro Local
+2405603;RN;Jardim de Piranhas;Centro Local
+2907905;BA;Cipó;Centro Local
+2303105;CE;Cariré;Centro Local
+4311775;RS;Maquiné;Centro Local
+1507805;PA;Senador José Porfírio;Centro Local
+2600609;PE;Alagoinha;Centro Local
+3107505;MG;Bom Jardim de Minas;Centro Local
+2400505;RN;Alexandria;Centro Local
+4313425;RS;Novo Machado;Centro Local
+3544608;SP;Sabino;Centro Local
+2414605;RN;Upanema;Centro Local
+4108700;PR;Grandes Rios;Centro Local
+2903508;BA;Belo Campo;Centro Local
+2901908;BA;Aporá;Centro Local
+2513109;PB;Salgado de São Félix;Centro Local
+2912400;BA;Ibipeba;Centro Local
+2922706;BA;Nova Canaã;Centro Local
+2807501;SE;Tomar do Geru;Centro Local
+2309201;CE;Nova Olinda;Centro Local
+4216057;SC;São Cristóvão do Sul;Centro Local
+4320263;RS;Segredo;Centro Local
+2904753;BA;Buritirama;Centro Local
+4107546;PR;Espigão Alto do Iguaçu;Centro Local
+2918308;BA;Jitaúna;Centro Local
+1707652;TO;Figueirópolis;Centro Local
+2100204;MA;Alcântara;Centro Local
+2910859;BA;Filadélfia;Centro Local
+2111003;MA;São João Batista;Centro Local
+4315156;RS;Progresso;Centro Local
+4310306;RS;Ilópolis;Centro Local
+5002803;MS;Caracol;Centro Local
+2203503;PI;Elesbão Veloso;Centro Local
+4315750;RS;Riozinho;Centro Local
+3103801;MG;Arapuá;Centro Local
+4308656;RS;Garruchos;Centro Local
+2702801;AL;Flexeiras;Centro Local
+1304237;AM;Tonantins;Centro Local
+2903805;BA;Boa Vista do Tupim;Centro Local
+2924306;BA;Piatã;Centro Local
+2304236;CE;Croatá;Centro Local
+4305447;RS;Chuvisca;Centro Local
+2210409;PI;São Miguel do Tapuio;Centro Local
+1507508;PA;São João do Araguaia;Centro Local
+4307104;RS;Herval;Centro Local
+4315313;RS;Quatro Irmãos;Centro Local
+2926103;BA;Retirolândia;Centro Local
+4202503;SC;Bom Jardim da Serra;Centro Local
+2303006;CE;Caridade;Centro Local
+2931806;BA;Tremedal;Centro Local
+2409803;RN;Pedro Velho;Centro Local
+1505007;PA;Nova Timboteua;Centro Local
+4323457;RS;Vila Nova do Sul;Centro Local
+4307815;RS;Estrela Velha;Centro Local
+2106102;MA;Loreto;Centro Local
+1707108;TO;Divinópolis do Tocantins;Centro Local
+2503506;PB;Cacimba de Dentro;Centro Local
+1720655;TO;Silvanópolis;Centro Local
+2608008;PE;Jataúba;Centro Local
+2509404;PB;Mogeiro;Centro Local
+2900306;BA;Acajutiba;Centro Local
+2204709;PI;Inhuma;Centro Local
+5215900;GO;Palminópolis;Centro Local
+4219101;SC;Vargeão;Centro Local
+1718865;TO;Santa Fé do Araguaia;Centro Local
+2310902;CE;Piquet Carneiro;Centro Local
+5003504;MS;Douradina;Centro Local
+2614709;PE;Tacaimbó;Centro Local
+2616506;PE;Xexéu;Centro Local
+4302451;RS;Boqueirão do Leão;Centro Local
+2414506;RN;Umarizal;Centro Local
+5202155;GO;Araguapaz;Centro Local
+4301958;RS;Barra Funda;Centro Local
+2516508;PB;Taperoá;Centro Local
+3170057;MG;Ubaporanga;Centro Local
+3108800;MG;Braúnas;Centro Local
+2501609;PB;Barra de Santa Rosa;Centro Local
+2919306;BA;Lençóis;Centro Local
+2404408;RN;Grossos;Centro Local
+4308854;RS;Gentil;Centro Local
+2106409;MA;Mata Roma;Centro Local
+2204402;PI;Gilbués;Centro Local
+2302909;CE;Capistrano;Centro Local
+3547007;SP;Santa Maria da Serra;Centro Local
+4200903;SC;Angelina;Centro Local
+1706100;TO;Cristalândia;Centro Local
+3141603;MG;Mercês;Centro Local
+4218756;SC;Tunápolis;Centro Local
+3134806;MG;Jacuí;Centro Local
+4321469;RS;Tio Hugo;Centro Local
+2921401;BA;Mirangaba;Centro Local
+3142007;MG;Mirabela;Centro Local
+2102754;MA;Capinzal do Norte;Centro Local
+4301750;RS;Barão do Triunfo;Centro Local
+3109204;MG;Buenópolis;Centro Local
+3139706;MG;Maravilhas;Centro Local
+2306603;CE;Itatira;Centro Local
+2901601;BA;Antas;Centro Local
+3164001;MG;São Pedro dos Ferros;Centro Local
+4103206;PR;Bom Sucesso;Centro Local
+4210902;SC;Modelo;Centro Local
+2411403;RN;Santana do Matos;Centro Local
+3515350;SP;Euclides da Cunha Paulista;Centro Local
+2609154;PE;Manari;Centro Local
+4109005;PR;Guapirama;Centro Local
+3156007;MG;Rio Vermelho;Centro Local
+2308351;CE;Milhã;Centro Local
+2101905;MA;Bequimão;Centro Local
+2800407;SE;Arauá;Centro Local
+1503408;PA;Inhangapi;Centro Local
+4309951;RS;Ibirapuitã;Centro Local
+2925253;BA;Ponto Novo;Centro Local
+4306429;RS;Dois Irmãos das Missões;Centro Local
+3133204;MG;Itanhomi;Centro Local
+4102208;PR;Atalaia;Centro Local
+5103437;MT;Curvelândia;Centro Local
+2104404;MA;Gonçalves Dias;Centro Local
+2108801;MA;Pirapemas;Centro Local
+1400605;RR;São Luiz;Centro Local
+4106571;PR;Cruzeiro do Iguaçu;Centro Local
+4311908;RS;Marcelino Ramos;Centro Local
+2110658;MA;São Domingos do Azeitão;Centro Local
+2601003;PE;Angelim;Centro Local
+2929404;BA;São Miguel das Matas;Centro Local
+4300638;RS;Amaral Ferrador;Centro Local
+1300680;AM;Boa Vista do Ramos;Centro Local
+3554953;SP;Tuiuti;Centro Local
+4123824;PR;Santa Lúcia;Centro Local
+3137007;MG;Ladainha;Centro Local
+1301654;AM;Guajará;Centro Local
+3509452;SP;Campina do Monte Alegre;Centro Local
+2926707;BA;Rio de Contas;Centro Local
+4125357;PR;São Jorge do Patrocínio;Centro Local
+2106300;MA;Magalhães de Almeida;Centro Local
+2313351;CE;Tejuçuoca;Centro Local
+4217550;SC;Serra Alta;Centro Local
+2929255;BA;São Gabriel;Centro Local
+5207535;GO;Faina;Centro Local
+2920403;BA;Manoel Vitorino;Centro Local
+2918209;BA;Jiquiriçá;Centro Local
+3125903;MG;Ferros;Centro Local
+1200393;AC;Porto Walter;Centro Local
+4204103;SC;Caxambu do Sul;Centro Local
+4219408;SC;Witmarsum;Centro Local
+1701002;TO;Ananás;Centro Local
+4218103;SC;Timbé do Sul;Centro Local
+5100508;MT;Alto Paraguai;Centro Local
+2408953;RN;Rio do Fogo;Centro Local
+4318622;RS;São José dos Ausentes;Centro Local
+2806602;SE;Santo Amaro das Brotas;Centro Local
+1502855;PA;Curuá;Centro Local
+2400109;RN;Acari;Centro Local
+3123700;MG;Engenheiro Caldas;Centro Local
+2516607;PB;Tavares;Centro Local
+5007976;MS;Taquarussu;Centro Local
+4111605;PR;Ivatuba;Centro Local
+1501600;PA;Bonito;Centro Local
+2915304;BA;Itagimirim;Centro Local
+4123204;PR;Santa Cecília do Pavão;Centro Local
+2303402;CE;Carnaubal;Centro Local
+4211454;SC;Nova Itaberaba;Centro Local
+3123106;MG;Dores de Guanhães;Centro Local
+5003108;MS;Corguinho;Centro Local
+2206605;PI;Monte Alegre do Piauí;Centro Local
+2608057;PE;Jatobá;Centro Local
+2103554;MA;Conceição do Lago-Açu;Centro Local
+2903607;BA;Biritinga;Centro Local
+4312104;RS;Mata;Centro Local
+2915106;BA;Itagi;Centro Local
+2928059;BA;Santa Luzia;Centro Local
+4214300;SC;Rancho Queimado;Centro Local
+1702901;TO;Axixá do Tocantins;Centro Local
+4124905;PR;São João do Caiuá;Centro Local
+2312106;CE;Santana do Cariri;Centro Local
+2703601;AL;Japaratinga;Centro Local
+3155405;MG;Rio Novo;Centro Local
+4300455;RS;Alegria;Centro Local
+5219209;GO;Santa Cruz de Goiás;Centro Local
+1101435;RO;Nova União;Centro Local
+4201273;SC;Arabutã;Centro Local
+3125952;MG;Fervedouro;Centro Local
+2413904;RN;Taipu;Centro Local
+4302584;RS;Bozano;Centro Local
+2510907;PB;Paulista;Centro Local
+4313607;RS;Paim Filho;Centro Local
+4116950;PR;Nova Esperança do Sudoeste;Centro Local
+5100359;MT;Alto Boa Vista;Centro Local
+2924207;BA;Pedro Alexandre;Centro Local
+1702307;TO;Arapoema;Centro Local
+2311959;CE;Salitre;Centro Local
+4310876;RS;Jacuizinho;Centro Local
+2702702;AL;Feliz Deserto;Centro Local
+2913101;BA;Ibititá;Centro Local
+4127882;PR;Tunas do Paraná;Centro Local
+4312203;RS;Maximiliano de Almeida;Centro Local
+4109203;PR;Guaraci;Centro Local
+3126000;MG;Florestal;Centro Local
+2933158;BA;Várzea Nova;Centro Local
+5214051;GO;Mundo Novo;Centro Local
+4126702;PR;Tamboara;Centro Local
+4305871;RS;Coronel Barros;Centro Local
+4108452;PR;Foz do Jordão;Centro Local
+4301552;RS;Áurea;Centro Local
+4312138;RS;Mato Castelhano;Centro Local
+2608602;PE;Lagoa do Ouro;Centro Local
+4109500;PR;Guaraqueçaba;Centro Local
+3119807;MG;Córrego Danta;Centro Local
+4305850;RS;Coqueiros do Sul;Centro Local
+2303600;CE;Catarina;Centro Local
+5203807;GO;Britânia;Centro Local
+2110401;MA;São Benedito do Rio Preto;Centro Local
+3135704;MG;Jequitibá;Centro Local
+3153509;MG;Alto Jequitibá;Centro Local
+4317756;RS;Santo Antônio do Planalto;Centro Local
+2100832;MA;Apicum-Açu;Centro Local
+1400704;RR;Uiramutã;Centro Local
+2615508;PE;Tracunhaém;Centro Local
+2703304;AL;Inhapi;Centro Local
+2407500;RN;Maxaranguape;Centro Local
+3556354;SP;Vargem;Centro Local
+5004809;MS;Japorã;Centro Local
+2708709;AL;São Miguel dos Milagres;Centro Local
+3171600;MG;Virgem da Lapa;Centro Local
+2805307;SE;Pirambu;Centro Local
+4100905;PR;Amaporã;Centro Local
+4219358;SC;Vitor Meireles;Centro Local
+4107157;PR;Diamante D'Oeste;Centro Local
+2905503;BA;Caldeirão Grande;Centro Local
+4213302;SC;Ponte Alta;Centro Local
+2906600;BA;Candiba;Centro Local
+3105004;MG;Baldim;Centro Local
+2707800;AL;Roteiro;Centro Local
+2922656;BA;Nordestina;Centro Local
+3501103;SP;Alto Alegre;Centro Local
+4106100;PR;Conselheiro Mairinck;Centro Local
+4122800;PR;Salgado Filho;Centro Local
+4203253;SC;Capão Alto;Centro Local
+3517109;SP;Glicério;Centro Local
+5210802;GO;Itajá;Centro Local
+2402501;RN;Carnaubais;Centro Local
+3116704;MG;Coimbra;Centro Local
+3537156;SP;Pedrinhas Paulista;Centro Local
+2300408;CE;Aiuaba;Centro Local
+4120101;PR;Porto Amazonas;Centro Local
+1703008;TO;Babaçulândia;Centro Local
+3158904;MG;Santana do Manhuaçu;Centro Local
+2701605;AL;Canapi;Centro Local
+4303202;RS;Cacique Doble;Centro Local
+2900355;BA;Adustina;Centro Local
+2108058;MA;Paulino Neves;Centro Local
+2608404;PE;Jurema;Centro Local
+4315008;RS;Porto Lucena;Centro Local
+4300307;RS;Alecrim;Centro Local
+3163904;MG;São Pedro da União;Centro Local
+3541059;SP;Pratânia;Centro Local
+2503308;PB;Cachoeira dos Índios;Centro Local
+2919405;BA;Licínio de Almeida;Centro Local
+3150604;MG;Piracema;Centro Local
+3116902;MG;Comendador Gomes;Centro Local
+5207600;GO;Fazenda Nova;Centro Local
+3161205;MG;São Francisco de Paula;Centro Local
+3553203;SP;Taiúva;Centro Local
+1302009;AM;Itapiranga;Centro Local
+3537701;SP;Piacatu;Centro Local
+2707602;AL;Quebrangulo;Centro Local
+2802403;SE;Gararu;Centro Local
+3134707;MG;Jacinto;Centro Local
+1712504;TO;Marianópolis do Tocantins;Centro Local
+2806800;SE;São Domingos;Centro Local
+3118908;MG;Cordisburgo;Centro Local
+2930402;BA;Serra Preta;Centro Local
+3123528;MG;Durandé;Centro Local
+3505104;SP;Barbosa;Centro Local
+4120333;PR;Prado Ferreira;Centro Local
+3154457;MG;Riachinho;Centro Local
+3121407;MG;Desterro de Entre Rios;Centro Local
+3134509;MG;Itutinga;Centro Local
+3129301;MG;Iapu;Centro Local
+5215652;GO;Palestina de Goiás;Centro Local
+3523008;SP;Itapura;Centro Local
+2500502;PB;Alagoinha;Centro Local
+2930758;BA;Sítio do Mato;Centro Local
+2702553;AL;Estrela de Alagoas;Centro Local
+4121307;PR;Rancho Alegre;Centro Local
+3534807;SP;Ouro Verde;Centro Local
+3169208;MG;Tombos;Centro Local
+2604908;PE;Cumaru;Centro Local
+3501806;SP;Américo de Campos;Centro Local
+2210508;PI;São Pedro do Piauí;Centro Local
+2413201;RN;Senador Georgino Avelino;Centro Local
+3165206;MG;São Thomé das Letras;Centro Local
+4205159;SC;Doutor Pedrinho;Centro Local
+4323101;RS;Vicente Dutra;Centro Local
+4320602;RS;Severiano de Almeida;Centro Local
+2925600;BA;Presidente Dutra;Centro Local
+3152170;MG;Ponto dos Volantes;Centro Local
+3502606;SP;Aparecida d'Oeste;Centro Local
+4209151;SC;José Boiteux;Centro Local
+4323358;RS;Vila Lângaro;Centro Local
+4124004;PR;Santana do Itararé;Centro Local
+4112900;PR;Jundiaí do Sul;Centro Local
+4126207;PR;Sapopema;Centro Local
+4112306;PR;Japira;Centro Local
+2612455;PE;Santa Cruz;Centro Local
+1304005;AM;Silves;Centro Local
+3129202;MG;Heliodora;Centro Local
+2902252;BA;Arataca;Centro Local
+4303400;RS;Caiçara;Centro Local
+3142403;MG;Moema;Centro Local
+2612901;PE;São Benedito do Sul;Centro Local
+2913002;BA;Ibitiara;Centro Local
+2102507;MA;Cajari;Centro Local
+5212956;GO;Matrinchã;Centro Local
+2926806;BA;Rio do Antônio;Centro Local
+2605806;PE;Frei Miguelinho;Centro Local
+2927606;BA;Santa Brígida;Centro Local
+3169802;MG;Turvolândia;Centro Local
+4119707;PR;Planaltina do Paraná;Centro Local
+4315958;RS;Rolador;Centro Local
+2104206;MA;Fortuna;Centro Local
+1300904;AM;Canutama;Centro Local
+3150307;MG;Piedade do Rio Grande;Centro Local
+1720200;TO;São Miguel do Tocantins;Centro Local
+2105906;MA;Lago Verde;Centro Local
+3124708;MG;Estrela do Indaiá;Centro Local
+4101655;PR;Arapuã;Centro Local
+4207759;SC;Iraceminha;Centro Local
+4306973;RS;Erebango;Centro Local
+3525409;SP;Jeriquara;Centro Local
+4207577;SC;Iomerê;Centro Local
+4201802;SC;Atalanta;Centro Local
+4311791;RS;Maratá;Centro Local
+2312502;CE;São João do Jaguaribe;Centro Local
+2302057;CE;Barroquinha;Centro Local
+3533700;SP;Ocauçu;Centro Local
+2927101;BA;Rodelas;Centro Local
+1507755;PA;Sapucaia;Centro Local
+3166709;MG;Serra dos Aimorés;Centro Local
+2918456;BA;Jucuruçu;Centro Local
+2932408;BA;Uibaí;Centro Local
+3548203;SP;Santo Antônio do Pinhal;Centro Local
+2410108;RN;Poço Branco;Centro Local
+3153004;MG;Pratinha;Centro Local
+2105609;MA;Joselândia;Centro Local
+2404606;RN;Ielmo Marinho;Centro Local
+4304713;RS;Caraá;Centro Local
+4102752;PR;Bela Vista da Caroba;Centro Local
+3136108;MG;Joanésia;Centro Local
+3130606;MG;Inconfidentes;Centro Local
+4314175;RS;Pedras Altas;Centro Local
+4312450;RS;Morro Redondo;Centro Local
+2507200;PB;Itatuba;Centro Local
+4128658;PR;Virmond;Centro Local
+3128808;MG;Guidoval;Centro Local
+5003900;MS;Figueirão;Centro Local
+3126901;MG;Frei Inocêncio;Centro Local
+2110856;MA;São Francisco do Brejão;Centro Local
+2924058;BA;Pé de Serra;Centro Local
+2205102;PI;Itaueira;Centro Local
+4106852;PR;Cruzmaltina;Centro Local
+2605509;PE;Ferreiros;Centro Local
+2312601;CE;São Luís do Curu;Centro Local
+3532157;SP;Nantes;Centro Local
+2101301;MA;Bacuri;Centro Local
+2313559;CE;Tururu;Centro Local
+3113503;MG;Carbonita;Centro Local
+1300086;AM;Anamã;Centro Local
+5107743;MT;Santa Cruz do Xingu;Centro Local
+2612703;PE;Santa Maria do Cambucá;Centro Local
+4313003;RS;Nova Bréscia;Centro Local
+2602704;PE;Buenos Aires;Centro Local
+1303957;AM;São Sebastião do Uatumã;Centro Local
+2917409;BA;Jacaraci;Centro Local
+2111078;MA;São João do Soter;Centro Local
+2311900;CE;Saboeiro;Centro Local
+2916203;BA;Itapé;Centro Local
+4310553;RS;Itacurubi;Centro Local
+3100500;MG;Açucena;Centro Local
+1701903;TO;Araguacema;Centro Local
+2608701;PE;Lagoa dos Gatos;Centro Local
+2414803;RN;Vera Cruz;Centro Local
+4202537;SC;Bom Jesus;Centro Local
+2707404;AL;Porto de Pedras;Centro Local
+4206801;SC;Ibicaré;Centro Local
+2933174;BA;Varzedo;Centro Local
+1700350;TO;Aliança do Tocantins;Centro Local
+4310850;RS;Jaboticaba;Centro Local
+2608255;PE;Jucati;Centro Local
+4319703;RS;São Valentim;Centro Local
+2309003;CE;Mucambo;Centro Local
+2903706;BA;Boa Nova;Centro Local
+2409100;RN;Passa e Fica;Centro Local
+2607703;PE;Itapetim;Centro Local
+4113106;PR;Kaloré;Centro Local
+2918506;BA;Jussara;Centro Local
+4311254;RS;Lagoão;Centro Local
+5007307;MS;Rio Negro;Centro Local
+3522000;SP;Itaju;Centro Local
+2930808;BA;Souto Soares;Centro Local
+2104602;MA;Governador Eugênio Barros;Centro Local
+2301406;CE;Aratuba;Centro Local
+5219100;GO;Santa Bárbara de Goiás;Centro Local
+2930600;BA;Serrolândia;Centro Local
+2920007;BA;Maiquinique;Centro Local
+4122909;PR;Salto do Itararé;Centro Local
+3200508;ES;Apiacá;Centro Local
+2305704;CE;Ipaumirim;Centro Local
+2601300;PE;Barra de Guabiraba;Centro Local
+2412401;RN;São José do Seridó;Centro Local
+5219902;GO;São Francisco de Goiás;Centro Local
+2300903;CE;Apuiarés;Centro Local
+4320321;RS;Senador Salgado Filho;Centro Local
+4110904;PR;Itaguajé;Centro Local
+4126652;PR;Sulina;Centro Local
+5202353;GO;Arenópolis;Centro Local
+2206407;PI;Monsenhor Gil;Centro Local
+2106375;MA;Maranhãozinho;Centro Local
+3112109;MG;Caparaó;Centro Local
+3158508;MG;Santana de Pirapama;Centro Local
+4300646;RS;Ametista do Sul;Centro Local
+4113809;PR;Lupionópolis;Centro Local
+3129004;MG;Guiricema;Centro Local
+2912509;BA;Ibipitanga;Centro Local
+3540408;SP;Populina;Centro Local
+2910008;BA;Dário Meira;Centro Local
+4212239;SC;Paraíso;Centro Local
+3555505;SP;Ubirajara;Centro Local
+2414159;RN;Tenente Laurentino Cruz;Centro Local
+4319372;RS;São Pedro do Butiá;Centro Local
+1707207;TO;Dois Irmãos do Tocantins;Centro Local
+2102358;MA;Buritirana;Centro Local
+4201653;SC;Arvoredo;Centro Local
+4314134;RS;Paulo Bento;Centro Local
+1101450;RO;Parecis;Centro Local
+5203575;GO;Bonópolis;Centro Local
+3157104;MG;Salto da Divisa;Centro Local
+2503605;PB;Arranjo Populacional de Caiçara - Logradouro/PB;Centro Local
+4215075;SC;Riqueza;Centro Local
+2916906;BA;Itiruçu;Centro Local
+4315206;RS;Putinga;Centro Local
+2921302;BA;Milagres;Centro Local
+4310462;RS;Ipiranga do Sul;Centro Local
+5220157;GO;São Luiz do Norte;Centro Local
+3138104;MG;Lassance;Centro Local
+2901700;BA;Antônio Cardoso;Centro Local
+4307203;RS;Erval Grande;Centro Local
+4320230;RS;Sede Nova;Centro Local
+2903003;BA;Barra do Mendes;Centro Local
+2917334;BA;Iuiu;Centro Local
+4304101;RS;Campos Borges;Centro Local
+3116100;MG;Chapada do Norte;Centro Local
+3541653;SP;Quadra;Centro Local
+2107456;MA;Olinda Nova do Maranhão;Centro Local
+3120706;MG;Cruzeiro da Fortaleza;Centro Local
+1100262;RO;Rio Crespo;Centro Local
+5218706;GO;Rianápolis;Centro Local
+4320354;RS;Sentinela do Sul;Centro Local
+2500908;PB;Arara;Centro Local
+4101150;PR;Ângulo;Centro Local
+3148301;MG;Paula Cândido;Centro Local
+4201604;SC;Arroio Trinta;Centro Local
+3165404;MG;Sapucaí-Mirim;Centro Local
+3122355;MG;Divisa Alegre;Centro Local
+2607950;PE;Jaqueira;Centro Local
+3531605;SP;Monte Castelo;Centro Local
+2412302;RN;São José do Campestre;Centro Local
+4306452;RS;Dois Lajeados;Centro Local
+1703701;TO;Brejinho de Nazaré;Centro Local
+2111029;MA;São João do Carú;Centro Local
+3150158;MG;Piedade de Caratinga;Centro Local
+2902005;BA;Aracatu;Centro Local
+2923902;BA;Pau Brasil;Centro Local
+1101468;RO;Pimenteiras do Oeste;Centro Local
+3154101;MG;Recreio;Centro Local
+3533809;SP;Óleo;Centro Local
+2920452;BA;Mansidão;Centro Local
+4209201;SC;Lacerdópolis;Centro Local
+2403004;RN;Cruzeta;Centro Local
+3122405;MG;Divisa Nova;Centro Local
+2904001;BA;Boninal;Centro Local
+3119203;MG;Coroaci;Centro Local
+1302207;AM;Juruá;Centro Local
+2310605;CE;Penaforte;Centro Local
+2911857;BA;Heliópolis;Centro Local
+3166204;MG;Senhora dos Remédios;Centro Local
+2109700;MA;Sambaíba;Centro Local
+3121100;MG;Delfim Moreira;Centro Local
+3510104;SP;Cândido Rodrigues;Centro Local
+5221502;GO;Turvânia;Centro Local
+2111532;MA;São Pedro da Água Branca;Centro Local
+2933059;BA;Várzea da Roça;Centro Local
+2308203;CE;Meruoca;Centro Local
+3108107;MG;Bonfim;Centro Local
+2207504;PI;Palmeirais;Centro Local
+4205100;SC;Dona Emma;Centro Local
+3102704;MG;Cachoeira de Pajeú;Centro Local
+2506103;PB;Fagundes;Centro Local
+1703800;TO;Buriti do Tocantins;Centro Local
+5215405;GO;Ouro Verde de Goiás;Centro Local
+4101051;PR;Anahy;Centro Local
+4200556;SC;Águas Frias;Centro Local
+3527900;SP;Lutécia;Centro Local
+3171030;MG;Verdelândia;Centro Local
+4120150;PR;Porto Barreiro;Centro Local
+5108808;MT;Nova Guarita;Centro Local
+2905107;BA;Caém;Centro Local
+4211850;SC;Ouro Verde;Centro Local
+3132305;MG;Itaipé;Centro Local
+2205409;PI;Joaquim Pires;Centro Local
+2915007;BA;Itaeté;Centro Local
+3102050;MG;Alto Caparaó;Centro Local
+5101605;MT;Barão de Melgaço;Centro Local
+1718907;TO;Santa Rosa do Tocantins;Centro Local
+1720804;TO;Sítio Novo do Tocantins;Centro Local
+3106507;MG;Berilo;Centro Local
+3151909;MG;Pocrane;Centro Local
+3152303;MG;Porto Firme;Centro Local
+4115903;PR;Mirador;Centro Local
+2203107;PI;Cristino Castro;Centro Local
+2921807;BA;Mortugaba;Centro Local
+2102077;MA;Bom Lugar;Centro Local
+2304657;CE;Graça;Centro Local
+2105476;MA;Jenipapo dos Vieiras;Centro Local
+2200301;PI;Alto Longá;Centro Local
+3532702;SP;Nipoã;Centro Local
+1505551;PA;Pau D'Arco;Centro Local
+4211652;SC;Novo Horizonte;Centro Local
+2707206;AL;Poço das Trincheiras;Centro Local
+3500204;SP;Adolfo;Centro Local
+2918753;BA;Lagoa Real;Centro Local
+3543600;SP;Rifaina;Centro Local
+2105203;MA;Igarapé Grande;Centro Local
+3163102;MG;São José da Varginha;Centro Local
+4111704;PR;Jaboti;Centro Local
+3170008;MG;Ubaí;Centro Local
+4311270;RS;Lagoa dos Três Cantos;Centro Local
+2511509;PB;Pilar;Centro Local
+2412906;RN;São Tomé;Centro Local
+4322327;RS;Turuçu;Centro Local
+2904209;BA;Botuporã;Centro Local
+4312427;RS;Mormaço;Centro Local
+2904407;BA;Brejolândia;Centro Local
+3200359;ES;Alto Rio Novo;Centro Local
+3554201;SP;Tejupá;Centro Local
+3154150;MG;Reduto;Centro Local
+3160959;MG;São Domingos das Dores;Centro Local
+4312674;RS;Nicolau Vergueiro;Centro Local
+4314035;RS;Pareci Novo;Centro Local
+4102703;PR;Barra do Jacaré;Centro Local
+1710508;TO;Itacajá;Centro Local
+4323754;RS;Vitória das Missões;Centro Local
+2805109;SE;Pedrinhas;Centro Local
+5205059;GO;Castelândia;Centro Local
+2309102;CE;Mulungu;Centro Local
+4128807;PR;Xambrê;Centro Local
+4204178;SC;Cerro Negro;Centro Local
+4116307;PR;Munhoz de Melo;Centro Local
+2902203;BA;Aramari;Centro Local
+1101484;RO;São Felipe D'Oeste;Centro Local
+2400307;RN;Afonso Bezerra;Centro Local
+2106805;MA;Mirinzal;Centro Local
+3166303;MG;Sericita;Centro Local
+2502409;PB;Bonito de Santa Fé;Centro Local
+2926657;BA;Ribeirão do Largo;Centro Local
+4121257;PR;Ramilândia;Centro Local
+3112901;MG;Caputira;Centro Local
+4122172;PR;Rio Branco do Ivaí;Centro Local
+4103024;PR;Boa Esperança do Iguaçu;Centro Local
+1301951;AM;Itamarati;Centro Local
+5103361;MT;Conquista D'Oeste;Centro Local
+3521606;SP;Irapuru;Centro Local
+3124401;MG;Espírito Santo do Dourado;Centro Local
+4314068;RS;Passa Sete;Centro Local
+5203962;GO;Buritinópolis;Centro Local
+3534500;SP;Oscar Bressane;Centro Local
+4122651;PR;Rosário do Ivaí;Centro Local
+2310100;CE;Palmácia;Centro Local
+3128204;MG;Guaraciaba;Centro Local
+5211602;GO;Ivolândia;Centro Local
+4321352;RS;Tavares;Centro Local
+2410256;RN;Porto do Mangue;Centro Local
+4128625;PR;Alto Paraíso;Centro Local
+1200054;AC;Assis Brasil;Centro Local
+1703057;TO;Bandeirantes do Tocantins;Centro Local
+1506112;PA;Quatipuru;Centro Local
+4312054;RS;Marques de Souza;Centro Local
+2407708;RN;Montanhas;Centro Local
+4300570;RS;Alto Feliz;Centro Local
+3131406;MG;Ipiaçu;Centro Local
+3160306;MG;Santo Antônio do Jacinto;Centro Local
+3103702;MG;Araponga;Centro Local
+4103958;PR;Campina do Simão;Centro Local
+2929800;BA;Saúde;Centro Local
+3148905;MG;Pedra do Indaiá;Centro Local
+2708956;AL;Senador Rui Palmeira;Centro Local
+3136504;MG;Jordânia;Centro Local
+2915353;BA;Itaguaçu da Bahia;Centro Local
+1101559;RO;Teixeirópolis;Centro Local
+2702009;AL;Coité do Nóia;Centro Local
+2612554;PE;Santa Filomena;Centro Local
+4311981;RS;Mariana Pimentel;Centro Local
+4212650;SC;Pescaria Brava;Centro Local
+2303659;CE;Catunda;Centro Local
+4313490;RS;Novo Barreiro;Centro Local
+3144409;MG;Natércia;Centro Local
+2903235;BA;Barro Alto;Centro Local
+3115706;MG;Central de Minas;Centro Local
+2305266;CE;Ibaretama;Centro Local
+3535903;SP;Paranapuã;Centro Local
+3120409;MG;Cristiano Otoni;Centro Local
+4217758;SC;Sul Brasil;Centro Local
+3532058;SP;Motuca;Centro Local
+5216007;GO;Panamá;Centro Local
+2902658;BA;Banzaê;Centro Local
+2403806;RN;Florânia;Centro Local
+4125456;PR;São José das Palmeiras;Centro Local
+3159357;MG;Santa Rita de Minas;Centro Local
+4318440;RS;São Jorge;Centro Local
+5200852;GO;Americano do Brasil;Centro Local
+3505351;SP;Barra do Chapéu;Centro Local
+4312955;RS;Nova Boa Vista;Centro Local
+5204854;GO;Campo Limpo de Goiás;Centro Local
+5213509;GO;Monte Alegre de Goiás;Centro Local
+4313391;RS;Novo Cabrais;Centro Local
+3156601;MG;Rubim;Centro Local
+3155306;MG;Rio Manso;Centro Local
+2303907;CE;Chaval;Centro Local
+2922052;BA;Mulungu do Morro;Centro Local
+4113254;PR;Laranjal;Centro Local
+2906857;BA;Capela do Alto Alegre;Centro Local
+3119500;MG;Coronel Murta;Centro Local
+4318499;RS;São José do Inhacorá;Centro Local
+2305332;CE;Ibicuitinga;Centro Local
+2933257;BA;Vereda;Centro Local
+2604155;PE;Casinhas;Centro Local
+3149952;MG;Periquito;Centro Local
+3141900;MG;Minduri;Centro Local
+1707405;TO;Esperantina;Centro Local
+4212601;SC;Peritiba;Centro Local
+2912004;BA;Ibiassucê;Centro Local
+4309753;RS;Ibarama;Centro Local
+2925402;BA;Potiraguá;Centro Local
+3508306;SP;Cabrália Paulista;Centro Local
+2915700;BA;Itamari;Centro Local
+2804300;SE;Muribeca;Centro Local
+4302659;RS;Brochier;Centro Local
+4205605;SC;Galvão;Centro Local
+4322525;RS;Vale Verde;Centro Local
+4215208;SC;Romelândia;Centro Local
+3505401;SP;Barra do Turvo;Centro Local
+4103479;PR;Cafezal do Sul;Centro Local
+3145877;MG;Orizânia;Centro Local
+2515104;PB;São Sebastião de Lagoa de Roça;Centro Local
+2511806;PB;Pirpirituba;Centro Local
+2614303;PE;Moreilândia;Centro Local
+3553104;SP;Taiaçu;Centro Local
+3149150;MG;Pedras de Maria da Cruz;Centro Local
+4305371;RS;Charrua;Centro Local
+3102852;MG;Angelândia;Centro Local
+2933109;BA;Várzea do Poço;Centro Local
+4115457;PR;Marquinho;Centro Local
+3172103;MG;Volta Grande;Centro Local
+1500131;PA;Abel Figueiredo;Centro Local
+2604304;PE;Cedro;Centro Local
+2916609;BA;Itapitanga;Centro Local
+2410405;RN;Pureza;Centro Local
+1501253;PA;Bannach;Centro Local
+5107206;MT;Rio Branco;Centro Local
+2106631;MA;Matões do Norte;Centro Local
+2606903;PE;Iguaracy;Centro Local
+4302600;RS;Braga;Centro Local
+2307205;CE;Jati;Centro Local
+4310652;RS;Itati;Centro Local
+4101853;PR;Ariranha do Ivaí;Centro Local
+2612471;PE;Santa Cruz da Baixa Verde;Centro Local
+2913804;BA;Ipecaetá;Centro Local
+4113429;PR;Lidianópolis;Centro Local
+2701209;AL;Cacimbinhas;Centro Local
+4315552;RS;Rio dos Índios;Centro Local
+2611200;PE;Poção;Centro Local
+5213905;GO;Mossâmedes;Centro Local
+3157252;MG;Santa Bárbara do Leste;Centro Local
+2310407;CE;Paramoti;Centro Local
+2609204;PE;Maraial;Centro Local
+2911006;BA;Floresta Azul;Centro Local
+1706001;TO;Couto Magalhães;Centro Local
+2929370;BA;São José do Jacuípe;Centro Local
+3101409;MG;Albertina;Centro Local
+2926905;BA;Rio do Pires;Centro Local
+3162609;MG;São João do Oriente;Centro Local
+2515971;PB;Sobrado;Centro Local
+4307864;RS;Fagundes Varela;Centro Local
+2914307;BA;Iramaia;Centro Local
+3143807;MG;Munhoz;Centro Local
+2308377;CE;Miraíma;Centro Local
+2205003;PI;Itainópolis;Centro Local
+1715705;TO;Palmeirante;Centro Local
+3512605;SP;Coronel Macedo;Centro Local
+4306320;RS;Derrubadas;Centro Local
+2505709;PB;Dona Inês;Centro Local
+2501401;PB;Baía da Traição;Centro Local
+2924678;BA;Piraí do Norte;Centro Local
+2401305;RN;Augusto Severo;Centro Local
+2414100;RN;Tenente Ananias;Centro Local
+2100873;MA;Araguanã;Centro Local
+4203154;SC;Calmon;Centro Local
+3134103;MG;Itueta;Centro Local
+2905156;BA;Caetanos;Centro Local
+4213351;SC;Ponte Alta do Norte;Centro Local
+4209805;SC;Leoberto Leal;Centro Local
+2924652;BA;Pintadas;Centro Local
+2105351;MA;Itaipava do Grajaú;Centro Local
+2930006;BA;Sebastião Laranjeiras;Centro Local
+2509909;PB;Natuba;Centro Local
+2920809;BA;Marcionílio Souza;Centro Local
+3539707;SP;Platina;Centro Local
+3101805;MG;Alpercata;Centro Local
+4217105;SC;São Martinho;Centro Local
+5212709;GO;Mambaí;Centro Local
+1501758;PA;Brejo Grande do Araguaia;Centro Local
+2110278;MA;Santo Amaro do Maranhão;Centro Local
+3541109;SP;Presidente Alves;Centro Local
+4202875;SC;Brunópolis;Centro Local
+2402402;RN;Carnaúba dos Dantas;Centro Local
+2612802;PE;Santa Terezinha;Centro Local
+2800704;SE;Brejo Grande;Centro Local
+5219357;GO;Santa Isabel;Centro Local
+1717909;TO;Ponte Alta do Tocantins;Centro Local
+4320859;RS;Tabaí;Centro Local
+2311207;CE;Potengi;Centro Local
+4115739;PR;Mato Rico;Centro Local
+3557154;SP;Zacarias;Centro Local
+2207603;PI;Parnaguá;Centro Local
+3116001;MG;Chalé;Centro Local
+2922755;BA;Nova Ibiá;Centro Local
+2509057;PB;Marcação;Centro Local
+4110656;PR;Iracema do Oeste;Centro Local
+3138500;MG;Liberdade;Centro Local
+2511103;PB;Pedra Lavrada;Centro Local
+1703206;TO;Bernardo Sayão;Centro Local
+4321634;RS;Três Arroios;Centro Local
+2413409;RN;Serra Negra do Norte;Centro Local
+2208502;PI;Porto;Centro Local
+2109403;MA;Primeira Cruz;Centro Local
+4117206;PR;Nova Olímpia;Centro Local
+2101772;MA;Bela Vista do Maranhão;Centro Local
+2202083;PI;Cajueiro da Praia;Centro Local
+3130051;MG;Icaraí de Minas;Centro Local
+2500106;PB;Água Branca;Centro Local
+3540101;SP;Pongaí;Centro Local
+4309159;RS;Gramado Xavier;Centro Local
+2603306;PE;Calçado;Centro Local
+5106208;MT;Nova Brasilândia;Centro Local
+3135605;MG;Jequitaí;Centro Local
+3144656;MG;Ninheira;Centro Local
+2206100;PI;Matias Olímpio;Centro Local
+3138708;MG;Luminárias;Centro Local
+3145356;MG;Novo Oriente de Minas;Centro Local
+2202406;PI;Capitão de Campos;Centro Local
+2907004;BA;Cardeal da Silva;Centro Local
+1200328;AC;Jordão;Centro Local
+2925709;BA;Presidente Jânio Quadros;Centro Local
+4123956;PR;Santa Mônica;Centro Local
+3108255;MG;Bonito de Minas;Centro Local
+3540259;SP;Pontalinda;Centro Local
+2407401;RN;Martins;Centro Local
+2930766;BA;Sítio do Quinto;Centro Local
+4113759;PR;Lunardelli;Centro Local
+2603926;PE;Carnaubeira da Penha;Centro Local
+3114600;MG;Carrancas;Centro Local
+5201454;GO;Aparecida do Rio Doce;Centro Local
+4306130;RS;Cruzaltense;Centro Local
+2401701;RN;Bom Jesus;Centro Local
+2305654;CE;Ipaporanga;Centro Local
+2411056;RN;Tibau;Centro Local
+4316733;RS;Santa Cecília do Sul;Centro Local
+2206720;PI;Nazária;Centro Local
+3536802;SP;Pedra Bela;Centro Local
+1701101;TO;Aparecida do Rio Negro;Centro Local
+3122900;MG;Dona Eusébia;Centro Local
+4318432;RS;São João do Polêsine;Centro Local
+2303931;CE;Choró;Centro Local
+3138906;MG;Machacalis;Centro Local
+2100154;MA;Água Doce do Maranhão;Centro Local
+4117214;PR;Nova Santa Bárbara;Centro Local
+5215256;GO;Novo Planalto;Centro Local
+2300101;CE;Abaiara;Centro Local
+1716653;TO;Pequizeiro;Centro Local
+4314498;RS;Pinheirinho do Vale;Centro Local
+2516805;PB;Triunfo;Centro Local
+4309258;RS;Guabiju;Centro Local
+5101001;MT;Araguaiana;Centro Local
+2208106;PI;Pimenteiras;Centro Local
+2919058;BA;Lajedo do Tabocal;Centro Local
+3163805;MG;São Miguel do Anta;Centro Local
+3138674;MG;Luisburgo;Centro Local
+3517307;SP;Guaimbê;Centro Local
+4305116;RS;Centenário;Centro Local
+2933406;BA;Wagner;Centro Local
+2506707;PB;Imaculada;Centro Local
+3129608;MG;Ibiaí;Centro Local
+2610103;PE;Palmeirina;Centro Local
+5107198;MT;Ribeirãozinho;Centro Local
+2308807;CE;Moraújo;Centro Local
+4103156;PR;Bom Jesus do Sul;Centro Local
+3520707;SP;Indiaporã;Centro Local
+2500775;PB;Aparecida;Centro Local
+3148756;MG;Pedra Bonita;Centro Local
+2516409;PB;Tacima;Centro Local
+2907400;BA;Catolândia;Centro Local
+1502608;PA;Colares;Centro Local
+3107703;MG;Bom Jesus do Amparo;Centro Local
+4317954;RS;Santo Expedito do Sul;Centro Local
+3165552;MG;Setubinha;Centro Local
+3123809;MG;Engenheiro Navarro;Centro Local
+2928505;BA;Santa Terezinha;Centro Local
+2202505;PI;Caracol;Centro Local
+3127305;MG;Galiléia;Centro Local
+2601508;PE;Belém de Maria;Centro Local
+2311009;CE;Poranga;Centro Local
+3525854;SP;Jumirim;Centro Local
+3138005;MG;Laranjal;Centro Local
+3158805;MG;Santana do Jacaré;Centro Local
+2601805;PE;Betânia;Centro Local
+4100459;PR;Altamira do Paraná;Centro Local
+5205208;GO;Caturaí;Centro Local
+1703107;TO;Barrolândia;Centro Local
+3515194;SP;Espírito Santo do Turvo;Centro Local
+3165701;MG;Senador Firmino;Centro Local
+2410306;RN;Serra Caiada;Centro Local
+2802700;SE;Ilha das Flores;Centro Local
+2104503;MA;Governador Archer;Centro Local
+2109551;MA;Ribamar Fiquene;Centro Local
+2907707;BA;Chorrochó;Centro Local
+2104909;MA;Guimarães;Centro Local
+5107263;MT;Santo Afonso;Centro Local
+2509008;PB;Manaíra;Centro Local
+2919603;BA;Macajuba;Centro Local
+4111308;PR;Itaúna do Sul;Centro Local
+2108405;MA;Peri Mirim;Centro Local
+4314456;RS;Pinhal;Centro Local
+4312377;RS;Monte Alegre dos Campos;Centro Local
+2201101;PI;Avelino Lopes;Centro Local
+2508000;PB;Juru;Centro Local
+5106455;MT;Planalto da Serra;Centro Local
+2402105;RN;Campo Redondo;Centro Local
+3119005;MG;Cordislândia;Centro Local
+5103957;MT;Glória D'Oeste;Centro Local
+2916708;BA;Itaquara;Centro Local
+5100102;MT;Acorizal;Centro Local
+3148202;MG;Patrocínio do Muriaé;Centro Local
+4204194;SC;Chapadão do Lageado;Centro Local
+4202438;SC;Bocaina do Sul;Centro Local
+2103158;MA;Centro do Guilherme;Centro Local
+2702504;AL;Dois Riachos;Centro Local
+2923035;BA;Novo Horizonte;Centro Local
+2507804;PB;Junco do Seridó;Centro Local
+2307908;CE;Martinópole;Centro Local
+2701902;AL;Chã Preta;Centro Local
+4123105;PR;Santa Amélia;Centro Local
+2922730;BA;Nova Fátima;Centro Local
+3148509;MG;Pavão;Centro Local
+3160801;MG;São Bento Abade;Centro Local
+3166006;MG;Senhora de Oliveira;Centro Local
+3160108;MG;Santo Antônio do Grama;Centro Local
+2304905;CE;Groaíras;Centro Local
+2706109;AL;Ouro Branco;Centro Local
+1720499;TO;São Valério;Centro Local
+3545100;SP;Salmourão;Centro Local
+1600212;AP;Cutias;Centro Local
+1507961;PA;Terra Alta;Centro Local
+3164506;MG;São Sebastião do Maranhão;Centro Local
+2517001;PB;Umbuzeiro;Centro Local
+3162450;MG;São João das Missões;Centro Local
+3513306;SP;Cruzália;Centro Local
+5107578;MT;Rondolândia;Centro Local
+4317558;RS;Santo Antônio do Palma;Centro Local
+3527702;SP;Luiziânia;Centro Local
+2104305;MA;Godofredo Viana;Centro Local
+3121803;MG;Dionísio;Centro Local
+2615904;PE;Tuparetama;Centro Local
+4322152;RS;Tunas;Centro Local
+3105707;MG;Barra Longa;Centro Local
+2203404;PI;Dom Expedito Lopes;Centro Local
+2105948;MA;Lago dos Rodrigues;Centro Local
+1100908;RO;Castanheiras;Centro Local
+2509800;PB;Mulungu;Centro Local
+3505005;SP;Barão de Antonina;Centro Local
+4320578;RS;Sete de Setembro;Centro Local
+2904506;BA;Brotas de Macaúbas;Centro Local
+3104809;MG;Augusto de Lima;Centro Local
+2105963;MA;Lagoa Grande do Maranhão;Centro Local
+2204808;PI;Ipiranga do Piauí;Centro Local
+2200707;PI;Anísio de Abreu;Centro Local
+4313086;RS;Nova Pádua;Centro Local
+4311122;RS;Jaquirana;Centro Local
+2404101;RN;Galinhos;Centro Local
+5210604;GO;Itaguaru;Centro Local
+3528304;SP;Magda;Centro Local
+4119657;PR;Pitangueiras;Centro Local
+3111903;MG;Cana Verde;Centro Local
+4305587;RS;Colinas;Centro Local
+2901957;BA;Apuarema;Centro Local
+4305132;RS;Cerro Branco;Centro Local
+4115507;PR;Marumbi;Centro Local
+5206305;GO;Cristianópolis;Centro Local
+3136603;MG;Nova União;Centro Local
+1718840;TO;Sandolândia;Centro Local
+2704609;AL;Maravilha;Centro Local
+3150406;MG;Piedade dos Gerais;Centro Local
+2902302;BA;Aratuípe;Centro Local
+2403707;RN;Felipe Guerra;Centro Local
+2512804;PB;Riacho dos Cavalos;Centro Local
+4307450;RS;Esperança do Sul;Centro Local
+2514909;PB;São Mamede;Centro Local
+2921054;BA;Matina;Centro Local
+2104073;MA;Feira Nova do Maranhão;Centro Local
+4215356;SC;Saltinho;Centro Local
+2105989;MA;Lajeado Novo;Centro Local
+2204659;PI;Ilha Grande;Centro Local
+2105807;MA;Lago do Junco;Centro Local
+3530904;SP;Mombuca;Centro Local
+1702158;TO;Araguanã;Centro Local
+4128633;PR;Doutor Ulysses;Centro Local
+1713809;TO;Palmeiras do Tocantins;Centro Local
+2923506;BA;Palmeiras;Centro Local
+2105922;MA;Lagoa do Mato;Centro Local
+2508208;PB;Lagoa de Dentro;Centro Local
+4306700;RS;Dona Francisca;Centro Local
+3126752;MG;Franciscópolis;Centro Local
+2924702;BA;Piripá;Centro Local
+2403509;RN;Espírito Santo;Centro Local
+2906899;BA;Caraíbas;Centro Local
+2412807;RN;São Rafael;Centro Local
+3135902;MG;Jesuânia;Centro Local
+3532306;SP;Natividade da Serra;Centro Local
+3109808;MG;Cachoeira Dourada;Centro Local
+2904803;BA;Caatiba;Centro Local
+3201803;ES;Divino de São Lourenço;Centro Local
+1300060;AM;Amaturá;Centro Local
+4321493;RS;Toropi;Centro Local
+4214151;SC;Princesa;Centro Local
+4218954;SC;Urupema;Centro Local
+4300554;RS;Alto Alegre;Centro Local
+2701506;AL;Campo Grande;Centro Local
+2505808;PB;Arranjo Populacional de Duas Estradas - Serra da Raiz/PB;Centro Local
+4215554;SC;Santa Helena;Centro Local
+4125902;PR;São Pedro do Paraná;Centro Local
+1720978;TO;Talismã;Centro Local
+3105301;MG;Bandeira do Sul;Centro Local
+2700904;AL;Belo Monte;Centro Local
+1708304;TO;Goianorte;Centro Local
+2706000;AL;Olivença;Centro Local
+2304269;CE;Deputado Irapuan Pinheiro;Centro Local
+4124301;PR;Santo Antônio do Paraíso;Centro Local
+2111722;MA;Satubinha;Centro Local
+2928950;BA;São Domingos;Centro Local
+2915403;BA;Itaju do Colônia;Centro Local
+3122454;MG;Divisópolis;Centro Local
+2301257;CE;Ararendá;Centro Local
+3141207;MG;Matutina;Centro Local
+4302253;RS;Boa Vista do Sul;Centro Local
+1504109;PA;Magalhães Barata;Centro Local
+2703502;AL;Jacuípe;Centro Local
+2404853;RN;Itajá;Centro Local
+1600253;AP;Itaubal;Centro Local
+1505494;PA;Palestina do Pará;Centro Local
+3169109;MG;Toledo;Centro Local
+3100807;MG;Aguanil;Centro Local
+4200051;SC;Abdon Batista;Centro Local
+4322855;RS;Vespasiano Corrêa;Centro Local
+3518909;SP;Guzolândia;Centro Local
+1600055;AP;Serra do Navio;Centro Local
+4319752;RS;São Vendelino;Centro Local
+4308052;RS;Faxinalzinho;Centro Local
+2111904;MA;Sucupira do Norte;Centro Local
+2103901;MA;Duque Bacelar;Centro Local
+2911501;BA;Gongogi;Centro Local
+4323705;RS;Vista Gaúcha;Centro Local
+5206503;GO;Cromínia;Centro Local
+2900108;BA;Abaíra;Centro Local
+2403400;RN;Equador;Centro Local
+4314753;RS;Poço das Antas;Centro Local
+2708204;AL;São Brás;Centro Local
+2201606;PI;Beneditinos;Centro Local
+2405108;RN;Jandaíra;Centro Local
+4319364;RS;São Pedro das Missões;Centro Local
+2310001;CE;Palhano;Centro Local
+2705804;AL;Olho d'Água do Casado;Centro Local
+1701309;TO;Aragominas;Centro Local
+1718303;TO;Praia Norte;Centro Local
+2503803;PB;Caldas Brandão;Centro Local
+2901809;BA;Antônio Gonçalves;Centro Local
+2803708;SE;Macambira;Centro Local
+3163508;MG;São José do Jacuri;Centro Local
+3146701;MG;Palma;Centro Local
+2204204;PI;Francisco Santos;Centro Local
+3162575;MG;São João do Manteninha;Centro Local
+3551207;SP;Sarutaiá;Centro Local
+3126505;MG;Francisco Badaró;Centro Local
+1506401;PA;Santa Cruz do Arari;Centro Local
+2407005;RN;Luís Gomes;Centro Local
+3552007;SP;Silveiras;Centro Local
+2515401;PB;São Vicente do Seridó;Centro Local
+4103404;PR;Cafeara;Centro Local
+4321626;RS;Travesseiro;Centro Local
+3146255;MG;Padre Carvalho;Centro Local
+2208650;PI;Queimada Nova;Centro Local
+2407609;RN;Messias Targino;Centro Local
+2806404;SE;Santana do São Francisco;Centro Local
+3116506;MG;Claro dos Poções;Centro Local
+2200608;PI;Arranjo Populacional de Angical do Piauí/PI;Centro Local
+4202081;SC;Bandeirante;Centro Local
+5107750;MT;Salto do Céu;Centro Local
+2615201;PE;Terra Nova;Centro Local
+4310702;RS;Itatiba do Sul;Centro Local
+2111748;MA;Senador Alexandre Costa;Centro Local
+4110052;PR;Iguatu;Centro Local
+2100402;MA;Altamira do Maranhão;Centro Local
+2102150;MA;Brejo de Areia;Centro Local
+2616100;PE;Verdejante;Centro Local
+2405306;RN;Januário Cicco;Centro Local
+2706604;AL;Paulo Jacinto;Centro Local
+4312443;RS;Morrinhos do Sul;Centro Local
+4106555;PR;Corumbataí do Sul;Centro Local
+2903102;BA;Barra do Rocha;Centro Local
+2104651;MA;Governador Newton Bello;Centro Local
+4304697;RS;Capitão;Centro Local
+2901502;BA;Anguera;Centro Local
+1705557;TO;Combinado;Centro Local
+2111789;MA;Serrano do Maranhão;Centro Local
+2706422;AL;Pariconha;Centro Local
+4120200;PR;Porto Rico;Centro Local
+1600550;AP;Pracuúba;Centro Local
+2509503;PB;Montadas;Centro Local
+5213772;GO;Montividiu do Norte;Centro Local
+1705102;TO;Chapada da Natividade;Centro Local
+3156106;MG;Ritápolis;Centro Local
+2906105;BA;Canápolis;Centro Local
+3547106;SP;Santa Mercedes;Centro Local
+2514404;PB;São José de Espinharas;Centro Local
+2306207;CE;Itaiçaba;Centro Local
+1200435;AC;Santa Rosa do Purus;Centro Local
+2804706;SE;Nossa Senhora de Lourdes;Centro Local
+2107209;MA;Nina Rodrigues;Centro Local
+3171071;MG;Veredinha;Centro Local
+5106174;MT;Nova Nazaré;Centro Local
+2805208;SE;Pinhão;Centro Local
+3167004;MG;Arranjo Populacional de Serranos - Seritinga/MG;Centro Local
+3548401;SP;Santópolis do Aguapeí;Centro Local
+3507456;SP;Borebi;Centro Local
+2915908;BA;Itanagra;Centro Local
+2107001;MA;Montes Altos;Centro Local
+4117297;PR;Novo Itacolomi;Centro Local
+4322376;RS;Unistalda;Centro Local
+1716307;TO;Pau D'Arco;Centro Local
+3120870;MG;Curral de Dentro;Centro Local
+1707553;TO;Fátima;Centro Local
+5208103;GO;Formoso;Centro Local
+2802601;SE;Gracho Cardoso;Centro Local
+5104500;MT;Indiavaí;Centro Local
+2921609;BA;Morpará;Centro Local
+2110237;MA;Santana do Maranhão;Centro Local
+3161403;MG;São Francisco do Glória;Centro Local
+2410900;RN;Riachuelo;Centro Local
+5108352;MT;Vale de São Domingos;Centro Local
+4205555;SC;Frei Rogério;Centro Local
+2502706;PB;Borborema;Centro Local
+1505601;PA;Peixe-Boi;Centro Local
+2511608;PB;Pilões;Centro Local
+4210555;SC;Marema;Centro Local
+2505402;PB;Desterro;Centro Local
+5106273;MT;Novo Horizonte do Norte;Centro Local
+2903300;BA;Barro Preto;Centro Local
+5103809;MT;Figueirópolis D'Oeste;Centro Local
+4318051;RS;São Domingos do Sul;Centro Local
+5206602;GO;Cumari;Centro Local
+2501575;PB;Barra de Santana;Centro Local
+4322343;RS;Ubiretama;Centro Local
+3159001;MG;Santana do Riacho;Centro Local
+4201109;SC;Anitápolis;Centro Local
+2206696;PI;Murici dos Portelas;Centro Local
+3115003;MG;Cascalho Rico;Centro Local
+2921450;BA;Mirante;Centro Local
+2300507;CE;Alcântaras;Centro Local
+2203230;PI;Currais;Centro Local
+1718758;TO;Rio Sono;Centro Local
+3150109;MG;Piau;Centro Local
+3516507;SP;Gabriel Monteiro;Centro Local
+3121308;MG;Descoberto;Centro Local
+3543501;SP;Riversul;Centro Local
+2925931;BA;Quixabeira;Centro Local
+4319737;RS;São Valério do Sul;Centro Local
+5210562;GO;Itaguari;Centro Local
+2502003;PB;Belém do Brejo do Cruz;Centro Local
+2407302;RN;Marcelino Vieira;Centro Local
+3110103;MG;Caiana;Centro Local
+1302108;AM;Japurá;Centro Local
+2924900;BA;Planaltino;Centro Local
+5214101;GO;Mutunópolis;Centro Local
+1712702;TO;Mateiros;Centro Local
+3150570;MG;Pintópolis;Centro Local
+3129400;MG;Ibertioga;Centro Local
+4219150;SC;Vargem;Centro Local
+4122107;PR;Rio Bom;Centro Local
+2918902;BA;Lajedão;Centro Local
+4118303;PR;Paranapoema;Centro Local
+2616183;PE;Vertente do Lério;Centro Local
+2910305;BA;Elísio Medrado;Centro Local
+4306759;RS;Doutor Ricardo;Centro Local
+5215207;GO;Novo Brasil;Centro Local
+2208700;PI;Redenção do Gurguéia;Centro Local
+3138658;MG;Lontra;Centro Local
+3165578;MG;Senador Amaral;Centro Local
+4128302;PR;Uniflor;Centro Local
+4310413;RS;Inhacorá;Centro Local
+2507408;PB;Jericó;Centro Local
+5208301;GO;Divinópolis de Goiás;Centro Local
+3125606;MG;Felisburgo;Centro Local
+3120607;MG;Crucilândia;Centro Local
+4215752;SC;São Bernardino;Centro Local
+1101476;RO;Primavera de Rondônia;Centro Local
+3532108;SP;Murutinga do Sul;Centro Local
+2413003;RN;São Vicente;Centro Local
+3140555;MG;Mata Verde;Centro Local
+3144672;MG;Nova Belém;Centro Local
+2406601;RN;Lagoa Salgada;Centro Local
+2612109;PE;Salgadinho;Centro Local
+4316428;RS;Sagrada Família;Centro Local
+3130655;MG;Indaiabira;Centro Local
+5221908;GO;Varjão;Centro Local
+4120309;PR;Porto Vitória;Centro Local
+4314555;RS;Pirapó;Centro Local
+3132008;MG;Itacambira;Centro Local
+4211892;SC;Painel;Centro Local
+1712009;TO;Lajeado;Centro Local
+2802205;SE;Feira Nova;Centro Local
+2515005;PB;São Miguel de Taipu;Centro Local
+4204152;SC;Celso Ramos;Centro Local
+4318614;RS;São José do Sul;Centro Local
+2202059;PI;Cabeceiras do Piauí;Centro Local
+3164100;MG;São Pedro do Suaçuí;Centro Local
+3127388;MG;Goianá;Centro Local
+2506251;PB;Gado Bravo;Centro Local
+2109304;MA;Presidente Vargas;Centro Local
+2401651;RN;Bodó;Centro Local
+3135357;MG;Japonvar;Centro Local
+4315057;RS;Porto Mauá;Centro Local
+4321832;RS;Três Forquilhas;Centro Local
+3130556;MG;Imbé de Minas;Centro Local
+3526308;SP;Lagoinha;Centro Local
+3165503;MG;Sardoá;Centro Local
+2914208;BA;Irajuba;Centro Local
+2503902;PB;Camalaú;Centro Local
+2507606;PB;Juarez Távora;Centro Local
+3141504;MG;Mendes Pimentel;Centro Local
+3127404;MG;Gonçalves;Centro Local
+4218855;SC;União do Oeste;Centro Local
+4318457;RS;São José das Missões;Centro Local
+4311643;RS;Linha Nova;Centro Local
+2103109;MA;Cedral;Centro Local
+3146404;MG;Paineiras;Centro Local
+3111705;MG;Canaã;Centro Local
+3149606;MG;Pequi;Centro Local
+2900504;BA;Érico Cardoso;Centro Local
+3544400;SP;Rubiácea;Centro Local
+2505006;PB;Cubati;Centro Local
+2918605;BA;Jussiape;Centro Local
+4108106;PR;Flórida;Centro Local
+5221007;GO;Taquaral de Goiás;Centro Local
+2201408;PI;Barro Duro;Centro Local
+4312351;RS;Montauri;Centro Local
+1710706;TO;Itaguatins;Centro Local
+2606705;PE;Ibirajuba;Centro Local
+2701357;AL;Campestre;Centro Local
+3117009;MG;Comercinho;Centro Local
+2928307;BA;Santanópolis;Centro Local
+3170479;MG;Uruana de Minas;Centro Local
+5219605;GO;Santa Tereza de Goiás;Centro Local
+2206803;PI;Nossa Senhora dos Remédios;Centro Local
+5212600;GO;Mairipotaba;Centro Local
+2907558;BA;Caturama;Centro Local
+2101970;MA;Boa Vista do Gurupi;Centro Local
+2405009;RN;Jaçanã;Centro Local
+4306072;RS;Cristal do Sul;Centro Local
+2606309;PE;Granito;Centro Local
+5202601;GO;Aurilândia;Centro Local
+4210050;SC;Macieira;Centro Local
+2920304;BA;Malhada de Pedras;Centro Local
+2210656;PI;Sigefredo Pacheco;Centro Local
+5106851;MT;Porto Estrela;Centro Local
+2105450;MA;Jatobá;Centro Local
+3538303;SP;Piquerobi;Centro Local
+4302378;RS;Bom Progresso;Centro Local
+3142304;MG;Moeda;Centro Local
+3169059;MG;Tocos do Moji;Centro Local
+4322558;RS;Vanini;Centro Local
+3114709;MG;Carvalhópolis;Centro Local
+2205607;PI;Landri Sales;Centro Local
+3530003;SP;Mira Estrela;Centro Local
+3170578;MG;Vargem Alegre;Centro Local
+4215901;SC;São Bonifácio;Centro Local
+2900900;BA;Almadina;Centro Local
+3159407;MG;Santa Rita de Ibitipoca;Centro Local
+2504504;PB;Condado;Centro Local
+4322350;RS;União da Serra;Centro Local
+1703073;TO;Barra do Ouro;Centro Local
+2911659;BA;Guajeru;Centro Local
+3126802;MG;Frei Gaspar;Centro Local
+2504033;PB;Capim;Centro Local
+2305100;CE;Guaramiranga;Centro Local
+3515905;SP;Floreal;Centro Local
+5209804;GO;Hidrolina;Centro Local
+2405207;RN;Janduís;Centro Local
+2514206;PB;São José da Lagoa Tapada;Centro Local
+4213153;SC;Planalto Alegre;Centro Local
+3159308;MG;Santa Rita de Jacutinga;Centro Local
+2927804;BA;Santa Cruz da Vitória;Centro Local
+2504157;PB;Casserengue;Centro Local
+4114351;PR;Manfrinópolis;Centro Local
+2515906;PB;Serraria;Centro Local
+5200902;GO;Amorinópolis;Centro Local
+3123403;MG;Doresópolis;Centro Local
+3133907;MG;Itaverava;Centro Local
+3171154;MG;Vermelho Novo;Centro Local
+2205557;PI;Lagoa Alegre;Centro Local
+4109104;PR;Guaporema;Centro Local
+2510006;PB;Nazarezinho;Centro Local
+4110300;PR;Inajá;Centro Local
+2406304;RN;Lagoa de Pedras;Centro Local
+4312179;RS;Mato Queimado;Centro Local
+3555307;SP;Turmalina;Centro Local
+2410207;RN;Portalegre;Centro Local
+2412708;RN;São Pedro;Centro Local
+1718451;TO;Pugmil;Centro Local
+2906402;BA;Candeal;Centro Local
+5210158;GO;Ipiranga de Goiás;Centro Local
+4323606;RS;Vista Alegre do Prata;Centro Local
+2919009;BA;Lajedinho;Centro Local
+4308250;RS;Floriano Peixoto;Centro Local
+3120151;MG;Crisólita;Centro Local
+3103603;MG;Arantina;Centro Local
+2210938;PI;Sussuapara;Centro Local
+1711506;TO;Jaú do Tocantins;Centro Local
+2508505;PB;Livramento;Centro Local
+4309571;RS;Herveiras;Centro Local
+3527504;SP;Lucianópolis;Centro Local
+2313252;CE;Tarrafas;Centro Local
+4214102;SC;Presidente Nereu;Centro Local
+3164472;MG;São Sebastião do Anta;Centro Local
+4209177;SC;Jupiá;Centro Local
+4306924;RS;Engenho Velho;Centro Local
+2607406;PE;Itacuruba;Centro Local
+2515807;PB;Serra Redonda;Centro Local
+2602506;PE;Brejinho;Centro Local
+2203453;PI;Dom Inocêncio;Centro Local
+1710904;TO;Itapiratins;Centro Local
+3156502;MG;Rubelita;Centro Local
+3122207;MG;Divinolândia de Minas;Centro Local
+2909000;BA;Cordeiros;Centro Local
+4313441;RS;Novo Tiradentes;Centro Local
+2701803;AL;Carneiros;Centro Local
+2923308;BA;Ouriçangas;Centro Local
+2705408;AL;Monteirópolis;Centro Local
+2509156;PB;Marizópolis;Centro Local
+3122504;MG;Dom Cavati;Centro Local
+2505238;PB;Cuité de Mamanguape;Centro Local
+3130804;MG;Ingaí;Centro Local
+2903953;BA;Bom Jesus da Serra;Centro Local
+2200459;PI;Alvorada do Gurguéia;Centro Local
+2104081;MA;Fernando Falcão;Centro Local
+2505204;PB;Cuitegi;Centro Local
+3106101;MG;Belmiro Braga;Centro Local
+4314787;RS;Ponte Preta;Centro Local
+2207207;PI;Padre Marcos;Centro Local
+3527801;SP;Lupércio;Centro Local
+3163409;MG;São José do Goiabal;Centro Local
+4107124;PR;Diamante do Sul;Centro Local
+4319711;RS;São Valentim do Sul;Centro Local
+2801603;SE;Cedro de São João;Centro Local
+4311239;RS;Lagoa Bonita do Sul;Centro Local
+5201603;GO;Araçu;Centro Local
+4305157;RS;Cerro Grande;Centro Local
+2615102;PE;Terezinha;Centro Local
+4314548;RS;Pinto Bandeira;Centro Local
+4315172;RS;Protásio Alves;Centro Local
+4205431;SC;Formosa do Sul;Centro Local
+3135076;MG;Jampruca;Centro Local
+4313466;RS;Novo Xingu;Centro Local
+3129905;MG;Ibitiúra de Minas;Centro Local
+2300804;CE;Antonina do Norte;Centro Local
+2102408;MA;Cajapió;Centro Local
+2409704;RN;Pedro Avelino;Centro Local
+2803104;SE;Itabi;Centro Local
+2202752;PI;Colônia do Gurguéia;Centro Local
+4320651;RS;Silveira Martins;Centro Local
+2412104;RN;São João do Sabugi;Centro Local
+2504355;PB;Caturité;Centro Local
+2304277;CE;Ererê;Centro Local
+4205175;SC;Entre Rios;Centro Local
+2923050;BA;Novo Triunfo;Centro Local
+2501203;PB;Areial;Centro Local
+2918555;BA;Jussari;Centro Local
+5200829;GO;Amaralina;Centro Local
+2409332;RN;Santa Maria;Centro Local
+3525805;SP;Júlio Mesquita;Centro Local
+3159704;MG;Santa Rosa da Serra;Centro Local
+2803807;SE;Malhada dos Bois;Centro Local
+3121001;MG;Datas;Centro Local
+3156452;MG;Rosário da Limeira;Centro Local
+3143450;MG;Montezuma;Centro Local
+3164431;MG;São Sebastião da Vargem Alegre;Centro Local
+3122470;MG;Dom Bosco;Centro Local
+3107208;MG;Bocaina de Minas;Centro Local
+3136553;MG;José Raydan;Centro Local
+2111573;MA;São Pedro dos Crentes;Centro Local
+3160454;MG;Santo Antônio do Retiro;Centro Local
+3169505;MG;Tumiritinga;Centro Local
+2513604;PB;Santana dos Garrotes;Centro Local
+2301505;CE;Arneiroz;Centro Local
+2502607;PB;Igaracy;Centro Local
+1705607;TO;Conceição do Tocantins;Centro Local
+2403202;RN;Doutor Severiano;Centro Local
+1718402;TO;Presidente Kennedy;Centro Local
+2202133;PI;Campo Grande do Piauí;Centro Local
+5218391;GO;Professor Jamil;Centro Local
+2106359;MA;Marajá do Sena;Centro Local
+3157302;MG;Santa Bárbara do Tugúrio;Centro Local
+3529658;SP;Mesópolis;Centro Local
+4301925;RS;Barra do Rio Azul;Centro Local
+3114808;MG;Carvalhos;Centro Local
+2513208;PB;Santa Cruz;Centro Local
+4125555;PR;São Manoel do Paraná;Centro Local
+2207405;PI;Palmeira do Piauí;Centro Local
+3167905;MG;Tabuleiro;Centro Local
+4310579;RS;Itapuca;Centro Local
+5207105;GO;Diorama;Centro Local
+3138682;MG;Luislândia;Centro Local
+2202778;PI;Colônia do Piauí;Centro Local
+3123858;MG;Entre Folhas;Centro Local
+4215059;SC;Rio Rufino;Centro Local
+1715002;TO;Nova Rosalândia;Centro Local
+5204656;GO;Campinaçu;Centro Local
+3127206;MG;Funilândia;Centro Local
+2311231;CE;Potiretama;Centro Local
+3136959;MG;Juvenília;Centro Local
+2900603;BA;Aiquara;Centro Local
+4310751;RS;Ivorá;Centro Local
+4210852;SC;Mirim Doce;Centro Local
+2101939;MA;Bernardo do Mearim;Centro Local
+4202156;SC;Belmonte;Centro Local
+3501400;SP;Álvaro de Carvalho;Centro Local
+2206506;PI;Monsenhor Hipólito;Centro Local
+2204907;PI;Isaías Coelho;Centro Local
+3123502;MG;Douradoquara;Centro Local
+3167707;MG;Sobrália;Centro Local
+4311429;RS;Lajeado do Bugre;Centro Local
+2505600;PB;Diamante;Centro Local
+1718899;TO;Santa Rita do Tocantins;Centro Local
+4306551;RS;Dom Pedro de Alcântara;Centro Local
+3507159;SP;Bom Sucesso de Itararé;Centro Local
+2503555;PB;Cacimbas;Centro Local
+4312625;RS;Muliterno;Centro Local
+1717206;TO;Piraquê;Centro Local
+2104628;MA;Governador Luiz Rocha;Centro Local
+2310951;CE;Pires Ferreira;Centro Local
+3145802;MG;Onça de Pitangui;Centro Local
+4315453;RS;Relvado;Centro Local
+2919108;BA;Lamarão;Centro Local
+2513158;PB;Santa Cecília;Centro Local
+4204459;SC;Coronel Martins;Centro Local
+2611533;PE;Quixaba;Centro Local
+2203008;PI;Cristalândia do Piauí;Centro Local
+4200754;SC;Alto Bela Vista;Centro Local
+3554607;SP;Timburi;Centro Local
+3117836;MG;Cônego Marinho;Centro Local
+4318465;RS;São José do Herval;Centro Local
+5204607;GO;Campestre de Goiás;Centro Local
+3125309;MG;Faria Lemos;Centro Local
+2100550;MA;Amapá do Maranhão;Centro Local
+4312005;RS;Mariano Moro;Centro Local
+2922201;BA;Muniz Ferreira;Centro Local
+2929354;BA;São José da Vitória;Centro Local
+1717008;TO;Pindorama do Tocantins;Centro Local
+3515657;SP;Fernão;Centro Local
+3549607;SP;São José do Barreiro;Centro Local
+3549300;SP;São João do Pau d'Alho;Centro Local
+2504702;PB;Congo;Centro Local
+5214804;GO;Nova Aurora;Centro Local
+2406205;RN;Lagoa d'Anta;Centro Local
+1506906;PA;Santarém Novo;Centro Local
+2931103;BA;Tanquinho;Centro Local
+2910776;BA;Feira da Mata;Centro Local
+1720101;TO;São Bento do Tocantins;Centro Local
+3117207;MG;Conceição das Pedras;Centro Local
+3168309;MG;Taquaraçu de Minas;Centro Local
+4213906;SC;Presidente Castello Branco;Centro Local
+2201960;PI;Brasileira;Centro Local
+3122108;MG;Divino das Laranjeiras;Centro Local
+2703403;AL;Jacaré dos Homens;Centro Local
+3140209;MG;Maripá de Minas;Centro Local
+2502904;PB;Brejo dos Santos;Centro Local
+4119251;PR;Pinhal de São Bento;Centro Local
+3171907;MG;Virgolândia;Centro Local
+2107258;MA;Nova Colinas;Centro Local
+3144375;MG;Natalândia;Centro Local
+4206751;SC;Ibiam;Centro Local
+2202091;PI;Caldeirão Grande do Piauí;Centro Local
+3153707;MG;Quartel Geral;Centro Local
+3555901;SP;Uru;Centro Local
+2508802;PB;Malta;Centro Local
+3110400;MG;Camacho;Centro Local
+2411809;RN;São Fernando;Centro Local
+1700251;TO;Abreulândia;Centro Local
+2109239;MA;Presidente Médici;Centro Local
+2922854;BA;Nova Redenção;Centro Local
+2513307;PB;Santa Helena;Centro Local
+3146750;MG;Palmópolis;Centro Local
+3102407;MG;Alvorada de Minas;Centro Local
+2509396;PB;Maturéia;Centro Local
+4215604;SC;Santa Rosa de Lima;Centro Local
+2709004;AL;Tanque d'Arca;Centro Local
+3501509;SP;Alvinlândia;Centro Local
+3153103;MG;Presidente Bernardes;Centro Local
+3112059;MG;Cantagalo;Centro Local
+2201705;PI;Bertolínia;Centro Local
+2313708;CE;Umari;Centro Local
+5220058;GO;São João da Paraúna;Centro Local
+4215687;SC;Santa Terezinha do Progresso;Centro Local
+3549003;SP;São Francisco;Centro Local
+3102506;MG;Amparo do Serra;Centro Local
+3168200;MG;Tapiraí;Centro Local
+2404903;RN;Itaú;Centro Local
+3112208;MG;Capela Nova;Centro Local
+2503100;PB;Cabaceiras;Centro Local
+3139250;MG;Mamonas;Centro Local
+3116308;MG;Cipotânea;Centro Local
+3115201;MG;Conceição da Barra de Minas;Centro Local
+3148400;MG;Paulistas;Centro Local
+2205854;PI;Madeiro;Centro Local
+3138351;MG;Leme do Prado;Centro Local
+2209104;PI;Santa Cruz do Piauí;Centro Local
+3135456;MG;Jenipapo de Minas;Centro Local
+4210209;SC;Major Gercino;Centro Local
+3146206;MG;Ouro Verde de Minas;Centro Local
+2919959;BA;Maetinga;Centro Local
+2506608;PB;Ibiara;Centro Local
+3126604;MG;Francisco Dumont;Centro Local
+2705903;AL;Olho d'Água Grande;Centro Local
+5202809;GO;Avelinópolis;Centro Local
+1717800;TO;Ponte Alta do Bom Jesus;Centro Local
+2209401;PI;Santo Antônio de Lisboa;Centro Local
+2513802;PB;Santa Teresinha;Centro Local
+3127503;MG;Gonzaga;Centro Local
+2206704;PI;Nazaré do Piauí;Centro Local
+2200806;PI;Antônio Almeida;Centro Local
+3108503;MG;Botumirim;Centro Local
+5214903;GO;Nova Roma;Centro Local
+2200251;PI;Alagoinha do Piauí;Centro Local
+5212006;GO;Jaupaci;Centro Local
+5209457;GO;Guarinos;Centro Local
+5210307;GO;Israelândia;Centro Local
+3105509;MG;Barão de Monte Alto;Centro Local
+4208955;SC;Jardinópolis;Centro Local
+2806503;SE;Santa Rosa de Lima;Centro Local
+2202026;PI;Buriti dos Montes;Centro Local
+4322186;RS;Tupanci do Sul;Centro Local
+4210704;SC;Matos Costa;Centro Local
+5209606;GO;Heitoraí;Centro Local
+2210201;PI;São José do Piauí;Centro Local
+3157401;MG;Santa Cruz do Escalvado;Centro Local
+4124202;PR;Santo Antônio do Caiuá;Centro Local
+3153202;MG;Presidente Juscelino;Centro Local
+1714302;TO;Nazaré;Centro Local
+3103207;MG;Araçaí;Centro Local
+2510402;PB;Olho d'Água;Centro Local
+2300606;CE;Altaneira;Centro Local
+5221452;GO;Trombas;Centro Local
+3105202;MG;Bandeira;Centro Local
+3132602;MG;Itamarati de Minas;Centro Local
+2209708;PI;São Francisco do Piauí;Centro Local
+2106672;MA;Milagres do Maranhão;Centro Local
+3555703;SP;União Paulista;Centro Local
+5205703;GO;Córrego do Ouro;Centro Local
+3145372;MG;Novorizonte;Centro Local
+3170602;MG;Vargem Bonita;Centro Local
+3106655;MG;Berizal;Centro Local
+2501708;PB;Barra de São Miguel;Centro Local
+4107520;PR;Esperança Nova;Centro Local
+3112653;MG;Capitão Andrade;Centro Local
+4309126;RS;Gramado dos Loureiros;Centro Local
+2910909;BA;Firmino Alves;Centro Local
+2801108;SE;Canhoba;Centro Local
+2703908;AL;Jundiá;Centro Local
+2514453;PB;São José dos Ramos;Centro Local
+2500205;PB;Aguiar;Centro Local
+5209408;GO;Guarani de Goiás;Centro Local
+2209971;PI;São João do Arraial;Centro Local
+2304608;CE;General Sampaio;Centro Local
+5207501;GO;Estrela do Norte;Centro Local
+3141702;MG;Mesquita;Centro Local
+1718881;TO;Santa Maria do Tocantins;Centro Local
+3158409;MG;Santana de Cataguases;Centro Local
+1718550;TO;Riachinho;Centro Local
+3140605;MG;Materlândia;Centro Local
+3120102;MG;Couto de Magalhães de Minas;Centro Local
+1701051;TO;Angico;Centro Local
+5221577;GO;Uirapuru;Centro Local
+2408508;RN;Ouro Branco;Centro Local
+2210631;PI;Sebastião Leal;Centro Local
+3521200;SP;Iporanga;Centro Local
+3125408;MG;Felício dos Santos;Centro Local
+2201051;PI;Assunção do Piauí;Centro Local
+2512200;PB;Prata;Centro Local
+3150208;MG;Piedade de Ponte Nova;Centro Local
+4108551;PR;Godoy Moreira;Centro Local
+2406007;RN;José da Penha;Centro Local
+2705309;AL;Minador do Negrão;Centro Local
+5200209;GO;Água Limpa;Centro Local
+5107297;MT;São José do Povo;Centro Local
+2703700;AL;Jaramataia;Centro Local
+2509339;PB;Matinhas;Centro Local
+3120839;MG;Cuparaque;Centro Local
+2201770;PI;Boa Hora;Centro Local
+5204953;GO;Campos Verdes;Centro Local
+3147956;MG;Patis;Centro Local
+2309904;CE;Pacujá;Centro Local
+2515708;PB;Serra Grande;Centro Local
+3136405;MG;Joaquim Felício;Centro Local
+3514205;SP;Dolcinópolis;Centro Local
+2103125;MA;Central do Maranhão;Centro Local
+3554755;SP;Trabiju;Centro Local
+2200905;PI;Aroazes;Centro Local
+4304614;RS;Canudos do Vale;Centro Local
+3122603;MG;Dom Joaquim;Centro Local
+3137304;MG;Lagoa dos Patos;Centro Local
+3162252;MG;São João da Lagoa;Centro Local
+2510204;PB;Nova Olinda;Centro Local
+2201739;PI;Betânia do Piauí;Centro Local
+2209906;PI;São João da Serra;Centro Local
+4202578;SC;Bom Jesus do Oeste;Centro Local
+2111250;MA;São José dos Basílios;Centro Local
+3123304;MG;Dores do Turvo;Centro Local
+5219506;GO;Santa Rosa de Goiás;Centro Local
+2312809;CE;Senador Sá;Centro Local
+2208874;PI;Ribeira do Piauí;Centro Local
+4123600;PR;Santa Inês;Centro Local
+2200053;PI;Acauã;Centro Local
+3160009;MG;Santo Antônio do Aventureiro;Centro Local
+3171402;MG;Vieiras;Centro Local
+2210052;PI;São José do Divino;Centro Local
+2603405;PE;Calumbi;Centro Local
+2206670;PI;Morro do Chapéu do Piauí;Centro Local
+2515930;PB;Sertãozinho;Centro Local
+1715101;TO;Novo Acordo;Centro Local
+1711100;TO;Itaporã do Tocantins;Centro Local
+1720309;TO;São Sebastião do Tocantins;Centro Local
+2210300;PI;São Julião;Centro Local
+2301802;CE;Baixio;Centro Local
+2514701;PB;São José do Sabugi;Centro Local
+3136801;MG;Juramento;Centro Local
+2202653;PI;Caxingó;Centro Local
+4315131;RS;Pouso Novo;Centro Local
+1718501;TO;Recursolândia;Centro Local
+2207777;PI;Patos do Piauí;Centro Local
+3121902;MG;Divinésia;Centro Local
+3149507;MG;Pequeri;Centro Local
+2101731;MA;Belágua;Centro Local
+2209302;PI;Santa Luz;Centro Local
+1702703;TO;Aurora do Tocantins;Centro Local
+2513927;PB;São Bentinho;Centro Local
+3157658;MG;Santa Helena de Minas;Centro Local
+1713957;TO;Muricilândia;Centro Local
+5213053;GO;Mimoso de Goiás;Centro Local
+2514008;PB;São João do Cariri;Centro Local
+3117405;MG;Conceição de Ipanema;Centro Local
+2209005;PI;Rio Grande do Piauí;Centro Local
+2413102;RN;Senador Elói de Souza;Centro Local
+3146552;MG;Pai Pedro;Centro Local
+2402808;RN;Coronel Ezequiel;Centro Local
+2201919;PI;Bom Princípio do Piauí;Centro Local
+3532868;SP;Nova Castilho;Centro Local
+2909505;BA;Cravolândia;Centro Local
+2205300;PI;Jerumenha;Centro Local
+2206902;PI;Novo Oriente do Piauí;Centro Local
+3170651;MG;Vargem Grande do Rio Pardo;Centro Local
+3150000;MG;Pescador;Centro Local
+3544707;SP;Sagres;Centro Local
+2202802;PI;Conceição do Canindé;Centro Local
+5205521;GO;Colinas do Sul;Centro Local
+2109759;MA;Santa Filomena do Maranhão;Centro Local
+2203602;PI;Eliseu Martins;Centro Local
+2512762;PB;Riachão do Poço;Centro Local
+3127339;MG;Gameleiras;Centro Local
+4204756;SC;Cunhataí;Centro Local
+3144904;MG;Nova Módica;Centro Local
+2505279;PB;Curral de Cima;Centro Local
+3145505;MG;Olímpio Noronha;Centro Local
+3120300;MG;Cristália;Centro Local
+4205357;SC;Flor do Sertão;Centro Local
+2401602;RN;Bento Fernandes;Centro Local
+2919900;BA;Macururé;Centro Local
+2202539;PI;Caraúbas do Piauí;Centro Local
+3162302;MG;São João da Mata;Centro Local
+2403301;RN;Encanto;Centro Local
+1507466;PA;São João da Ponta;Centro Local
+4116000;PR;Miraselva;Centro Local
+2202729;PI;Cocal dos Alves;Centro Local
+2514305;PB;São José de Caiana;Centro Local
+3115474;MG;Catuti;Centro Local
+3157278;MG;Santa Bárbara do Monte Verde;Centro Local
+3543238;SP;Ribeirão dos Índios;Centro Local
+3119609;MG;Coronel Pacheco;Centro Local
+3125200;MG;Fama;Centro Local
+3110806;MG;Campanário;Centro Local
+2413300;RN;Serra de São Bento;Centro Local
+3129657;MG;Ibiracatu;Centro Local
+3553658;SP;Taquaral;Centro Local
+2410504;RN;Rafael Fernandes;Centro Local
+2112274;MA;Tufilândia;Centro Local
+2924108;BA;Pedrão;Centro Local
+3161650;MG;São Geraldo do Baixio;Centro Local
+3140100;MG;Marilac;Centro Local
+2504207;PB;Catingueira;Centro Local
+2406809;RN;Lajes Pintadas;Centro Local
+2206357;PI;Milton Brandão;Centro Local
+1703602;TO;Brasilândia do Tocantins;Centro Local
+2202109;PI;Campinas do Piauí;Centro Local
+2202174;PI;Campo Largo do Piauí;Centro Local
+2205516;PI;Juazeiro do Piauí;Centro Local
+3155108;MG;Rio do Prado;Centro Local
+3163300;MG;São José do Divino;Centro Local
+4207858;SC;Irati;Centro Local
+2413706;RN;Sítio Novo;Centro Local
+2111953;MA;Sucupira do Riachão;Centro Local
+3155207;MG;Rio Espera;Centro Local
+1706258;TO;Crixás do Tocantins;Centro Local
+4320453;RS;Sério;Centro Local
+2414456;RN;Triunfo Potiguar;Centro Local
+2105658;MA;Junco do Maranhão;Centro Local
+2205581;PI;Lagoa do Piauí;Centro Local
+3555208;SP;Turiúba;Centro Local
+3107000;MG;Biquinhas;Centro Local
+2512754;PB;Riachão do Bacamarte;Centro Local
+2505352;PB;Damião;Centro Local
+3158102;MG;Santa Maria do Salto;Centro Local
+2500536;PB;Alcantil;Centro Local
+1713700;TO;Monte Santo do Tocantins;Centro Local
+3160603;MG;Santo Hipólito;Centro Local
+2104701;MA;Graça Aranha;Centro Local
+2502102;PB;Boa Ventura;Centro Local
+2614402;PE;Solidão;Centro Local
+4306353;RS;Dezesseis de Novembro;Centro Local
+3128253;MG;Guaraciama;Centro Local
+2510303;PB;Nova Palmeira;Centro Local
+2411429;RN;Santana do Seridó;Centro Local
+5200506;GO;Aloândia;Centro Local
+2110807;MA;São Félix de Balsas;Centro Local
+2414704;RN;Várzea;Centro Local
+3118106;MG;Congonhas do Norte;Centro Local
+2807006;SE;São Miguel do Aleixo;Centro Local
+2209872;PI;São João da Fronteira;Centro Local
+2913309;BA;Ichu;Centro Local
+4202099;SC;Barra Bonita;Centro Local
+2413607;RN;Severiano Melo;Centro Local
+3163003;MG;São José da Safira;Centro Local
+2209658;PI;São Francisco de Assis do Piauí;Centro Local
+2517209;PB;Vieirópolis;Centro Local
+2111672;MA;São Roberto;Centro Local
+2801900;SE;Cumbe;Centro Local
+3152131;MG;Ponto Chique;Centro Local
+2205151;PI;Jacobina do Piauí;Centro Local
+5107156;MT;Reserva do Cabaçal;Centro Local
+2205904;PI;Manoel Emídio;Centro Local
+3136579;MG;Josenópolis;Centro Local
+3165909;MG;Senador Modestino Gonçalves;Centro Local
+4209458;SC;Lajeado Grande;Centro Local
+5212253;GO;Lagoa Santa;Centro Local
+2109056;MA;Porto Rico do Maranhão;Centro Local
+2205573;PI;Lagoa de São Francisco;Centro Local
+2205524;PI;Júlio Borges;Centro Local
+3104452;MG;Aricanduva;Centro Local
+2201945;PI;Boqueirão do Piauí;Centro Local
+3527256;SP;Lourdes;Centro Local
+2502300;PB;Bom Sucesso;Centro Local
+5212907;GO;Marzagão;Centro Local
+3503505;SP;Areias;Centro Local
+2911253;BA;Gavião;Centro Local
+3157500;MG;Santa Efigênia de Minas;Centro Local
+2512077;PB;Poço de José de Moura;Centro Local
+3130002;MG;Ibituruna;Centro Local
+3102209;MG;Alvarenga;Centro Local
+3157609;MG;Santa Fé de Minas;Centro Local
+3150539;MG;Pingo d'Água;Centro Local
+3106606;MG;Bertópolis;Centro Local
+3109600;MG;Cachoeira da Prata;Centro Local
+3127073;MG;Fruta de Leite;Centro Local
+2106201;MA;Luís Domingues;Centro Local
+3161601;MG;São Geraldo da Piedade;Centro Local
+2411908;RN;São Francisco do Oeste;Centro Local
+2513505;PB;Santana de Mangueira;Centro Local
+2402907;RN;Coronel João Pessoa;Centro Local
+2501534;PB;Baraúna;Centro Local
+5203939;GO;Buriti de Goiás;Centro Local
+2918704;BA;Lafaiete Coutinho;Centro Local
+2203354;PI;Dirceu Arcoverde;Centro Local
+2405405;RN;Japi;Centro Local
+5220702;GO;Sítio d'Abadia;Centro Local
+1718709;TO;Rio dos Bois;Centro Local
+5206800;GO;Damolândia;Centro Local
+4304853;RS;Carlos Gomes;Centro Local
+2111631;MA;São Raimundo do Doca Bezerra;Centro Local
+4317251;RS;Santa Tereza;Centro Local
+5107883;MT;Serra Nova Dourada;Centro Local
+4217956;SC;Tigrinhos;Centro Local
+3100401;MG;Acaiaca;Centro Local
+3137908;MG;Lamim;Centro Local
+3114907;MG;Casa Grande;Centro Local
+2205599;PI;Lagoa do Sítio;Centro Local
+3108701;MG;Brás Pires;Centro Local
+2700805;AL;Belém;Centro Local
+3157377;MG;Santa Cruz de Salinas;Centro Local
+4112603;PR;Jardim Olinda;Centro Local
+1718808;TO;Sampaio;Centro Local
+4211876;SC;Paial;Centro Local
+3161056;MG;São Félix de Minas;Centro Local
+3522158;SP;Itaoca;Centro Local
+5213855;GO;Morro Agudo de Goiás;Centro Local
+5214705;GO;Nova América;Centro Local
+2201929;PI;Bonfim do Piauí;Centro Local
+2206050;PI;Massapê do Piauí;Centro Local
+5220280;GO;São Patrício;Centro Local
+3159100;MG;Santana dos Montes;Centro Local
+3549201;SP;São João das Duas Pontes;Centro Local
+3515806;SP;Flora Rica;Centro Local
+2411007;RN;Rodolfo Fernandes;Centro Local
+2202554;PI;Caridade do Piauí;Centro Local
+2100105;MA;Afonso Cunha;Centro Local
+2806909;SE;São Francisco;Centro Local
+3162658;MG;São João do Pacuí;Centro Local
+5214879;GO;Nova Iguaçu de Goiás;Centro Local
+1712454;TO;Luzinópolis;Centro Local
+5106315;MT;Novo Santo Antônio;Centro Local
+2406908;RN;Lucrécia;Centro Local
+1720853;TO;Sucupira;Centro Local
+3136520;MG;José Gonçalves de Minas;Centro Local
+4305934;RS;Coronel Pilar;Centro Local
+2209377;PI;Santa Rosa do Piauí;Centro Local
+2501351;PB;Assunção;Centro Local
+2205276;PI;Jatobá do Piauí;Centro Local
+3127057;MG;Fronteira dos Vales;Centro Local
+3121506;MG;Desterro do Melo;Centro Local
+1703883;TO;Carmolândia;Centro Local
+2706208;AL;Palestina;Centro Local
+3166105;MG;Senhora do Porto;Centro Local
+3120003;MG;Córrego Novo;Centro Local
+2413557;RN;Serrinha dos Pintos;Centro Local
+1711951;TO;Lagoa do Tocantins;Centro Local
+4217154;SC;São Miguel da Boa Vista;Centro Local
+2201804;PI;Bocaina;Centro Local
+3532843;SP;Nova Canaã Paulista;Centro Local
+1703891;TO;Carrasco Bonito;Centro Local
+2908804;BA;Contendas do Sincorá;Centro Local
+5213400;GO;Moiporá;Centro Local
+2202711;PI;Cocal de Telha;Centro Local
+3126406;MG;Fortuna de Minas;Centro Local
+2207306;PI;Paes Landim;Centro Local
+2408706;RN;Paraú;Centro Local
+2200277;PI;Alegrete do Piauí;Centro Local
+2400604;RN;Almino Afonso;Centro Local
+3148806;MG;Pedra do Anta;Centro Local
+3121704;MG;Diogo de Vasconcelos;Centro Local
+3168051;MG;Taparuba;Centro Local
+3111150;MG;Campo Azul;Centro Local
+2207751;PI;Passagem Franca do Piauí;Centro Local
+3522653;SP;Itapirapuã Paulista;Centro Local
+2206001;PI;Marcos Parente;Centro Local
+2508109;PB;Lagoa;Centro Local
+2101350;MA;Bacurituba;Centro Local
+2408409;RN;Olho d'Água do Borges;Centro Local
+2509602;PB;Monte Horebe;Centro Local
+1712405;TO;Lizarda;Centro Local
+2204006;PI;Francinópolis;Centro Local
+2401909;RN;Caiçara do Rio do Vento;Centro Local
+2411700;RN;São Bento do Trairí;Centro Local
+2607109;PE;Ingazeira;Centro Local
+4305835;RS;Coqueiro Baixo;Centro Local
+2205532;PI;Jurema;Centro Local
+2203271;PI;Curral Novo do Piauí;Centro Local
+2208858;PI;Riacho Frio;Centro Local
+3125804;MG;Fernandes Tourinho;Centro Local
+2401503;RN;Barcelona;Centro Local
+3127370;MG;Goiabeira;Centro Local
+1711803;TO;Juarina;Centro Local
+2410009;RN;Pilões;Centro Local
+2107308;MA;Nova Iorque;Centro Local
+3160207;MG;Santo Antônio do Itambé;Centro Local
+1720259;TO;São Salvador do Tocantins;Centro Local
+3142502;MG;Monjolos;Centro Local
+3113107;MG;Caranaíba;Centro Local
+3142254;MG;Miravânia;Centro Local
+2201002;PI;Arraial;Centro Local
+3106804;MG;Bias Fortes;Centro Local
+3149002;MG;Pedra Dourada;Centro Local
+2510501;PB;Olivedos;Centro Local
+3171501;MG;Mathias Lobato;Centro Local
+4215695;SC;Santiago do Sul;Centro Local
+2205458;PI;Joca Marques;Centro Local
+5200159;GO;Adelândia;Centro Local
+3547650;SP;Santa Salete;Centro Local
+2304806;CE;Granjeiro;Centro Local
+3166956;MG;Serranópolis de Minas;Centro Local
+2202117;PI;Campo Alegre do Fidalgo;Centro Local
+3166501;MG;Serra Azul de Minas;Centro Local
+1712801;TO;Maurilândia do Tocantins;Centro Local
+2910206;BA;Dom Macedo Costa;Centro Local
+3143153;MG;Monte Formoso;Centro Local
+1720002;TO;Santa Terezinha do Tocantins;Centro Local
+4302055;RS;Benjamin Constant do Sul;Centro Local
+3101300;MG;Alagoa;Centro Local
+2210623;PI;Sebastião Barros;Centro Local
+2407252;RN;Major Sales;Centro Local
+2209153;PI;Santa Cruz dos Milagres;Centro Local
+3147808;MG;Passa Vinte;Centro Local
+2414753;RN;Venha-Ver;Centro Local
+2704906;AL;Mar Vermelho;Centro Local
+2210102;PI;São José do Peixe;Centro Local
+3503950;SP;Aspásia;Centro Local
+2504074;PB;Caraúbas;Centro Local
+2209807;PI;São Gonçalo do Piauí;Centro Local
+4315073;RS;Porto Vera Cruz;Centro Local
+3536570;SP;Paulistânia;Centro Local
+2514107;PB;São João do Tigre;Centro Local
+3529104;SP;Marinópolis;Centro Local
+2206753;PI;Nossa Senhora de Nazaré;Centro Local
+5206701;GO;Damianópolis;Centro Local
+3518008;SP;Guarani d'Oeste;Centro Local
+3104403;MG;Argirita;Centro Local
+2805000;SE;Pedra Mole;Centro Local
+2415008;RN;Vila Flor;Centro Local
+2204550;PI;Guaribas;Centro Local
+2411106;RN;Ruy Barbosa;Centro Local
+2203420;PI;Domingos Mourão;Centro Local
+2511004;PB;Pedra Branca;Centro Local
+3549250;SP;São João de Iracema;Centro Local
+5209291;GO;Guaraíta;Centro Local
+3124609;MG;Estrela Dalva;Centro Local
+3143708;MG;Morro do Pilar;Centro Local
+2205565;PI;Lagoa do Barro do Piauí;Centro Local
+2202851;PI;Coronel José Dias;Centro Local
+1704105;TO;Centenário;Centro Local
+2404002;RN;Frutuoso Gomes;Centro Local
+1709807;TO;Ipueiras;Centro Local
+2513984;PB;São Francisco;Centro Local
+3145703;MG;Oliveira Fortes;Centro Local
+2410801;RN;Riacho de Santana;Centro Local
+2207959;PI;Nova Santa Rita;Centro Local
+2204105;PI;Francisco Ayres;Centro Local
+2506509;PB;Gurjão;Centro Local
+2211357;PI;Várzea Branca;Centro Local
+2203800;PI;Flores do Piauí;Centro Local
+3122801;MG;Dom Viçoso;Centro Local
+2508703;PB;Mãe d'Água;Centro Local
+3155009;MG;Rio Doce;Centro Local
+1718006;TO;Porto Alegre do Tocantins;Centro Local
+2209856;PI;São João da Canabrava;Centro Local
+3170305;MG;Umburatiba;Centro Local
+2209351;PI;Santana do Piauí;Centro Local
+2505501;PB;Vista Serrana;Centro Local
+5221080;GO;Teresina de Goiás;Centro Local
+2510600;PB;Ouro Velho;Centro Local
+2211407;PI;Várzea Grande;Centro Local
+2406403;RN;Lagoa de Velhos;Centro Local
+2512036;PB;Poço Dantas;Centro Local
+2409209;RN;Passagem;Centro Local
+2211704;PI;Wall Ferraz;Centro Local
+2201988;PI;Brejo do Piauí;Centro Local
+2210904;PI;Socorro do Piauí;Centro Local
+2200103;PI;Agricolândia;Centro Local
+2210359;PI;São Lourenço do Piauí;Centro Local
+3144201;MG;Nacip Raydan;Centro Local
+2707008;AL;Pindoba;Centro Local
+2516151;PB;Sossêgo;Centro Local
+2408607;RN;Paraná;Centro Local
+3125507;MG;São Gonçalo do Rio Preto;Centro Local
+2211605;PI;Vila Nova do Piauí;Centro Local
+3165560;MG;Sem-Peixe;Centro Local
+2503407;PB;Cacimba de Areia;Centro Local
+2502052;PB;Bernardino Batista;Centro Local
+2505907;PB;Emas;Centro Local
+2201556;PI;Bela Vista do Piauí;Centro Local
+3140407;MG;Marmelópolis;Centro Local
+2512747;PB;Riachão;Centro Local
+3163607;MG;São José do Mantimento;Centro Local
+5105309;MT;Luciara;Centro Local
+1715259;TO;Novo Jardim;Centro Local
+3158706;MG;Santana do Garambéu;Centro Local
+2414308;RN;Timbaúba dos Batistas;Centro Local
+2406155;RN;Jundiá;Centro Local
+2515203;PB;São Sebastião do Umbuzeiro;Centro Local
+2201176;PI;Barra D'Alcântara;Centro Local
+2202455;PI;Capitão Gervásio Oliveira;Centro Local
+1721307;TO;Tupiratins;Centro Local
+2410702;RN;Riacho da Cruz;Centro Local
+3126950;MG;Frei Lagonegro;Centro Local
+1719004;TO;Santa Tereza do Tocantins;Centro Local
+2516755;PB;Tenório;Centro Local
+2503753;PB;Cajazeirinhas;Centro Local
+2209955;PI;São João da Varjota;Centro Local
+2514552;PB;São José de Princesa;Centro Local
+2209559;PI;São Braz do Piauí;Centro Local
+3165800;MG;Senador José Bento;Centro Local
+2517100;PB;Várzea;Centro Local
+2202251;PI;Canavieira;Centro Local
+2513356;PB;Santa Inês;Centro Local
+2202737;PI;Coivaras;Centro Local
+3115409;MG;Catas Altas da Noruega;Centro Local
+2410603;RN;Rafael Godeiro;Centro Local
+2209500;PI;Santo Inácio do Piauí;Centro Local
+2203750;PI;Fartura do Piauí;Centro Local
+2514800;PB;São José dos Cordeiros;Centro Local
+1715150;TO;Novo Alegre;Centro Local
+3118502;MG;Consolação;Centro Local
+3127909;MG;Grupiara;Centro Local
+1703826;TO;Cachoeirinha;Centro Local
+2912608;BA;Ibiquera;Centro Local
+2205250;PI;Jardim do Mulato;Centro Local
+2207553;PI;Paquetá;Centro Local
+3127354;MG;Glaucilândia;Centro Local
+2206654;PI;Morro Cabeça no Tempo;Centro Local
+5212055;GO;Jesúpolis;Centro Local
+2403756;RN;Fernando Pedroza;Centro Local
+2204600;PI;Hugo Napoleão;Centro Local
+2800100;SE;Amparo de São Francisco;Centro Local
+3503158;SP;Arapeí;Centro Local
+3153301;MG;Presidente Kubitschek;Centro Local
+3113800;MG;Carmésia;Centro Local
+2506202;PB;Frei Martinho;Centro Local
+2513968;PB;São Domingos;Centro Local
+2502201;PB;Bom Jesus;Centro Local
+3156205;MG;Rochedo de Minas;Centro Local
+5106703;MT;Ponte Branca;Centro Local
+2513000;PB;Salgadinho;Centro Local
+2510709;PB;Passagem;Centro Local
+5204201;GO;Cachoeira de Goiás;Centro Local
+2201572;PI;Belém do Piauí;Centro Local
+3167301;MG;Silveirânia;Centro Local
+2400406;RN;Água Nova;Centro Local
+2207355;PI;Pajeú do Piauí;Centro Local
+2514602;PB;São José do Bonfim;Centro Local
+2513653;PB;Joca Claudino;Centro Local
+2204154;PI;Francisco Macedo;Centro Local
+2203255;PI;Curralinhos;Centro Local
+2409605;RN;Pedra Preta;Centro Local
+3145406;MG;Olaria;Centro Local
+3165602;MG;Senador Cortes;Centro Local
+3132800;MG;Itambé do Mato Dentro;Centro Local
+2201309;PI;Barreiras do Piauí;Centro Local
+2508406;PB;Lastro;Centro Local
+2207850;PI;Pavussu;Centro Local
+2504108;PB;Carrapateira;Centro Local
+2413805;RN;Taboleiro Grande;Centro Local
+1720937;TO;Taipas do Tocantins;Centro Local
+2403905;RN;Francisco Dantas;Centro Local
+2202075;PI;Cajazeiras do Piauí;Centro Local
+2500577;PB;Algodão de Jandaíra;Centro Local
+2404804;RN;Ipueira;Centro Local
+2205359;PI;João Costa;Centro Local
+2209609;PI;São Félix do Piauí;Centro Local
+2405504;RN;Jardim de Angicos;Centro Local
+3554656;SP;Torre de Pedra;Centro Local
+3149408;MG;Pedro Teixeira;Centro Local
+2513851;PB;Santo André;Centro Local
+2207793;PI;Pau D'Arco do Piauí;Centro Local
+2209757;PI;São Gonçalo do Gurguéia;Centro Local
+2513943;PB;São Domingos do Cariri;Centro Local
+2509370;PB;Mato Grosso;Centro Local
+2210979;PI;Tanque do Piauí;Centro Local
+3103306;MG;Aracitaba;Centro Local
+1712157;TO;Lavandeira;Centro Local
+2500734;PB;Amparo;Centro Local
+1704600;TO;Chapada de Areia;Centro Local
+3115607;MG;Cedro do Abaeté;Centro Local
+2210391;PI;São Miguel do Fidalgo;Centro Local
+2211506;PI;Vera Mendes;Centro Local
+2208551;PI;Porto Alegre do Piauí;Centro Local
+2505303;PB;Curral Velho;Centro Local
+3103108;MG;Antônio Prado de Minas;Centro Local
+2206951;PI;Novo Santo Antônio;Centro Local
+2210953;PI;Tamboril do Piauí;Centro Local
+3160504;MG;Santo Antônio do Rio Abaixo;Centro Local
+2208601;PI;Prata do Piauí;Centro Local
+2512788;PB;Riacho de Santo Antônio;Centro Local
+3146602;MG;Paiva;Centro Local
+2207934;PI;Pedro Laurentino;Centro Local
+2517407;PB;Zabelê;Centro Local
+2514651;PB;São José do Brejo do Cruz;Centro Local
+2210383;PI;São Miguel da Baixa Grande;Centro Local
+2203859;PI;Floresta do Piauí;Centro Local
+3147501;MG;Passabém;Centro Local
+2405900;RN;João Dias;Centro Local
+2407906;RN;Monte das Gameleiras;Centro Local
+5101209;MT;Araguainha;Centro Local
+1715507;TO;Oliveira de Fátima;Centro Local
+2504850;PB;Coxixola;Centro Local
+2205540;PI;Lagoinha do Piauí;Centro Local
+3164803;MG;São Sebastião do Rio Preto;Centro Local
+1718659;TO;Rio da Conceição;Centro Local
+1720150;TO;São Félix do Tocantins;Centro Local
+3166600;MG;Serra da Saudade;Centro Local
+2510659;PB;Parari;Centro Local
+2501153;PB;Areia de Baraúnas;Centro Local
+2207108;PI;Olho D'Água do Piauí;Centro Local
+2210375;PI;São Luis do Piauí;Centro Local
+2200954;PI;Aroeiras do Itaim;Centro Local
+5201207;GO;Anhanguera;Centro Local
+2414902;RN;Viçosa;Centro Local
+2206308;PI;Miguel Leão;Centro Local
