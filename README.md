@@ -34,9 +34,9 @@ In BibTeX format:
 
 ### License
 
-All material available in this repository is licensed under the terms of the CC-BY-NC-ND 4.0 license.
+All material available in this repository is licensed under the terms of the CC-BY-NC-ND 3.0 license.
 
-<img src="logos/CC-BY-NC-ND-40.png" width="10%">
+<img src="logo/CC-BY-NC-ND-30.png" width="10%">
 
 ### Institutional support
 
