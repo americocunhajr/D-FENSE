@@ -16,7 +16,7 @@ The objectives of this initiative include:
 ### Data Source
 
 The raw data used in this repository is sourced from:
-- F. C. Coelho et al, Full dataset for dengue forecasting in Brazil for Infodengue-Mosqlimate sprint 2024, [https://zenodo.org/records/13328231](https://zenodo.org/records/13328231)
+- F. C. Coelho et al., Full dataset for dengue forecasting in Brazil for Infodengue-Mosqlimate sprint 2024, [https://zenodo.org/records/13328231](https://zenodo.org/records/13328231)
 
 ### How to Cite This Repository
 
