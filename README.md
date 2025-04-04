@@ -27,7 +27,7 @@ If you wish to cite this repository in a document, please use the following refe
 In BibTeX format:
 
 ```bibtex
-@misc{DFENSEGitHub,
+@misc{D-FENSE-GitHub,
    author       = {Americo {Cunha~Jr}},
    title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
    year         = {2025},
