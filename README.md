@@ -11,7 +11,7 @@ The objectives of this initiative include:
 - Disseminating high-quality information to the interested public, aiding in the understanding and combating of dengue.
 
 ### Author
-- Americo Cunha Jr
+- Americo Cunha Jr (LNCC / UERJ)
 
 ### Data Source
 
@@ -30,7 +30,7 @@ In BibTeX format:
 @misc{DFENSEGitHub,
    author       = {Americo {Cunha~Jr}},
    title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
-   year         = {2024},
+   year         = {2025},
    publisher    = {GitHub},
    journal      = {GitHub repository},
    howpublished = {https://github.com/americocunhajr/D-FENSE},
@@ -39,13 +39,13 @@ In BibTeX format:
 
 ### License
 
-All material available in this repository is licensed under the terms of the CC-BY-NC-ND 3.0 license.
+All material available in this repository is licensed under the terms of the CC-BY-NC-ND 4.0 license.
 
-<img src="logo/CC-BY-NC-ND-30.png" width="20%">
+<img src="logo/CC-BY-NC-ND.png" width="20%">
 
 ### Institutional support
 
-<img src="logo/logo_uerj.png" width="13%">
+ <img src="logo/logo_lncc.png" width="25%"> &nbsp; &nbsp; <img src="logo/logo_uerj.png" width="13%"> 
 
 ### Funding
 
@@ -54,4 +54,4 @@ All material available in this repository is licensed under the terms of the CC-
 ### Contact
 For any questions or further information, please contact:
 
-Americo Cunha Jr: americo.cunha@uerj.br
+Americo Cunha Jr: americo@lncc.br
