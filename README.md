@@ -41,7 +41,7 @@ In BibTeX format:
 
 All material available in this repository is licensed under the terms of the CC-BY-NC-ND 3.0 license.
 
-<img src="logo/CC-BY-NC-ND-30.png" width="10%">
+<img src="logo/CC-BY-NC-ND-30.png" width="20%">
 
 ### Institutional support
 
