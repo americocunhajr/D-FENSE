@@ -45,11 +45,11 @@ All material available in this repository is licensed under the terms of the CC-
 
 ### Institutional support
 
-<img src="logo/logo_uerj_color.jpeg" width="10%">
+<img src="logo/logo_uerj.png" width="13%">
 
 ### Funding
 
-<img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logo/faperj.jpg" width="20%">
+<img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logo/faperj.png" width="20%">
 
 ### Contact
 For any questions or further information, please contact:
