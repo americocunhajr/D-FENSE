@@ -8,7 +8,7 @@
 %  Programmer: Americo Cunha Jr
 %               
 %  Initially Programmed: Aug 13, 2024
-%           Last Update: Aug 30, 2024
+%           Last Update: Jul 08, 2025
 % -----------------------------------------------------------------
 
 
@@ -118,20 +118,23 @@ for y = years
 end
 
 % Define the output filenames for the current state
-FileNameCSV = 'DengueSprint2024_AggregatedData_';
+FileNameCSV  = 'DengueSprint2024_AggregatedData_';
 FileNameEPS1 = 'DengueSprint2024_ReportedCases_';
 FileNameEPS2 = 'DengueSprint2024_Temperature_';
 FileNameEPS3 = 'DengueSprint2024_Precipitation_';
+FileNameEPS4 = 'DengueSprint2024_RelativyHumidity_';
 
 % Custom colors
 MyRed         = [0.6350 0.0780 0.1840];
-MyGreen       = [0.0000 0.5000 0.0000];
-MyBlue        = [0.0000 0.4470 0.7410];
-MyOrange      = [0.8500 0.3250 0.0980];
-MyPink        = [1.0000 0.5000 0.7500];
-MyLightBlue   = [0.5000 0.7235 0.8705];
 MyLightRed    = [0.8175 0.5390 0.5920];
+MyGreen       = [0.0000 0.5000 0.0000];
+MyLightGreen  = [0.5000 0.7500 0.5000];
+MyBlue        = [0.0000 0.4470 0.7410];
+MyLightBlue   = [0.5000 0.7235 0.8705];
+MyOrange      = [0.8500 0.3250 0.0980];
 MyLightOrange = [0.9250 0.6625 0.5490];
+MyPink        = [1.0000 0.5000 0.7500];
+MyLightPink   = [1.0000 0.7500 0.8500];
 
 % Loop over each federative unit to process and save data
 for j = 1:Nufs
@@ -154,43 +157,64 @@ for j = 1:Nufs
     RawData2 = RawData2(ismember(RawData2.epiweek, valid_epiweeks), :);
     
     % Extract data for current state
-    RawData1 = [RawData1.epiweek'; ...
-                RawData1.casos']';
+    SelectedData1 = [RawData1.epiweek'; ...
+                     RawData1.casos'    ...
+                     ]';
     
-    RawData2 = [RawData2.epiweek'   ; ...
-                RawData2.temp_min'  ; ...
-                RawData2.temp_med'  ; ...
-                RawData2.temp_max'  ; ...
-                RawData2.precip_min'; ...
-                RawData2.precip_med'; ...
-                RawData2.precip_max'; ...
-                RawData2.precip_tot']';
+    SelectedData2 = [RawData2.epiweek'      ; ...
+                     RawData2.temp_min'     ; ...
+                     RawData2.temp_med'     ; ...
+                     RawData2.temp_max'     ; ...
+                     RawData2.precip_min'   ; ...
+                     RawData2.precip_med'   ; ...
+                     RawData2.precip_max'   ; ...
+                     RawData2.precip_tot'   ; ...
+                     RawData2.pressure_min' ; ...
+                     RawData2.pressure_med' ; ...
+                     RawData2.pressure_max' ; ...
+                     RawData2.rel_humid_min'; ...
+                     RawData2.rel_humid_med'; ...
+                     RawData2.rel_humid_max';...
+                     RawData2.thermal_range';...
+                     RawData2.rainy_days'    ...
+                     ]';
     
     % Extract unique epiweeks
-    unique_epiweeks1 = unique(RawData1(:,1));
-    unique_epiweeks2 = unique(RawData2(:,1));
+    unique_epiweeks1 = unique(SelectedData1(:,1));
+    unique_epiweeks2 = unique(SelectedData2(:,1));
     
     % Number of unique epiweeks
     Nepiweeks = length(unique_epiweeks1);
+
+    % Number of features
+    Nfeatures = size(SelectedData1,2) + size(SelectedData2,2) - 1;
     
     % Initialize an array to store the aggregated data
-    AggregatedData = zeros(Nepiweeks, 9);
+    AggregatedData = zeros(Nepiweeks,Nfeatures);
     
     % Aggregate the data
     for i = 1:Nepiweeks
         % Find the indices of the current epiweek in the first column
-        current_indices1 = RawData1(:,1) == unique_epiweeks1(i);
-        current_indices2 = RawData2(:,1) == unique_epiweeks2(i);
+        current_indices1 = SelectedData1(:,1) == unique_epiweeks1(i);
+        current_indices2 = SelectedData2(:,1) == unique_epiweeks2(i);
         % Agragate the corresponding data
         AggregatedData(i, 1) = unique_epiweeks1(i);
-        AggregatedData(i, 2) =  sum(RawData1(current_indices1, 2));
-        AggregatedData(i, 3) = mean(RawData2(current_indices2, 2));
-        AggregatedData(i, 4) = mean(RawData2(current_indices2, 3));
-        AggregatedData(i, 5) = mean(RawData2(current_indices2, 4));
-        AggregatedData(i, 6) = mean(RawData2(current_indices2, 5));
-        AggregatedData(i, 7) = mean(RawData2(current_indices2, 6));
-        AggregatedData(i, 8) = mean(RawData2(current_indices2, 7));
-        AggregatedData(i, 9) =  sum(RawData2(current_indices2, 8));
+        AggregatedData(i, 2) =  sum(SelectedData1(current_indices1, 2));
+        AggregatedData(i, 3) = mean(SelectedData2(current_indices2, 2));
+        AggregatedData(i, 4) = mean(SelectedData2(current_indices2, 3));
+        AggregatedData(i, 5) = mean(SelectedData2(current_indices2, 4));
+        AggregatedData(i, 6) = mean(SelectedData2(current_indices2, 5));
+        AggregatedData(i, 7) = mean(SelectedData2(current_indices2, 6));
+        AggregatedData(i, 8) = mean(SelectedData2(current_indices2, 7));
+        AggregatedData(i, 9) =  sum(SelectedData2(current_indices2, 8));
+        AggregatedData(i,10) = mean(SelectedData2(current_indices2, 9));
+        AggregatedData(i,11) = mean(SelectedData2(current_indices2,10));
+        AggregatedData(i,12) = mean(SelectedData2(current_indices2,11));
+        AggregatedData(i,13) = mean(SelectedData2(current_indices2,12));
+        AggregatedData(i,14) = mean(SelectedData2(current_indices2,13));
+        AggregatedData(i,15) = mean(SelectedData2(current_indices2,14));
+        AggregatedData(i,16) = mean(SelectedData2(current_indices2,15));
+        AggregatedData(i,17) =  max(SelectedData2(current_indices2,16));
     end
 
     % Convert 'epiweek' to datetime format
@@ -207,7 +231,7 @@ for j = 1:Nufs
     graphobj1.xlab      = [];
     graphobj1.ylab      = 'Probable Cases \times 10^3';
     graphobj1.linecolor = MyRed;
-    graphobj1.signature = 'Author: Americo Cunha Jr (UERJ)';
+    graphobj1.signature = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj1.print     = 'yes';
     graphobj1.close     = 'no';
     Fig1 = PlotCurve1(epi_dates,AggregatedData(:,2)/1000,graphobj1);
@@ -225,7 +249,7 @@ for j = 1:Nufs
     graphobj2.labelshade = 'Min-Max';
     graphobj2.linecolor  = MyOrange;
     graphobj2.shadecolor = MyLightOrange;
-    graphobj2.signature  = 'Author: Americo Cunha Jr (UERJ)';
+    graphobj2.signature  = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj2.print      = 'yes';
     graphobj2.close      = 'no';
     Fig2 = PlotEnvelope1(epi_dates,AggregatedData(:,3),...
@@ -250,13 +274,33 @@ for j = 1:Nufs
     graphobj3.linecolor_l  = MyBlue;
     graphobj3.linecolor_r  = MyGreen;
     graphobj3.shadecolor   = MyLightBlue;
-    graphobj3.signature    = 'Author: Americo Cunha Jr (UERJ)';
+    graphobj3.signature    = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj3.print        = 'yes';
     graphobj3.close        = 'no';
     Fig3 = PlotEnvelope2(epi_dates,AggregatedData(:,6),...
                                    AggregatedData(:,7),...
                                    AggregatedData(:,8),...
                                    AggregatedData(:,9),graphobj3);
+    % ..........................................................
+
+    % Plot relativy humidity
+    % ..........................................................
+    graphobj4.gname      = [FileNameEPS4,current_uf,'_Raw'];
+    graphobj4.gtitle     = ['Relativity Humidity in ',current_uf,' (Brazil)'];
+    graphobj4.ymin       =   0.0;
+    graphobj4.ymax       = 100.0;
+    graphobj4.xlab       = [];
+    graphobj4.ylab       = 'Relativity Humidity (%)';
+    graphobj4.labelcurve = 'Mean';
+    graphobj4.labelshade = 'Min-Max';
+    graphobj4.linecolor  = MyPink;
+    graphobj4.shadecolor = MyLightPink;
+    graphobj4.signature  = 'Author: Americo Cunha Jr (LNCC/UERJ)';
+    graphobj4.print      = 'yes';
+    graphobj4.close      = 'no';
+    Fig4 = PlotEnvelope1(epi_dates,AggregatedData(:,13),...
+                                   AggregatedData(:,14),...
+                                   AggregatedData(:,15),graphobj4);
     % ..........................................................
 
     % Display saving message
@@ -266,18 +310,29 @@ for j = 1:Nufs
     disp(['Plot saved to ',[FileNameEPS2,current_uf,'.png']]);
     disp(['Plot saved to ',[FileNameEPS3,current_uf,'.eps']]);
     disp(['Plot saved to ',[FileNameEPS3,current_uf,'.png']]);
+    disp(['Plot saved to ',[FileNameEPS4,current_uf,'.eps']]);
+    disp(['Plot saved to ',[FileNameEPS4,current_uf,'.png']]);
 
     % Data field for output table
-    DataFields = {'epiweek',...
-                  'cases',...
-                  'temp_min',...
-                  'temp_med',...
-                  'temp_max',...
-                  'precip_min',...
-                  'precip_med',...
-                  'precip_max',...
-                  'precip_tot'};
-
+    DataFields = {'epiweek'      ,...
+                  'cases'        ,...
+                  'temp_min'     ,...
+                  'temp_med'     ,...
+                  'temp_max'     ,...
+                  'precip_min'   ,...
+                  'precip_med'   ,...
+                  'precip_max'   ,...
+                  'precip_tot'   ,...
+                  'pressure_min' ,...
+                  'pressure_med' ,...
+                  'pressure_max' ,...
+                  'rel_humid_min',...
+                  'rel_humid_med',...
+                  'rel_humid_max',...
+                  'thermal_range',...
+                  'rainy_days'    ...
+                  };
+    
     % Save the aggregated data to a CSV file
     OutputDataTable = array2table(AggregatedData);
     OutputDataTable.Properties.VariableNames(:) = DataFields;
