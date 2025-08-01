@@ -1,17 +1,22 @@
 ## Dynamics for Epidemic Surveillance and Evaluation
 
-**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** repository aims to store and share data related to dengue in Brazil, as well as developing effective predictive models for dengue outbreaks in the country. This work seeks to address emerging demands for dengue monitoring and forecasting, contributing to detailed analysis and supporting decision-making in public health.
 
+**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** repository stores and shares data related to Dengue epidemics in Brazil. In addition to surveillance and climate data related to epidemics since 2010, the repository presents predictive models for dengue outbreaks in the country. This work seeks to address emerging demands for dengue monitoring and forecasting, contributing to detailed analysis and supporting decision-making in public health.
 The objectives of this initiative include:
 
 - Storing and organizing relevant data on dengue cases in Brazil;
 - Building tools for clear and accessible visualization of dengue-related data;
 - Developing mathematical models for reliable short-term dengue progression forecasting;
-- Providing educational materials in the field of mathematical modeling of epidemics and its applications to dengue;
 - Disseminating high-quality information to the interested public, aiding in the understanding and combating of dengue.
 
-### Author
+### Authors
 - Americo Cunha Jr (LNCC / UERJ)
+- Emanuelle Arantes Paixão (LNCC)
+- Marcelo Provenza (UERJ)
+- Marcelo Rubens Amaral (UERJ)
+- Marcio Rentes Borges (LNCC)
+- Sergio Luque (LNCC)
+- Vinicius Layter (UERJ)
 
 ### Data Source
 
@@ -28,7 +33,7 @@ In BibTeX format:
 
 ```bibtex
 @misc{D-FENSE-GitHub,
-   author       = {Americo {Cunha~Jr}},
+   author       = {A. {Cunha~Jr} et al.},
    title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
    year         = {2025},
    publisher    = {GitHub},
