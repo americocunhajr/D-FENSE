@@ -16,6 +16,7 @@ The objectives of this initiative include:
 - Marcelo Provenza (UERJ, Brazil)
 - Marcelo Rubens Amaral (UERJ, Brazil)
 - Marcio Rentes Borges (LNCC, Brazil)
+- Paulo Esquef (LNCC, Brazil)
 - Rebecca E. Morrison (University of Colorado Boulder, USA)
 - Sergio Luque (LNCC, Brazil)
 - Thiago Malheiros (LNCC, Brazil)
