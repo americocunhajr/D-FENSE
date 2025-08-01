@@ -3,12 +3,12 @@
 % -----------------------------------------------------------------
 %  This program filters the processed datasets associated 
 %  with Dengue surveillance and climate variables in Brazil 
-%  over the period 2010-2024.
+%  over the period 2010-2025.
 % -----------------------------------------------------------------
 %  Programmer: Americo Cunha Jr
 %               
-%  Initially Programmed: Aug 13, 2024
-%           Last Update: Jul 08, 2025
+%  Initially Programmed: Aug 13, `
+%           Last Update: Jul 28, 2025
 % -----------------------------------------------------------------
 
 
@@ -23,7 +23,7 @@ timeStart = tic();
 % Program header
 % -----------------------------------------------------------
 disp(' ------------------------------------------------------ ')
-disp(' DENGUE Sprint Challenge 2024                           ')
+disp(' DENGUE Sprint Challenge 2025                           ')
 disp(' Surveillance and Climate Data Filtering and Smoothing  ')
 disp('                                                        ')
 disp(' by                                                     ')
@@ -42,11 +42,11 @@ disp('    ... ');
 disp(' ');
 
 % Define the output filenames for the current state
-FileNameCSV  = 'DengueSprint2024_ProcessedData_';
-FileNameEPS1 = 'DengueSprint2024_ReportedCases_';
-FileNameEPS2 = 'DengueSprint2024_Temperature_';
-FileNameEPS3 = 'DengueSprint2024_Precipitation_';
-FileNameEPS4 = 'DengueSprint2024_RelativyHumidity_';
+FileNameCSV  = 'DengueSprint2025_ProcessedData_';
+FileNameEPS1 = 'DengueSprint2025_ProbableCases_';
+FileNameEPS2 = 'DengueSprint2025_Temperature_';
+FileNameEPS3 = 'DengueSprint2025_Precipitation_';
+FileNameEPS4 = 'DengueSprint2025_RelativyHumidity_';
 
 % List of the federative units (ufs) / Brazilian states
 FederativeUnitsNames = {
@@ -109,7 +109,7 @@ for j = 1:Nufs
     disp(['Processing data for ',current_uf,' ...']);
     
     % Construct the filename
-    InputFileName = ['DengueSprint2024_AggregatedData_',current_uf,'.csv'];
+    InputFileName = ['DengueSprint2025_AggregatedData_',current_uf,'.csv'];
     
     % Read the CSV file into a table
     cd DataAggregated
@@ -125,7 +125,6 @@ for j = 1:Nufs
                      RawData.precip_min'   ; ...
                      RawData.precip_med'   ; ...
                      RawData.precip_max'   ; ...
-                     RawData.precip_tot'   ; ...
                      RawData.pressure_min' ; ...
                      RawData.pressure_med' ; ...
                      RawData.pressure_max' ; ...
@@ -158,7 +157,6 @@ for j = 1:Nufs
     ProcessedData(:,13) = sgolayfilt(DenoiseSVD(ProcessedData(:,13),Window),Order,FrameLen);
     ProcessedData(:,14) = sgolayfilt(DenoiseSVD(ProcessedData(:,14),Window),Order,FrameLen);
     ProcessedData(:,15) = sgolayfilt(DenoiseSVD(ProcessedData(:,15),Window),Order,FrameLen);
-    ProcessedData(:,16) = sgolayfilt(DenoiseSVD(ProcessedData(:,16),Window),Order,FrameLen);
     
     % Define time vectors for spline interpolation
     time1 = 1:Nepiweeks;
@@ -181,7 +179,6 @@ for j = 1:Nufs
     SmoothedData(:,13) = spline(time1,ProcessedData(:,14),time2)';
     SmoothedData(:,14) = spline(time1,ProcessedData(:,15),time2)';
     SmoothedData(:,15) = spline(time1,ProcessedData(:,16),time2)';
-    SmoothedData(:,16) = spline(time1,ProcessedData(:,17),time2)';
     
     ProcessedData(:, 2) = SmoothedData(1:2:end, 1);
     ProcessedData(:, 3) = SmoothedData(1:2:end, 2);
@@ -198,11 +195,10 @@ for j = 1:Nufs
     ProcessedData(:,14) = SmoothedData(1:2:end,13);
     ProcessedData(:,15) = SmoothedData(1:2:end,14);
     ProcessedData(:,16) = SmoothedData(1:2:end,15);
-    ProcessedData(:,17) = SmoothedData(1:2:end,16);
 
     % Round reported cases to an integer value
     ProcessedData(:, 2) = round(ProcessedData(:, 2));
-    ProcessedData(:,17) = round(ProcessedData(:,17));
+    ProcessedData(:,16) = round(ProcessedData(:,16));
 
     % Remove potentially negative values
     ProcessedData(ProcessedData < 0.0) = 0.0;
@@ -216,7 +212,7 @@ for j = 1:Nufs
     % ..........................................................
     graphobj1.gname     = [FileNameEPS1, current_uf,'_Filtered'];
     graphobj1.gtitle    = ['Dengue Reports in ', current_uf, ' (Brazil)'];
-    graphobj1.ymin      = 'auto';
+    graphobj1.ymin      = 0.0;
     graphobj1.ymax      = 'auto';
     graphobj1.xlab      = [];
     graphobj1.ylab      = 'Probable Cases \times 10^3';
@@ -251,26 +247,21 @@ for j = 1:Nufs
     % ..........................................................
     graphobj3.gname        = [FileNameEPS3, current_uf,'_Filtered'];
     graphobj3.gtitle       = ['Precipitation in ', current_uf, ' (Brazil)'];
-    graphobj3.ymin_l       = 0.0;
-    graphobj3.ymax_l       = 3.0;
-    graphobj3.ymin_r       = 0.0;
-    graphobj3.ymax_r       = 'auto';
+    graphobj3.ymin         = 0.0;
+    graphobj3.ymax         = 160.0;
     graphobj3.xlab         = [];
-    graphobj3.ylab_l       = 'Precipitation (mm/h)';
-    graphobj3.ylab_r       = 'Total Precipitation (mm)';
-    graphobj3.labelcurve_l = 'Mean';
-    graphobj3.labelcurve_r = 'Total';
+    graphobj3.ylab         = 'Precipitation (mm/h)';
+    graphobj3.labelcurve   = 'Mean';
+    graphobj3.labelcurve   = 'Total';
     graphobj3.labelshade   = 'Min-Max';
-    graphobj3.linecolor_l  = MyBlue;
-    graphobj3.linecolor_r  = MyGreen;
+    graphobj3.linecolor    = MyBlue;
     graphobj3.shadecolor   = MyLightBlue;
     graphobj3.signature    = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj3.print        = 'yes';
     graphobj3.close        = 'no';
-    Fig3 = PlotEnvelope2(epi_dates,ProcessedData(:,6),...
+    Fig3 = PlotEnvelope1(epi_dates,ProcessedData(:,6),...
                                    ProcessedData(:,7),...
-                                   ProcessedData(:,8),...
-                                   ProcessedData(:,9),graphobj3);
+                                   ProcessedData(:,8),graphobj3);
     % ..........................................................
 
     % Plot relativy humidity
@@ -288,9 +279,9 @@ for j = 1:Nufs
     graphobj4.signature  = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj4.print      = 'yes';
     graphobj4.close      = 'no';
-    Fig4 = PlotEnvelope1(epi_dates,ProcessedData(:,13),...
-                                   ProcessedData(:,14),...
-                                   ProcessedData(:,15),graphobj4);
+    Fig4 = PlotEnvelope1(epi_dates,ProcessedData(:,12),...
+                                   ProcessedData(:,13),...
+                                   ProcessedData(:,14),graphobj4);
     % ..........................................................
 
     % Display saving message
@@ -312,7 +303,6 @@ for j = 1:Nufs
                   'precip_min'   ,...
                   'precip_med'   ,...
                   'precip_max'   ,...
-                  'precip_tot'   ,...
                   'pressure_min' ,...
                   'pressure_med' ,...
                   'pressure_max' ,...

@@ -3,12 +3,12 @@
 % -----------------------------------------------------------------
 %  This program collects and aggregates datasets associated 
 %  with Dengue surveillance and climate variables in Brazil 
-%  over the period 2010-2024.
+%  over the period 2010-2025.
 % -----------------------------------------------------------------
 %  Programmer: Americo Cunha Jr
 %               
 %  Initially Programmed: Aug 13, 2024
-%           Last Update: Jul 08, 2025
+%           Last Update: Jul 25, 2025
 % -----------------------------------------------------------------
 
 
@@ -23,7 +23,7 @@ timeStart = tic();
 % Program header
 % -----------------------------------------------------------
 disp(' ------------------------------------------------------ ')
-disp(' DENGUE Sprint Challenge 2024                           ')
+disp(' DENGUE Sprint Challenge 2025                           ')
 disp(' Surveillance and Climate Data Aggregation              ')
 disp('                                                        ')
 disp(' by                                                     ')
@@ -53,7 +53,7 @@ disp(' ');
 % name of the csv data files
 FileName1 = 'dengue.csv';
 FileName2 = 'climate.csv';
-FileName3 = 'regic2018.csv';
+FileName3 = 'map_regional_health.csv';
 
 % read the datasets organized as tables
 cd DataRaw
@@ -78,7 +78,7 @@ disp(' ');
 % Fields that must be positive
 PositiveFields1 = {'epiweek','casos','geocode'};
 PositiveFields2 = {'epiweek','geocode',...
-                   'precip_min','precip_med','precip_max','precip_tot',...
+                   'precip_min','precip_med','precip_max',...
                    'rel_humid_min','rel_humid_med','rel_humid_max',...
                    'thermal_range'};
 PositiveFields3 = {'geocode'};
@@ -107,8 +107,8 @@ FederativeUnitsNames = unique(DATASET1.uf);
 % Number of federative units (ufs) / Brazilian states
 Nufs = length(FederativeUnitsNames);
 
-% Define the valid range of 'epiweek' from 201001 to 202352
-years          = 2010:2023;
+% Define the valid range of 'epiweek' from 201001 to 202452
+years          = 2010:2024;
 weeks          = 1:52;
 valid_epiweeks = [];
 for y = years
@@ -118,11 +118,11 @@ for y = years
 end
 
 % Define the output filenames for the current state
-FileNameCSV  = 'DengueSprint2024_AggregatedData_';
-FileNameEPS1 = 'DengueSprint2024_ReportedCases_';
-FileNameEPS2 = 'DengueSprint2024_Temperature_';
-FileNameEPS3 = 'DengueSprint2024_Precipitation_';
-FileNameEPS4 = 'DengueSprint2024_RelativyHumidity_';
+FileNameCSV  = 'DengueSprint2025_AggregatedData_';
+FileNameEPS1 = 'DengueSprint2025_ProbableCases_';
+FileNameEPS2 = 'DengueSprint2025_Temperature_';
+FileNameEPS3 = 'DengueSprint2025_Precipitation_';
+FileNameEPS4 = 'DengueSprint2025_RelativyHumidity_';
 
 % Custom colors
 MyRed         = [0.6350 0.0780 0.1840];
@@ -146,7 +146,7 @@ for j = 1:Nufs
     disp(['Processing data for ', current_uf, ' ...']);
 
     % Find all 'geocodes' that correspond to the current 'uf'
-    geocodes_for_uf = DATASET3.geocode(strcmp(DATASET3.UF, current_uf));
+    geocodes_for_uf = DATASET3.geocode(strcmp(DATASET3.uf, current_uf));
 
     % Extract the rows where 'uf' is equal to the 'current_uf'
     RawData1 = DATASET1(strcmp(DATASET1.uf, current_uf), :);
@@ -168,7 +168,6 @@ for j = 1:Nufs
                      RawData2.precip_min'   ; ...
                      RawData2.precip_med'   ; ...
                      RawData2.precip_max'   ; ...
-                     RawData2.precip_tot'   ; ...
                      RawData2.pressure_min' ; ...
                      RawData2.pressure_med' ; ...
                      RawData2.pressure_max' ; ...
@@ -206,15 +205,14 @@ for j = 1:Nufs
         AggregatedData(i, 6) = mean(SelectedData2(current_indices2, 5));
         AggregatedData(i, 7) = mean(SelectedData2(current_indices2, 6));
         AggregatedData(i, 8) = mean(SelectedData2(current_indices2, 7));
-        AggregatedData(i, 9) =  sum(SelectedData2(current_indices2, 8));
+        AggregatedData(i, 9) = mean(SelectedData2(current_indices2, 8));
         AggregatedData(i,10) = mean(SelectedData2(current_indices2, 9));
         AggregatedData(i,11) = mean(SelectedData2(current_indices2,10));
         AggregatedData(i,12) = mean(SelectedData2(current_indices2,11));
         AggregatedData(i,13) = mean(SelectedData2(current_indices2,12));
         AggregatedData(i,14) = mean(SelectedData2(current_indices2,13));
         AggregatedData(i,15) = mean(SelectedData2(current_indices2,14));
-        AggregatedData(i,16) = mean(SelectedData2(current_indices2,15));
-        AggregatedData(i,17) =  max(SelectedData2(current_indices2,16));
+        AggregatedData(i,16) =  max(SelectedData2(current_indices2,15));
     end
 
     % Convert 'epiweek' to datetime format
@@ -226,7 +224,7 @@ for j = 1:Nufs
     % ..........................................................
     graphobj1.gname     = [FileNameEPS1,current_uf,'_Raw'];
     graphobj1.gtitle    = ['Dengue Reports in ',current_uf,' (Brazil)'];
-    graphobj1.ymin      = 'auto';
+    graphobj1.ymin      = 0.0;
     graphobj1.ymax      = 'auto';
     graphobj1.xlab      = [];
     graphobj1.ylab      = 'Probable Cases \times 10^3';
@@ -261,26 +259,20 @@ for j = 1:Nufs
     % ..........................................................
     graphobj3.gname        = [FileNameEPS3,current_uf,'_Raw'];
     graphobj3.gtitle       = ['Precipitation in ',current_uf,' (Brazil)'];
-    graphobj3.ymin_l       = 0.0;
-    graphobj3.ymax_l       = 3.0;
-    graphobj3.ymin_r       = 0.0;
-    graphobj3.ymax_r       = 'auto';
+    graphobj3.ymin         = 0.0;
+    graphobj3.ymax         = 160.0;
     graphobj3.xlab         = [];
-    graphobj3.ylab_l       = 'Precipitation (mm/h)';
-    graphobj3.ylab_r       = 'Total Precipitation (mm)';
-    graphobj3.labelcurve_l = 'Mean';
-    graphobj3.labelcurve_r = 'Total';
+    graphobj3.ylab         = 'Precipitation (mm/h)';
+    graphobj3.labelcurve   = 'Mean';
     graphobj3.labelshade   = 'Min-Max';
-    graphobj3.linecolor_l  = MyBlue;
-    graphobj3.linecolor_r  = MyGreen;
+    graphobj3.linecolor    = MyBlue;
     graphobj3.shadecolor   = MyLightBlue;
     graphobj3.signature    = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj3.print        = 'yes';
     graphobj3.close        = 'no';
-    Fig3 = PlotEnvelope2(epi_dates,AggregatedData(:,6),...
+    Fig3 = PlotEnvelope1(epi_dates,AggregatedData(:,6),...
                                    AggregatedData(:,7),...
-                                   AggregatedData(:,8),...
-                                   AggregatedData(:,9),graphobj3);
+                                   AggregatedData(:,8),graphobj3);
     % ..........................................................
 
     % Plot relativy humidity
@@ -298,9 +290,9 @@ for j = 1:Nufs
     graphobj4.signature  = 'Author: Americo Cunha Jr (LNCC/UERJ)';
     graphobj4.print      = 'yes';
     graphobj4.close      = 'no';
-    Fig4 = PlotEnvelope1(epi_dates,AggregatedData(:,13),...
-                                   AggregatedData(:,14),...
-                                   AggregatedData(:,15),graphobj4);
+    Fig4 = PlotEnvelope1(epi_dates,AggregatedData(:,12),...
+                                   AggregatedData(:,13),...
+                                   AggregatedData(:,14),graphobj4);
     % ..........................................................
 
     % Display saving message
@@ -322,7 +314,6 @@ for j = 1:Nufs
                   'precip_min'   ,...
                   'precip_med'   ,...
                   'precip_max'   ,...
-                  'precip_tot'   ,...
                   'pressure_min' ,...
                   'pressure_med' ,...
                   'pressure_max' ,...

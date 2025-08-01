@@ -4,7 +4,7 @@
 %  Programmer: Americo Cunha Jr
 %
 %  Originally programmed in: Aug 30, 2024
-%           Last updated in: Sep 10, 2024
+%           Last updated in: Jul 28, 2025
 % -----------------------------------------------------------------
 % This function plots a time series data with a solid line
 % and a shaded area representing the range between minimum 
@@ -111,7 +111,13 @@ function fig = PlotEnvelope2(time,P_min,P_med,P_max,P_tot,graphobj)
     set(leg, 'FontSize', 16);
     
     % Set axis limits
-    xlim([min(time) max(time)] + calmonths([0 6]));
+    xlim([min(time) max(time)]);
+
+    % Formatting the x-axis to show dates in "month-year" format
+    datetick('x', 'mmm yyyy', 'keepticks', 'keeplimits');
+    
+    % Rotate the x-axis labels for better readability
+    xtickangle(45);
     
     if strcmp(graphobj.ymin_r, 'auto') || strcmp(graphobj.ymax_r, 'auto')
         yyaxis right;
@@ -120,12 +126,6 @@ function fig = PlotEnvelope2(time,P_min,P_med,P_max,P_tot,graphobj)
         yyaxis right;
         ylim([graphobj.ymin_r graphobj.ymax_r]);
     end
-
-    % Formatting the x-axis to show dates in "month-year" format
-    datetick('x', 'mmm yyyy', 'keepticks');
-
-    % Rotate the x-axis labels for better readability
-    xtickangle(45);
 
     % Set the title
     title(graphobj.gtitle, 'FontSize', 24, 'FontName', 'Helvetica');
