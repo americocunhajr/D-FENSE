@@ -16,6 +16,7 @@ The objectives of this initiative include:
 - Marcelo Rubens Amaral (UERJ)
 - Marcio Rentes Borges (LNCC)
 - Sergio Luque (LNCC)
+- Thiago Malheiros (LNCC)
 - Vinicius Layter (UERJ)
 
 ### Data Source
