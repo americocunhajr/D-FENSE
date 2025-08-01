@@ -9,15 +9,17 @@ The objectives of this initiative include:
 - Developing mathematical models for reliable short-term dengue progression forecasting;
 - Disseminating high-quality information to the interested public, aiding in the understanding and combating of dengue.
 
-### Authors
-- Americo Cunha Jr (LNCC / UERJ)
-- Emanuelle Arantes Paixão (LNCC)
-- Marcelo Provenza (UERJ)
-- Marcelo Rubens Amaral (UERJ)
-- Marcio Rentes Borges (LNCC)
-- Sergio Luque (LNCC)
-- Thiago Malheiros (LNCC)
-- Vinicius Layter (UERJ)
+### Team
+- Americo Cunha Jr (LNCC / UERJ, Brazil)
+- Emanuelle Arantes Paixão (LNCC, Brazil)
+- Golnaz Shahtahmassebi (Nottingham Trent University, UK)
+- Marcelo Provenza (UERJ, Brazil)
+- Marcelo Rubens Amaral (UERJ, Brazil)
+- Marcio Rentes Borges (LNCC, Brazil)
+- Rebecca E. Morrison (University of Colorado Boulder, USA)
+- Sergio Luque (LNCC, Brazil)
+- Thiago Malheiros (LNCC, Brazil)
+- Vinicius Layter (UERJ, Brazil)
 
 ### Data Source
 
