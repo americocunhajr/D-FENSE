@@ -177,21 +177,19 @@ q95=q95_f;  q95(1:gapf)=[]; q95=q95(1:pred_range); % 95% percentile
 q97p5=q97p5_f;  q97p5(1:gapf)=[]; q97p5=q97p5(1:pred_range); % 97.5% percentile
 
 
-%T = table(epiweek,cases,median_cases,q2p5,q5,q10,q25,q75,q90,q95,q97p5);
+lower_95=q2p5;
+upper_95=q97p5;
+lower_90=q5;
+upper_90=q95;
+lower_80=q10;
+upper_80=q90;
+lower_50=q25;
+upper_50=q75;
+pred=median_cases;
+date=repmat('2025-08-01',52,1);
 
-%writetable(T,['validation_3_ARp_',UF,'.csv'],'Delimiter',',')
 
-
-LB95=q2p5;
-UB95=q97p5;
-LB90=q5;
-UB90=q95;
-LB80=q10;
-UB80=q90;
-LB50=q25;
-UB50=q75;
-
-T = table(epiweek,median_cases,LB95,UB95,LB90,UB90,LB80,UB80,LB50,UB50);
+T = table(lower_95,lower_90,lower_80,lower_50,pred,upper_50,upper_80,upper_90,upper_95,date);
 
 writetable(T,['..\planilhas\validation_3_ARp_',UF,'.csv'],'Delimiter',',')
 
