@@ -1,7 +1,7 @@
 ## Dynamics for Epidemic Surveillance and Evaluation
 
 
-**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** repository stores and shares data related to Dengue epidemics in Brazil. In addition to surveillance and climate data related to epidemics since 2010, the repository presents predictive models for dengue outbreaks in the country. This work seeks to address emerging demands for dengue monitoring and forecasting, contributing to detailed analysis and supporting decision-making in public health.
+**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** is an initiative to deal with Dengue Virus (DENV) epidemics in Brazil. This repository stores and shares surveillance and climate data related to DENV epidemics since 2010. It also presents predictive models for DENV outbreaks in the country. This work seeks to address emerging demands for dengue monitoring and forecasting, contributing to detailed analysis and supporting decision-making in public health.
 The objectives of this initiative include:
 
 - Storing and organizing relevant data on dengue cases in Brazil;
