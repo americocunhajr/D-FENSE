@@ -14,15 +14,18 @@ The objectives of this initiative include:
 ### Team
 - Americo Cunha Jr (LNCC / UERJ, Brazil)
 - Emanuelle Arantes Paixão (LNCC, Brazil)
-- Golnaz Shahtahmassebi (Nottingham Trent University, UK)
-- Marcelo Provenza (UERJ, Brazil)
-- Marcelo Rubens Amaral (UERJ, Brazil)
+- Marcello Montillo Provenza (UERJ, Brazil)
+- Marcelo Rubens dos Santos do Amaral (UERJ, Brazil)
 - Marcio Rentes Borges (LNCC, Brazil)
-- Paulo Esquef (LNCC, Brazil)
-- Rebecca E. Morrison (University of Colorado Boulder, USA)
+- Paulo Antonio Andrade Esquef (LNCC, Brazil)
 - Sergio Luque (LNCC, Brazil)
-- Thiago Malheiros (LNCC, Brazil)
-- Vinicius Layter (UERJ, Brazil)
+- Thiago Malheiros Porcino (LNCC, Brazil)
+- Vinicius Layter Xavier (UERJ, Brazil)
+
+### Collaborators
+- Christian Soize (Université Gustave Eiffel, France)
+- Golnaz Shahtahmassebi (Nottingham Trent University, UK)
+- Rebecca E. Morrison (University of Colorado Boulder, USA)
 
 ### Data Source
 
