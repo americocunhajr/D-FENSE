@@ -7,7 +7,7 @@
 %  Programmer: Americo Cunha Jr
 %               
 %  Initially Programmed: Sep 02, 2024
-%           Last Update: Sep 02, 2024
+%           Last Update: Aug 08, 2025
 % -----------------------------------------------------------------
 
 
@@ -22,7 +22,7 @@ timeStart = tic();
 % Program header
 % -----------------------------------------------------------
 disp(' ------------------------------------------------------ ')
-disp(' DENGUE Sprint Challenge 2024                           ')
+disp(' DENGUE Sprint Challenge 2025                           ')
 disp(' Phase Space Plot                                       ')
 disp('                                                        ')
 disp(' by                                                     ')
@@ -52,8 +52,8 @@ MyLightOrange = [0.9250 0.6625 0.5490];
 
 
 % Define the output filenames for the current state
-FileNameCSV = 'DengueSprint2024_ProcessedData_';
-FileNameEPS1 = 'DengueSprint2024_PhaseSpace_';
+FileNameCSV = 'DengueSprint2025_ProcessedData_';
+FileNameEPS1 = 'DengueSprint2025_PhaseSpace_';
 
 % List of the federative units (ufs) / Brazilian states
 FederativeUnitsNames = {
@@ -99,7 +99,7 @@ for j = 1:Nufs
     disp(['Processing data for ',current_uf,' ...']);
     
     % Construct the filename
-    InputFileName = ['DengueSprint2024_ProcessedData_',current_uf,'.csv'];
+    InputFileName = ['DengueSprint2025_ProcessedData_',current_uf,'.csv'];
     
     % Read the CSV file into a table
     cd DataProcessed
@@ -115,30 +115,32 @@ for j = 1:Nufs
     P_min   = ProcessedData.precip_min;
     P_med   = ProcessedData.precip_med;
     P_max   = ProcessedData.precip_max;
-    P_tot   = ProcessedData.precip_tot;
-% 
-%     T = (T_med-T_min)./(T_max-T_min);
-%     P = (P_med-P_min)./(P_max-P_min);    
+    
+    %T = (T_med-T_min)./(T_max-T_min);
+    %P = (P_med-P_min)./(P_max-P_min);
     
     % Plot phase space
     % ..........................................................
-    graphobj1.gname     = [FileNameEPS1, current_uf,'_PhaseSpace'];
-    graphobj1.gtitle    = ['Dengue Dynamics for ', current_uf, ' (Brazil)'];
-    graphobj1.xmin      = 'auto';
-    graphobj1.xmax      = 'auto';
-    graphobj1.ymin      =  0.0;
-    graphobj1.ymax      = 'auto';
-    graphobj1.zmin      =  0.0;
-    graphobj1.zmax      = 'auto';
-    graphobj1.xlab      = 'Temperature (ºC)';
-    graphobj1.ylab      = 'Precipitation (mm/h)';
-    graphobj1.zlab      = 'Probable Cases \times 10^3';
-    graphobj1.linecolor = MyBlue;
-    graphobj1.signature = 'Author: Americo Cunha Jr (UERJ)';
-    graphobj1.years     = repelem(2010:2023,52)';
-    graphobj1.print     = 'yes';
-    graphobj1.close     = 'no';
-    Fig1 = PlotPhaseSpaceAnimation(T_med,P_med,C/1000,graphobj1);
+    graphobj1.gname         = [FileNameEPS1, current_uf,'_PhaseSpace'];
+    graphobj1.gtitle        = ['Dengue Dynamics for ', current_uf, ' (Brazil)'];
+    graphobj1.xmin          = 0.0;
+    graphobj1.xmax          = 1.0;
+    graphobj1.ymin          = 0.0;
+    graphobj1.ymax          = 1.0;
+    graphobj1.zmin          = 0.0;
+    graphobj1.zmax          = 1.0;
+    graphobj1.xlab          = 'Temperature';
+    graphobj1.ylab          = 'Precipitation';
+    graphobj1.zlab          = 'Probable Cases';
+    graphobj1.linecolor     = MyBlue;
+    graphobj1.signature     = 'Author: Americo Cunha Jr (LNCC/UERJ)';
+    graphobj1.years         = repelem(2010:2024,52)';
+    graphobj1.print         = 'yes';
+    graphobj1.close         = 'no';
+    graphobj1.colormap      = plasma(numel(C));
+    graphobj1.colorBy       = 1:numel(C);
+    graphobj1.colorbarLabel = 'Cases Intensity';
+    Fig1 = PlotPhaseSpaceAnimation(T_med/max(T_med),P_med/max(P_med),C/max(C),graphobj1);
     % ..........................................................
 
     % Display saving message
@@ -148,10 +150,10 @@ for j = 1:Nufs
 end
 
 % Create a directory to store the saved files
-mkdir DataProcessed
+%mkdir DataProcessed
 
 % Move files to the appropriate directory
-movefile DengueSprint2024_* DataProcessed
+movefile DengueSprint2025_* DataProcessed
 
 toc
 % -----------------------------------------------------------
