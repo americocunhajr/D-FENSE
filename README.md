@@ -44,10 +44,10 @@ D-FENSE/
 │
 ├── DengueSprint2025_DataVisualization/        # Graphs to visualize surveillance and climate variables
 │
-├── DengueSprint2025_Model1_LNCC-ARp/          #
-├── DengueSprint2025_Model2_UERJ-SARIMAX/      #
-├── DengueSprint2025_Model3_LNCC-CLiDENGO/     #
-├── DengueSprint2025_Model4_LNCC-SURGE/        # 
+├── DengueSprint2025_Model1_LNCC-ARp/          # Codes and results obtained with LNCC-ARp model
+├── DengueSprint2025_Model2_UERJ-SARIMAX/      # Codes and results obtained with UERJ-SARIMAX model
+├── DengueSprint2025_Model3_LNCC-CLiDENGO/     # Codes and results obtained with LNCC-CLiDENGO model
+├── DengueSprint2025_Model4_LNCC-SURGE/        # Codes and results obtained with LNCC-SURGE model
 ```
 
 ### Data Source
