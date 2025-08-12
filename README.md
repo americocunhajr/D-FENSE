@@ -58,6 +58,19 @@ The raw data used here was obtained in Mosqlimate platform:
 Reference:
 - F. C. Coelho et al., Full dataset for dengue forecasting in Brazil for Infodengue-Mosqlimate sprint 2024, [https://zenodo.org/records/13328231](https://zenodo.org/records/13328231)
 
+### Data Processing
+
+### Data Visualization
+
+### Model 1: LNCC-ARp
+
+### Model 2: UERJ-SARIMAX
+
+### Model 3: LNCC-CLiDENGO
+
+### Model 4: LNCC-SURGE
+
+
 ### How to Cite This Repository
 
 If you wish to cite this repository in a document, please use the following reference:
