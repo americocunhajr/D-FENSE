@@ -196,24 +196,6 @@ Authors:
 - Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
 - Prof. Christian Soize (Université Gustave Eiffel, France)
 
-*Data and Variables:* The model uses weekly, state-level (UF) dengue surveillance data (probable cases) together with climate covariates: temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max). These inputs come from the 'DengueSprint2025_DataAggregated' repository.
-
-*Model Training:* We estimate the climate-modulated β-logistic model with least squares method, using previous seasons as training data. Each historical season is defined from EW41 to EW40 of the following year and treated as one observation of the quantity of interest (weekly dengue cases in the next season). 
-
-*Forecasting:*
-
-*Predictive Uncertainty:* 
-
-*Model Output:*
-- median prediction: 50% percentile
-- 50% prediction interval: from 25% percentile to 75% percentile
-- 80% prediction interval: from 10% percentile to 90% percentile
-- 90% prediction interval: from 5% percentile to 95% percentile
-- 95% prediction interval: from 2.5% percentile to 97.5% percentile
-
-CLiDENGO 
-
-
 
 Repository structure:
 ```
@@ -227,6 +209,22 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 │
 |── logo: D-FENSE team logo files
 ```
+
+*Data and Variables:* The model uses weekly, state-level (UF) dengue surveillance data (probable cases) together with climate covariates: temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max). These inputs come from the 'DengueSprint2025_DataAggregated' repository.
+
+*Model Training:* Prior (probabilistic) model parameters are identified by least squares using historical seasons as observations (each season spans EW 41 of year Y to EW 40 of year Y+1). Fitting is performed per UF, yielding a climate-response and logistic growth structure tailored to each state.
+
+*Forecasting:* Starting from the EW 41 of the year of interest, the model ODE is integrated forward for 52 weeks (EW 41 → EW 40 of the next year), driven by the corresponding weekly climate inputs (or their climatological/nowcasted surrogates, as configured in the scripts).
+
+*Predictive Uncertainty:* Monte Carlo simulation is done with thousands of realizations by sampling from the learned parameter priors (and perturbing climate inputs). Each realization integrates the ODE to produce a trajectory; we report the median and 50/80/90/95% prediction intervals.
+
+*Model Output:*
+- median prediction: mean value
+- 50% prediction interval: from 25% percentile to 75% percentile
+- 80% prediction interval: from 10% percentile to 90% percentile
+- 90% prediction interval: from 5% percentile to 95% percentile
+- 95% prediction interval: from 2.5% percentile to 97.5% percentile
+
 
 ## Model 4: LNCC-SURGE
 
