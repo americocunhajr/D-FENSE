@@ -66,7 +66,8 @@ Reference:
 
 **LNCC-ARp** is a forecasting model for DENV dynamics through an autoregressive process of order p. 
 
-Author: Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
+Author: 
+- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
 Data and Variables: Only the time series of the raw number of dengue cases per state along epidemic weeks have been used. Data are available from the 'DengueSprint2025_DataAggregated' repository.
 
@@ -93,9 +94,26 @@ Libraries and Dependencies (MATLAB):
 
 ## Model 2: UERJ-SARIMAX
 
+**UERJSARIMAX** is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
+
+Author: 
+- Prof. Marcelo Rubens Amaral (UERJ, Brazil)
+
 ## Model 3: LNCC-CLiDENGO
 
+**LNCC-CLiDENGO - CLimate Logistic DENGue Outbreak Simulator** is a forecasting model for DENV dynamics through a mechanistic climate-modulated beta-logistic growth differential equation. 
+
+Authors:
+- Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
+- Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
+- Prof. Christian Soize (Université Gustave Eiffel, France)
+
 ## Model 4: LNCC-SURGE
+
+**LNCC-SURGE** is a forecasting model for DENV dynamics through an average surge model.
+
+Author: 
+- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
 
 ## How to Cite This Repository
