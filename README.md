@@ -11,7 +11,7 @@ The objectives of this initiative include:
 - Developing mathematical models for reliable short-term dengue progression forecasting;
 - Disseminating high-quality information to the interested public, aiding in the understanding and combating of dengue.
 
-### Team
+## Team
 - Americo Cunha Jr (LNCC / UERJ, Brazil)
 - Emanuelle Arantes Paixão (LNCC, Brazil)
 - Marcello Montillo Provenza (UERJ, Brazil)
@@ -22,12 +22,12 @@ The objectives of this initiative include:
 - Thiago Malheiros Porcino (LNCC, Brazil)
 - Vinicius Layter Xavier (UERJ, Brazil)
 
-### Collaborators
+## Collaborators
 - Christian Soize (Université Gustave Eiffel, France)
 - Golnaz Shahtahmassebi (Nottingham Trent University, UK)
 - Rebecca E. Morrison (University of Colorado Boulder, USA)
 
-### Repository structure
+## Repository structure
 
 ```
 D-FENSE/
@@ -50,7 +50,7 @@ D-FENSE/
 ├── DengueSprint2025_Model4_LNCC-SURGE/        # Codes and results obtained with LNCC-SURGE model
 ```
 
-### Data Source
+## Data Source
 
 The raw data used here was obtained in Mosqlimate platform:
 [https://sprint.mosqlimate.org/data/](https://sprint.mosqlimate.org/data/)
@@ -58,20 +58,47 @@ The raw data used here was obtained in Mosqlimate platform:
 Reference:
 - F. C. Coelho et al., Full dataset for dengue forecasting in Brazil for Infodengue-Mosqlimate sprint 2024, [https://zenodo.org/records/13328231](https://zenodo.org/records/13328231)
 
-### Data Processing
+## Data Processing
 
-### Data Visualization
+## Data Visualization
 
-### Model 1: LNCC-ARp
+## Model 1: LNCC-ARp
 
-### Model 2: UERJ-SARIMAX
+**LNCC-ARp** is a forecasting model for DENV dynamics through an autoregressive process of order p. 
 
-### Model 3: LNCC-CLiDENGO
+Author: Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
-### Model 4: LNCC-SURGE
+Data and Variables: Only the time series of the raw number of dengue cases per state along epidemic weeks have been used. Data are available from the 'DengueSprint2025_DataAggregated' repository.
+
+Model Training: For each state (UF), the log2 mapping of time-series of raw dengue cases, in the defined range for each validation, have been used to estimate an AR(p), p=92 (experimentaly chosen), via function armcov.m. Initial conditions for the AR(p) model at epidemic week (EW) 25 of 2022/23/24 have been obtained by a simple scheme of inverse filtering of the time-series, followed by direct filtering of the modeling error. The modeling error sequence has been organized in a matrix with 52 columns, each matrix row containing a modeling error sequence related to one year. Assuming a zero-mean Gaussian White distribution for the modeling error ensemble, the standard deviation of a typical model excitation has been estimated. Then, a Monte Carlo simulation with 10000 runs has been carried out, to generate the dengue cases predictions: the AR(p) and initial conditions were fixed, only the model excitation have been drawn from a Gaussian distribution. Each of these model excitations have 79 samples, covering a forecast from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function). From the set of these 10000 case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+
+Forecasting: From the trained/estimated model (see section 5 above): we run a Monte Carlo simulation with 10000 runs to generate the dengue cases predictions: the AR(p) and initial conditions were fixed, only the model excitation have been drawn from a zero-mean Gaussian distribution, whose standard deviation has been estimated from the modeling error. Each of these artificially generated model excitations have 79 samples, covering a forecast range from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function, 2^(predictions)). From the set of these 10000 case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals have been calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+
+Predictive Uncertainty: From the set of 10000 case predictions (for each state and each validation), we used matlab function prctile.m (percentiles of a sample) to obtain the median, as well as the lower- and upper bounds of 50%, 80%, 90%, and 95% prediction intervals. The median of the case predictions is the 50% percentile. The lower-bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 25%, 10%, 5%, and 2.5% percentiles. The upper-bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 75%, 90%, 95%, and 97.5% percentiles.
+
+Model Output: 
+- median prediction: 50% percentile
+- 50% prediction interval: from 25% percentile to 75% percentile
+- 80% prediction interval: from 10% percentile to 90% percentile
+- 90% prediction interval: from 5% percentile to 95% percentile
+- 95% prediction interval: from 2.5% percentile to 97.5% percentile
+
+Libraries and Dependencies (MATLAB):
+- readtable.m (Signal Processing Toolbox)
+- buffer.m (Signal Processing Toolbox)
+- armcov.m (Signal Processing Toolbox)
+- filter.m (Signal Processing Toolbox)
+- filter2.m (Signal Processing Toolbox)
+-  ssa_modPE.m (Singular Spectral Analysis - Smoothing Filter, included in the folder 'matlab').
+
+## Model 2: UERJ-SARIMAX
+
+## Model 3: LNCC-CLiDENGO
+
+## Model 4: LNCC-SURGE
 
 
-### How to Cite This Repository
+## How to Cite This Repository
 
 If you wish to cite this repository in a document, please use the following reference:
 
@@ -90,21 +117,21 @@ In BibTeX format:
 }
 ```
 
-### License
+## License
 
 All material available in this repository is licensed under the terms of the CC-BY-NC-ND 4.0 license.
 
 <img src="logo/CC-BY-NC-ND.png" width="20%">
 
-### Institutional support
+## Institutional support
 
  <img src="logo/logo_lncc.png" width="25%"> &nbsp; &nbsp; <img src="logo/logo_uerj.png" width="13%"> 
 
-### Funding
+## Funding
 
 <img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">  &nbsp; &nbsp; &nbsp; <img src="logo/faperj.png" width="20%">
 
-### Contact
+## Contact
 For any questions or further information, please contact:
 
 Americo Cunha Jr: americo@lncc.br
