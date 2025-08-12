@@ -62,7 +62,18 @@ Reference:
 
 ## Data Visualization
 
+Authors: 
+- Prof. Americo Cunha Jr (LNCC / UERJ, Brazil)
+- Prof. Thiago Malheiros Porcino (LNCC, Brazil)
+
+Soon!
+
 ## Data Statistics
+
+Authors:
+- Prof. Marcello Montillo Provenza (UERJ, Brazil)
+- Prof. Marcelo Rubens dos Santos do Amaral (UERJ, Brazil)
+- Prof. Vinicius Layter Xavier (UERJ, Brazil)
 
 Soon!
 
