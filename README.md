@@ -118,10 +118,17 @@ D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
 
 ## Model 2: UERJ-SARIMAX
 
-**UERJSARIMAX** is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
+**UERJ-SARIMAX** is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
 
 Author: 
 - Prof. Marcelo Rubens Amaral (UERJ, Brazil)
+
+Repository structure:
+```
+DengueSprint2025_Model2_UERJ-SARIMAX/
+  |── validation_X_sarimax_ZZ.csv: model output files for validation challenge X in the state ZZ
+  |── DengueSprint2025_SARIMAX_ZZ.R: code to run the model for state ZZ
+```
 
 ## Model 3: LNCC-CLiDENGO
 
@@ -131,6 +138,16 @@ Authors:
 - Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
 - Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
 - Prof. Christian Soize (Université Gustave Eiffel, France)
+
+Repository structure:
+```
+DengueSprint2025_Model3_LNCC-CLiDENGO/
+  |── DengueSprint2025_DataAggregated: surveillance and climate data aggregated at the state level
+  |── DengueSprint2025_DataValidation1: model output files for validation challenge 1
+  |── DengueSprint2025_DataValidation2: model output files for validation challenge 1
+  |── DengueSprint2025_DataValidation3: model output files for validation challenge 1
+  |── logo: D-FENSE team logo files
+```
 
 ## Model 4: LNCC-SURGE
 
