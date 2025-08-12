@@ -76,18 +76,20 @@ Author:
 Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
-  |_ validation1: material related to validation 1 challenge
-    |_ matlab: Matlab scritps needed to run (run_batch_v1_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
-    |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
-    |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
-  |_ validation2: material related to validation 2 challenge
-    |_ matlab: Matlab scritps needed to run (run_batch_v2_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
-    |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
-    |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
-  |_ validation3: material related to validation 1 challenge
-    |_ matlab: Matlab scritps needed to run (run_batch_v3_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
-    |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
-    |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
+  |── Aggregated_Data: survailance data aggregated at the state level
+  |── DFense_ARp: codes and results for the 3 validation challenges
+    |── validation1: material related to validation 1 challenge
+      |── matlab: Matlab scritps needed to run (run_batch_v1_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
+      |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
+      |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
+    |_ validation2: material related to validation 2 challenge
+      |── matlab: Matlab scritps needed to run (run_batch_v2_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
+      |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
+      |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
+    |── validation3: material related to validation 1 challenge
+      |── matlab: Matlab scritps needed to run (run_batch_v3_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas and related plots (in PDF) are stored in plots  
+      |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
+      |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% preduction intervals.
 ```
 
 *Data and Variables:* Only the time series of the raw number of dengue cases per state along epidemic weeks have been used. Data are available from the 'DengueSprint2025_DataAggregated' repository.
