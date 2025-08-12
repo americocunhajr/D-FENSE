@@ -60,6 +60,45 @@ Reference:
 
 ## Data Processing
 
+This data processing framework involves a two-step, reproducible MATLAB pipeline that converts the Mosqlimate raw files into UF-level weekly time series ready for visualization and modeling.
+
+Raw data files (download from https://sprint.mosqlimate.org/data):
+- dengue.csv
+- climate.csv
+- map_regional_health.csv
+
+Put these CSVs files into the repository 'DengueSprint2025_DataProcessingCode/DataRaw/'
+
+Step 1 — Aggregate (DFENSE_DataAggregation.m):
+
+- Cleans basic fields (positivity & types) and keeps epiweeks 201001–202452 (YYYYWW, 52 weeks/year)
+- Aggregates municipality → UF by epiweek: cases = sum, climate variables = mean (min/mean/max kept), rainy_days = max
+- Exports UF CSVs to DataAggregated/ and quick-look “_Raw” plots to Figures/
+
+Step 2 — Filter & Smooth (DFENSE_DataFilteringSmoothing.m):
+
+- Denoises each series with SVD + Savitzky–Golay, light spline smoothing, then resamples weekly
+- Rounds integer fields (cases, rainy_days) and clips negatives to zero
+- Exports UF CSVs to DataProcessed/ and “_Filtered” plots to Figures/
+
+Output schema (columns in CSV, one row per UF × week):
+- epiweek 
+- cases
+- temp_min
+- temp_med
+- temp_max
+- precip_min
+- precip_med
+- precip_max
+- pressure_min
+- pressure_med
+- pressure_max
+- rel_humid_min
+- rel_humid_med
+- rel_humid_max
+- thermal_range
+- rainy_days
+
 ## Data Visualization
 
 Authors: 
