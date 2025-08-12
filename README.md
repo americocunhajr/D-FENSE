@@ -1,7 +1,7 @@
 ## Dynamics for Epidemic Surveillance and Evaluation
 
 
-**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** is an academic initiative to deal with Dengue Virus (DENV) epidemics in Brazil. 
+**D-FENSE: Dynamics for Epidemic Surveillance and Evaluation** is an initiative to deal with Dengue Virus (DENV) epidemics in Brazil. 
 
 This repository stores and shares surveillance and climate data related to DENV epidemics since 2010. It also presents predictive models for DENV outbreaks in the country. This work seeks to address emerging demands for dengue monitoring and forecasting, contributing to detailed analysis and supporting decision-making in public health.
 The objectives of this initiative include:
@@ -26,6 +26,29 @@ The objectives of this initiative include:
 - Christian Soize (Université Gustave Eiffel, France)
 - Golnaz Shahtahmassebi (Nottingham Trent University, UK)
 - Rebecca E. Morrison (University of Colorado Boulder, USA)
+
+### Repository structure
+
+```
+D-FENSE/
+│
+├── DengueSprint2024_ChallengeRules/           # Official 2024 challenge docs (scope, submission rules, etc)
+├── DengueSprint2024_DataAggregated/           # 2024 data after basic aggregation and harmonization
+├── DengueSprint2024_DataProcessed/            # 2024 data after spurious values cleaning and noise filtering
+├── DengueSprint2024_DataProcessingCode/       # Codes used for data processing in 2024 Sprint
+│
+├── DengueSprint2025_ChallengeRules/           # Official 2025 challenge docs (scope, submission rules, etc)
+├── DengueSprint2025_DataAggregated/           # 2025 data after basic aggregation and harmonization
+├── DengueSprint2025_DataProcessed/            # 2025 data after spurious values cleaning and noise filtering
+├── DengueSprint2025_DataProcessingCode/       # Codes used for data processing in 2025 Sprint
+│
+├── DengueSprint2025_DataVisualization/        # Graphs to visualize surveillance and climate variables
+│
+├── DengueSprint2025_Model1_LNCC-ARp/          #
+├── DengueSprint2025_Model2_UERJ-SARIMAX/      #
+├── DengueSprint2025_Model3_LNCC-CLiDENGO/     #
+├── DengueSprint2025_Model4_LNCC-SURGE/        # 
+```
 
 ### Data Source
 
