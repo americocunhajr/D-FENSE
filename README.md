@@ -76,17 +76,22 @@ Author:
 Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
-  |── Aggregated_Data: surveillance data aggregated at the state level
-  |── DFense_ARp: codes and results for the 3 validation challenges
-    |── validation1: material related to validation 1 challenge
+│
+|── Aggregated_Data: surveillance data aggregated at the state level
+│
+|── DFense_ARp: codes and results for the 3 validation challenges
+  │
+  |── validation1: material related to validation 1 challenge
       |── matlab: Matlab scripts needed to run (run_batch_v1_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
-    |_ validation2: material related to validation 2 challenge
+  │
+  |_ validation2: material related to validation 2 challenge
       |── matlab: Matlab scripts needed to run (run_batch_v2_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
-    |── validation3: material related to validation 3 challenge
+  │
+  |── validation3: material related to validation 3 challenge
       |── matlab: Matlab scripts needed to run (run_batch_v3_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
@@ -126,7 +131,9 @@ Author:
 Repository structure:
 ```
 DengueSprint2025_Model2_UERJ-SARIMAX/
+  │
   |── validation_X_sarimax_ZZ.csv: model output files for validation challenge X in the state ZZ
+  │
   |── DengueSprint2025_SARIMAX_ZZ.R: code to run the model for state ZZ
 ```
 
@@ -142,11 +149,14 @@ Authors:
 Repository structure:
 ```
 DengueSprint2025_Model3_LNCC-CLiDENGO/
-  |── DengueSprint2025_DataAggregated: surveillance and climate data aggregated at the state level
-  |── DengueSprint2025_DataValidation1: model output files for validation challenge 1
-  |── DengueSprint2025_DataValidation2: model output files for validation challenge 1
-  |── DengueSprint2025_DataValidation3: model output files for validation challenge 1
-  |── logo: D-FENSE team logo files
+│
+|── DengueSprint2025_DataAggregated: surveillance and climate data aggregated at the state level
+│
+|── DengueSprint2025_DataValidation1: model output files for validation challenge 1
+|── DengueSprint2025_DataValidation2: model output files for validation challenge 2
+|── DengueSprint2025_DataValidation3: model output files for validation challenge 3
+│
+|── logo: D-FENSE team logo files
 ```
 
 ## Model 4: LNCC-SURGE
@@ -159,17 +169,22 @@ Author:
 Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
-  |── Aggregated_Data: surveillance data aggregated at the state level
-  |── DFense_SurgeModel: codes and results for the 3 validation challenges
-    |_ validation1: material related to validation 1 challenge
+│
+|── Aggregated_Data: surveillance data aggregated at the state level
+│
+|── DFense_SurgeModel: codes and results for the 3 validation challenges
+  │
+  |_ validation1: material related to validation 1 challenge
       |_ matlab: Matlab scripts needed to run (run_batch_v1_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
-    |_ validation2: material related to validation 2 challenge
+  │
+  |_ validation2: material related to validation 2 challenge
       |_ matlab: Matlab scripts needed to run (run_batch_v2_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
-    |── validation3: material related to validation 3 challenge
+  │
+  |── validation3: material related to validation 3 challenge
       |_ matlab: Matlab scripts needed to run (run_batch_v3_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
