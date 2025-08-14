@@ -210,13 +210,13 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 |── logo: D-FENSE team logo files
 ```
 
-*Data and Variables:* The model uses weekly, state-level (UF) dengue surveillance data (probable cases) together with climate covariates: temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max). These inputs come from the 'DengueSprint2025_DataAggregated' repository.
+*Data and Variables:* We use surveillance (weekly probable cases) together with climate covariates - temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max) - aggregated at the UF level. Data are arranged as seasons of 52 weeks, from EW 41 of year Y to EW 40 of Y+1. Climate series are min–max normalized on the training set and lightly denoised to form a baseline seasonal signal; case series are also denoised for QoI preparation while keeping values non-negative and integer when reported. Training uses multiple past seasons (e.g., 2010–2011 to 2020–2021); the next season (e.g., 2022–2023) is held out for validation. These inputs come from the 'DengueSprint2025_DataAggregated' repository.
 
 *Model Structure and Training:* Each season is 52 weeks from EW 41 of year Y to EW 40 of Y+1 (consistent with the Sprint evaluation windows). Validation is one season ahead. For instance, for validation challenge 1, training uses seasons 2010–2011 to 2020–2021, and validation uses the 2022-2023 season. Prior (probabilistic) model parameters are identified by least squares using historical seasons as observations (each season spans EW 41 of year Y to EW 40 of year Y+1). Fitting is performed per UF, yielding a climate-response and logistic growth structure tailored to each state.
 
-*Forecasting:* Starting from the EW 41 of the year of interest, the model ODE is integrated forward for 52 weeks (EW 41 → EW 40 of the next year), driven by the corresponding weekly climate inputs (or their climatological/nowcasted surrogates, as configured in the scripts).
+*Forecasting:* With the identified parameters and lags, we re-run the simulator with a larger ensemble (thousands of realizations) and integrate the ODE 52 weeks into the future (EW 41 → EW 40 of the next year). For each realization, we obtain weekly incidence and cumulative trajectories driven by the climate modulators. Reported weekly cases are kept non-negative and rounded to integers.
 
-*Predictive Uncertainty:* Monte Carlo simulation is done with 1024 realizations by sampling from the learned parameter priors (and perturbing climate inputs). Each realization integrates the ODE to produce a trajectory; we report the median and 50/80/90/95% prediction intervals.
+*Predictive Uncertainty:* From the Monte Carlo simulation, done with 1024 realizations by sampling from the learned parameter priors (and perturbing climate inputs), we compute the mean and central prediction intervals at 50%, 80%, 90%, 95% using prctile.m. Lower bounds use the 25%, 10%, 5%, and 2.5% percentiles; upper bounds use the 75%, 90%, 95%, and 97.5% percentiles, respectively. 
 
 *Model Output:*
 - median prediction: mean value
@@ -225,6 +225,10 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 - 90% prediction interval: from 5% percentile to 95% percentile
 - 95% prediction interval: from 2.5% percentile to 97.5% percentile
 
+*Libraries and Dependencies (MATLAB):*
+- fmincon.m (Optimization Toolbox)
+- gamrnd.m (Statistics and Machine Learning Toolbox)
+- prctile.m (Statistics and Machine Learning Toolbox)
 
 ## Model 4: LNCC-SURGE
 
