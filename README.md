@@ -127,9 +127,6 @@ Soon!
   </div>
 </div>
 
-#### Author: 
-- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
-
 #### Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
@@ -153,6 +150,9 @@ D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
+
+#### Author: 
+- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
 #### Data and Variables: 
 Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
@@ -193,9 +193,6 @@ From the set of 10k case predictions (for each state and each validation), we us
   </div>
 </div>
 
-#### Author: 
-- Prof. Marcelo Rubens Amaral (UERJ, Brazil)
-
 #### Repository structure:
 ```
 DengueSprint2025_Model2_UERJ-SARIMAX/
@@ -204,6 +201,9 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
   │
   |── DengueSprint2025_SARIMAX_ZZ.R: code to run the model for state ZZ
 ```
+
+#### Author: 
+- Prof. Marcelo Rubens Amaral (UERJ, Brazil)
 
 #### Data and Variables: 
 
@@ -238,13 +238,6 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
   </div>
 </div>
 
-
-#### Authors:
-* Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
-* Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
-* Prof. Christian Soize (Université Gustave Eiffel, France)
-
-
 #### Repository structure:
 ```
 DengueSprint2025_Model3_LNCC-CLiDENGO/
@@ -257,6 +250,11 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 │
 |── logo: D-FENSE team logo files
 ```
+
+#### Authors:
+* Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
+* Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
+* Prof. Christian Soize (Université Gustave Eiffel, France)
 
 #### Data and Variables: 
 We use surveillance (weekly probable cases) together with climate covariates - temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max) - aggregated at the UF level. Data are arranged as seasons of 52 weeks, from EW 41 of year Y to EW 40 of Y+1. Climate series are min–max normalized on the training set and lightly denoised to form a baseline seasonal signal; case series are also denoised for QoI preparation while keeping values non-negative and integer when reported. Training uses multiple past seasons (e.g., 2010–2011 to 2020–2021); the next season (e.g., 2022–2023) is held out for validation. These inputs come from the 'DengueSprint2025_DataAggregated' repository.
@@ -311,9 +309,6 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
   </div>
 </div>
 
-#### Author: 
-- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
-
 #### Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
@@ -337,6 +332,9 @@ D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
+
+#### Author: 
+- Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
 #### Data and Variables: 
 Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
