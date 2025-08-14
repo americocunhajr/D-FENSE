@@ -1,4 +1,4 @@
-lower_95,lower_90,lower_80,lower_50,pred,upper_50,upper_80,upper_90,upper_95,date
+date,lower_95,lower_90,lower_80,lower_50,pred,upper_50,upper_80,upper_90,upper_95
 2024-10-06,2,2,2,3,8,9,16,25,35
 2024-10-13,2,2,3,4,10,11,20,30,46
 2024-10-20,2,2,3,4,12,13,25,38,56
