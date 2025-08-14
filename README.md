@@ -120,7 +120,7 @@ Soon!
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="logo/logo-AR_p.png" alt="LNCC-AR_p logo" width="20%">
+    <img src="logo/logo-AR_p.png" alt="LNCC-AR_p" width="20%">
   </div>
   <div style="flex: 1 1 auto; min-width: 250px;">
     <strong>ARp</strong> is a forecasting model for DENV dynamics through an autoregressive process of order p. 
@@ -144,12 +144,12 @@ D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
   │
   |_ validation2: material related to validation 2 challenge
-      |── matlab: Matlab scripts needed to run (run_batch_v2_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
+      |── matlab: Matlab scripts needed to run (run_batch_v2_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
   │
   |── validation3: material related to validation 3 challenge
-      |── matlab: Matlab scripts needed to run (run_batch_v3_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
+      |── matlab: Matlab scripts needed to run (run_batch_v3_predictor_ARp.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |── planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
@@ -186,7 +186,7 @@ From the set of 10k case predictions (for each state and each validation), we us
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="logo/logo-SARIMAX.png" alt="UERJ-SARIMAX logo" width="20%">
+    <img src="logo/logo-SARIMAX.png" alt="UERJ-SARIMAX" width="20%">
   </div>
   <div style="flex: 1 1 auto; min-width: 250px;">
     <strong>SARIMAX</strong> is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
@@ -205,11 +205,33 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
   |── DengueSprint2025_SARIMAX_ZZ.R: code to run the model for state ZZ
 ```
 
+#### Data and Variables: 
+
+
+#### Model Structure and Training:
+
+
+#### Forecasting: 
+
+
+#### Predictive Uncertainty: 
+
+
+#### Model Output:
+- median prediction: 50% percentile
+- 50% prediction interval: from 25% percentile to 75% percentile
+- 80% prediction interval: from 10% percentile to 90% percentile
+- 90% prediction interval: from 5% percentile to 95% percentile
+- 95% prediction interval: from 2.5% percentile to 97.5% percentile
+
+#### Libraries and Dependencies (MATLAB):
+-
+
 ## Model 3: LNCC-CLiDENGO
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="logo/logo-CLiDENGO.png" alt="LNCC-CLiDENGO logo" width="20%">
+    <img src="logo/logo-CLiDENGO.png" alt="LNCC-CLiDENGO" width="20%">
   </div>
   <div style="flex: 1 1 auto; min-width: 250px;">
     <strong>CLiDENGO — CLimate Logistic DENGue Outbreak Simulator</strong> is a forecasting model for DENV dynamics through a mechanistic, stochastic climate-modulated β-logistic growth model for weekly dengue cases at the state (UF) level. It couples a flexible epidemic growth core with a climate response so that periods of favorable weather (e.g., warm, humid, rainy) accelerate epidemic growth in a data-driven way.
@@ -282,7 +304,7 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="logo/logo-SRUGE.png" alt="LNCC-SURGE logo" width="20%">
+    <img src="logo/logo-SURGE.png" alt="LNCC-SURGE" width="20%">
   </div>
   <div style="flex: 1 1 auto; min-width: 250px;">
     <strong>SURGE</strong> is a forecasting model for DENV dynamics through an average surge model.
@@ -306,12 +328,12 @@ D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
   │
   |_ validation2: material related to validation 2 challenge
-      |_ matlab: Matlab scripts needed to run (run_batch_v2_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
+      |_ matlab: Matlab scripts needed to run (run_batch_v2_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
   │
   |── validation3: material related to validation 3 challenge
-      |_ matlab: Matlab scripts needed to run (run_batch_v3_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilha,s and related plots (in PDF) are stored in plots  
+      |_ matlab: Matlab scripts needed to run (run_batch_v3_predictor_Surge_Model.m) the simulation and generate the CSV and PDF files, related to dengue case predictions for each state. CSV files are stored in planilhas, and related plots (in PDF) are stored in plots  
       |_ planilhas: stores CSV files, one for each state, with predictions of dengue cases
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
