@@ -1,5 +1,5 @@
 % -----------------------------------------------------------------
-%  Main_DengueModel_Validation1.m
+%  Main_DengueModel_Validation3.m
 % -----------------------------------------------------------------
 %  This program runs a predictive model for Dengue outbreaks.
 % -----------------------------------------------------------------
@@ -37,7 +37,7 @@ disp(' ------------------------------------------------------ ')
 
 % simulation information
 % -----------------------------------------------------------
-case_name = 'DengueSprint2025_Validation1';
+case_name = 'DengueSprint2025_Validation3';
 
 disp(' '); 
 disp([' Case Name: ',num2str(case_name)]);
@@ -55,13 +55,13 @@ RandStream.setGlobalStream(rng_stream);
 nEW = 52;
 
 % number of years for training 
-% --- seasons 2010-2011 until 2020-2021 ---
-nYearsTrain = 11;
+% --- seasons 2010-2011 until 2022-2023 ---
+nYearsTrain = 13;
 
 % define validation range endpoints
-% --- season 2022-2023 ---
-startDate = datetime("2022-10-09");    % 41th EW of 2022
-endDate   = datetime("2023-10-01");    % 40th EW of 2023
+% --- season 2024-2025 ---
+startDate = datetime("2024-10-06");    % 41th EW of 2024
+endDate   = datetime("2025-09-28");    % 40th EW of 2025
 
 % build daily vector
 dates_valid = (startDate:caldays(7):endDate)';
@@ -74,8 +74,8 @@ dates_valid.Format = "yyyy-MM-dd";
 % -----------------------------------------------------------
  DirNameCSV_inp = 'DengueSprint2025_DataAggregated';
 FileNameCSV_inp = 'DengueSprint2025_AggregatedData_';
- DirNameCSV_out = 'DengueSprint2025_DataValidation1';
-FileNameCSV_out = 'DengueSprint2025_Validation1_';
+ DirNameCSV_out = 'DengueSprint2025_DataValidation3';
+FileNameCSV_out = 'DengueSprint2025_Validation3_';
 % -----------------------------------------------------------
 
 % List of the federative units (ufs) / Brazilian states
@@ -483,8 +483,7 @@ for j = 1:Nufs
     upper95 = round(dC_valid_upp(1,:))';
     
     % Data field for output table
-    DataFields = {'date'     ,...
-                  'lower_95' ,...
+    DataFields = {'lower_95' ,...
                   'lower_90' ,...
                   'lower_80' ,...
                   'lower_50' ,...
@@ -492,7 +491,8 @@ for j = 1:Nufs
                   'upper_50' ,...
                   'upper_80' ,...
                   'upper_90' ,...
-                  'upper_95'
+                  'upper_95' ,...
+                  'date'     
                  };
 
     % Define output table
@@ -547,11 +547,11 @@ for j = 1:Nufs
     graphObj3.print     = 'yes';
     graphObj3.close     = 'yes';
     
-    fig3 = graph_QoI_UQ_4bands(dates_valid,DataValid_C/1000,...
-                                           C_valid_mean/1000,...
-                                           C_valid_median/1000,...
-                                           C_valid_low/1000, ...
-                                           C_valid_upp/1000,graphObj3);
+%     fig3 = graph_QoI_UQ_4bands(dates_valid,DataValid_C/1000,...
+%                                            C_valid_mean/1000,...
+%                                            C_valid_median/1000,...
+%                                            C_valid_low/1000, ...
+%                                            C_valid_upp/1000,graphObj3);
     % ..........................................................
     
     % ..........................................................
@@ -578,11 +578,11 @@ for j = 1:Nufs
     graphObj4.print     = 'yes';
     graphObj4.close     = 'yes';
     
-    fig4 = graph_QoI_UQ_4bands(dates_valid,DataValid_dC/1000,...
-                                           dC_valid_mean/1000,...
-                                           dC_valid_median/1000,...
-                                           dC_valid_low/1000, ...
-                                           dC_valid_upp/1000,graphObj4);
+%     fig4 = graph_QoI_UQ_4bands(dates_valid,DataValid_dC/1000,...
+%                                            dC_valid_mean/1000,...
+%                                            dC_valid_median/1000,...
+%                                            dC_valid_low/1000, ...
+%                                            dC_valid_upp/1000,graphObj4);
     % ..........................................................
 
 end

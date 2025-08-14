@@ -55,7 +55,7 @@ RandStream.setGlobalStream(rng_stream);
 nEW = 52;
 
 % number of years for training 
-% --- seasons 2010-2011 until 2022-2023 ---
+% --- seasons 2010-2011 until 2021-2022 ---
 nYearsTrain = 12;
 
 % define validation range endpoints
