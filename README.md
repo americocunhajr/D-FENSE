@@ -118,7 +118,14 @@ Soon!
 
 ## Model 1: LNCC-ARp
 
-**LNCC-ARp** is a forecasting model for DENV dynamics through an autoregressive process of order p. 
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <img src="logo/logo-AR_p.png" alt="LNCC-AR_p logo" width="20%">
+  </div>
+  <div style="flex: 1 1 auto; min-width: 250px;">
+    <strong>ARp</strong> is a forecasting model for DENV dynamics through an autoregressive process of order p. 
+  </div>
+</div>
 
 #### Author: 
 - Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
@@ -177,7 +184,14 @@ From the set of 10k case predictions (for each state and each validation), we us
 
 ## Model 2: UERJ-SARIMAX
 
-**UERJ-SARIMAX** is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <img src="logo/logo-SARIMAX.png" alt="UERJ-SARIMAX logo" width="20%">
+  </div>
+  <div style="flex: 1 1 auto; min-width: 250px;">
+    <strong>SARIMAX</strong> is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
+  </div>
+</div>
 
 #### Author: 
 - Prof. Marcelo Rubens Amaral (UERJ, Brazil)
@@ -192,7 +206,6 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
 ```
 
 ## Model 3: LNCC-CLiDENGO
-
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -267,7 +280,14 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
 
 ## Model 4: LNCC-SURGE
 
-**LNCC-SURGE** is a forecasting model for DENV dynamics through an average surge model.
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <img src="logo/logo-SRUGE.png" alt="LNCC-SURGE logo" width="20%">
+  </div>
+  <div style="flex: 1 1 auto; min-width: 250px;">
+    <strong>SURGE</strong> is a forecasting model for DENV dynamics through an average surge model.
+  </div>
+</div>
 
 #### Author: 
 - Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
