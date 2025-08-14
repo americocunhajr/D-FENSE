@@ -120,10 +120,10 @@ Soon!
 
 **LNCC-ARp** is a forecasting model for DENV dynamics through an autoregressive process of order p. 
 
-Author: 
+#### Author: 
 - Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
-Repository structure:
+#### Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
 │
@@ -147,22 +147,26 @@ D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
       |── plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
 
-*Data and Variables:* Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
+#### Data and Variables: 
+Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
 
-*Model Structure and Training:* For each state (UF), the log2 mapping of time-series of raw dengue cases, in the defined range for each validation, has been used to estimate an AR(p), p=92 (experimentally chosen), via the function armcov.m. Initial conditions for the AR(p) model at epidemic week (EW) 25 of 2022/23/24 have been obtained by a simple scheme of inverse filtering of the time-series, followed by direct filtering of the modeling error. The modeling error sequence has been organized in a matrix with 52 columns, with each row representing a modeling error sequence for a single year. Assuming a zero-mean Gaussian White noise distribution for the modeling error ensemble, the standard deviation of a typical model excitation has been estimated. Then, a Monte Carlo simulation with 10k runs was carried out to generate predictions for dengue cases: the AR(p) and initial conditions were fixed, only the model excitation was drawn from a Gaussian distribution. Each of these model excitations has 79 samples, covering a forecast from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function). From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+#### Model Structure and Training: 
+For each state (UF), the log2 mapping of time-series of raw dengue cases, in the defined range for each validation, has been used to estimate an AR(p), p=92 (experimentally chosen), via the function armcov.m. Initial conditions for the AR(p) model at epidemic week (EW) 25 of 2022/23/24 have been obtained by a simple scheme of inverse filtering of the time-series, followed by direct filtering of the modeling error. The modeling error sequence has been organized in a matrix with 52 columns, with each row representing a modeling error sequence for a single year. Assuming a zero-mean Gaussian White noise distribution for the modeling error ensemble, the standard deviation of a typical model excitation has been estimated. Then, a Monte Carlo simulation with 10k runs was carried out to generate predictions for dengue cases: the AR(p) and initial conditions were fixed, only the model excitation was drawn from a Gaussian distribution. Each of these model excitations has 79 samples, covering a forecast from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function). From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
 
-*Forecasting:* From the trained/estimated model, we run a Monte Carlo simulation with 10k runs to generate the dengue cases predictions: the AR(p) and initial conditions were fixed, only the model excitation has been drawn from a zero-mean Gaussian distribution, whose standard deviation has been estimated from the modeling error. Each of these artificially generated model excitations has 79 samples, covering a forecast range from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function, 2^(predictions)). From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals have been calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+#### Forecasting: 
+From the trained/estimated model, we run a Monte Carlo simulation with 10k runs to generate the dengue cases predictions: the AR(p) and initial conditions were fixed, only the model excitation has been drawn from a zero-mean Gaussian distribution, whose standard deviation has been estimated from the modeling error. Each of these artificially generated model excitations has 79 samples, covering a forecast range from EW 26 of a given year to EW 52 of the subsequent year. Then, the attained results have been mapped back to the original amplitude domain (via the inverse of the log2 function, 2^(predictions)). From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals have been calculated. Finally, the resulting curves are smoothed out via an SSA (Singular Spectral Analysis) filter and cropped out to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
 
-*Predictive Uncertainty:* From the set of 10k case predictions (for each state and each validation), we used the Matlab function prctile.m (percentiles of a sample) to obtain the median, as well as the lower- and upper bounds of 50%, 80%, 90%, and 95% prediction intervals. The median of the case predictions is the 50% percentile. The lower bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 25%, 10%, 5%, and 2.5% percentiles. The upper bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 75%, 90%, 95%, and 97.5% percentiles.
+#### Predictive Uncertainty: 
+From the set of 10k case predictions (for each state and each validation), we used the Matlab function prctile.m (percentiles of a sample) to obtain the median, as well as the lower- and upper bounds of 50%, 80%, 90%, and 95% prediction intervals. The median of the case predictions is the 50% percentile. The lower bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 25%, 10%, 5%, and 2.5% percentiles. The upper bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 75%, 90%, 95%, and 97.5% percentiles.
 
-*Model Output:*
+#### Model Output:
 - median prediction: 50% percentile
 - 50% prediction interval: from 25% percentile to 75% percentile
 - 80% prediction interval: from 10% percentile to 90% percentile
 - 90% prediction interval: from 5% percentile to 95% percentile
 - 95% prediction interval: from 2.5% percentile to 97.5% percentile
 
-*Libraries and Dependencies (MATLAB):*
+#### Libraries and Dependencies (MATLAB):
 - readtable.m (Signal Processing Toolbox)
 - buffer.m (Signal Processing Toolbox)
 - armcov.m (Signal Processing Toolbox)
@@ -175,10 +179,10 @@ D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
 
 **UERJ-SARIMAX** is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
 
-Author: 
+#### Author: 
 - Prof. Marcelo Rubens Amaral (UERJ, Brazil)
 
-Repository structure:
+#### Repository structure:
 ```
 DengueSprint2025_Model2_UERJ-SARIMAX/
   │
@@ -189,15 +193,24 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
 
 ## Model 3: LNCC-CLiDENGO
 
-**LNCC-CLiDENGO - CLimate Logistic DENGue Outbreak Simulator** is a forecasting model for DENV dynamics through a mechanistic, stochastic climate-modulated β-logistic growth model for weekly dengue cases at the state (UF) level. It couples a flexible epidemic growth core with a climate response so that periods of favorable weather (e.g., warm, humid, rainy) accelerate epidemic growth in a data-driven way.
 
-Authors:
-- Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
-- Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
-- Prof. Christian Soize (Université Gustave Eiffel, France)
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 auto; margin-right: 20px;">
+    <img src="logo/logo-CLiDENGO.png" alt="LNCC-CLiDENGO logo" width="20%">
+  </div>
+  <div style="flex: 1 1 auto; min-width: 250px;">
+    <strong>CLiDENGO — CLimate Logistic DENGue Outbreak Simulator</strong> is a forecasting model for DENV dynamics through a mechanistic, stochastic climate-modulated β-logistic growth model for weekly dengue cases at the state (UF) level. It couples a flexible epidemic growth core with a climate response so that periods of favorable weather (e.g., warm, humid, rainy) accelerate epidemic growth in a data-driven way.
+  </div>
+</div>
 
 
-Repository structure:
+#### Authors:
+* Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
+* Prof. Emanuelle Arantes Paixão (LNCC, Brazil)
+* Prof. Christian Soize (Université Gustave Eiffel, France)
+
+
+#### Repository structure:
 ```
 DengueSprint2025_Model3_LNCC-CLiDENGO/
 │
@@ -210,9 +223,11 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 |── logo: D-FENSE team logo files
 ```
 
-*Data and Variables:* We use surveillance (weekly probable cases) together with climate covariates - temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max) - aggregated at the UF level. Data are arranged as seasons of 52 weeks, from EW 41 of year Y to EW 40 of Y+1. Climate series are min–max normalized on the training set and lightly denoised to form a baseline seasonal signal; case series are also denoised for QoI preparation while keeping values non-negative and integer when reported. Training uses multiple past seasons (e.g., 2010–2011 to 2020–2021); the next season (e.g., 2022–2023) is held out for validation. These inputs come from the 'DengueSprint2025_DataAggregated' repository.
+#### Data and Variables: 
+We use surveillance (weekly probable cases) together with climate covariates - temperature (min/mean/max), precipitation (min/mean/max), and relative humidity (min/mean/max) - aggregated at the UF level. Data are arranged as seasons of 52 weeks, from EW 41 of year Y to EW 40 of Y+1. Climate series are min–max normalized on the training set and lightly denoised to form a baseline seasonal signal; case series are also denoised for QoI preparation while keeping values non-negative and integer when reported. Training uses multiple past seasons (e.g., 2010–2011 to 2020–2021); the next season (e.g., 2022–2023) is held out for validation. These inputs come from the 'DengueSprint2025_DataAggregated' repository.
 
-*Model Structure:* CLiDENGO forecasts weekly dengue incidence by integrating a β-logistic growth ODE whose effective growth rate can be modulated by climate (temperature, precipitation, relative humidity). The model is trained per state (UF) and produces median and 50/80/90/95% prediction intervals.
+#### Model Structure: 
+CLiDENGO forecasts weekly dengue incidence by integrating a β-logistic growth ODE whose effective growth rate can be modulated by climate (temperature, precipitation, relative humidity). The model is trained per state (UF) and produces median and 50/80/90/95% prediction intervals.
 
 - State variable: The model tracks the cumulative number of probable cases per week, denoted here as C(t). The incidence (new cases per week) is computed as the model’s rate of change, reported as dC(t).
 - Growth law: The epidemic growth belongs to the beta-logistic family. In words:
@@ -229,20 +244,23 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 	*	C0 ~ empirical draw from the training seasons.
 -	Integration: For each realization, the ODE is integrated weekly across the 52-week window with ode45. The code returns an ensemble of C(t) and dC(t) to compute medians and prediction intervals.
 
-*Model Training:* Each season is 52 weeks from EW 41 of year Y to EW 40 of Y+1 (consistent with the Sprint evaluation windows). Validation is one season ahead. For instance, for validation challenge 1, training uses seasons 2010–2011 to 2020–2021, and validation uses the 2022-2023 season. Prior (probabilistic) model parameters are identified by least squares using historical seasons as observations (each season spans EW 41 of year Y to EW 40 of year Y+1). Fitting is performed per UF, yielding a climate-response and logistic growth structure tailored to each state.
+#### Model Training: 
+Each season is 52 weeks from EW 41 of year Y to EW 40 of Y+1 (consistent with the Sprint evaluation windows). Validation is one season ahead. For instance, for validation challenge 1, training uses seasons 2010–2011 to 2020–2021, and validation uses the 2022-2023 season. Prior (probabilistic) model parameters are identified by least squares using historical seasons as observations (each season spans EW 41 of year Y to EW 40 of year Y+1). Fitting is performed per UF, yielding a climate-response and logistic growth structure tailored to each state.
 
-*Forecasting:* With the identified parameters and lags, we re-run the simulator with a larger ensemble (thousands of realizations) and integrate the ODE 52 weeks into the future (EW 41 → EW 40 of the next year). For each realization, we obtain weekly incidence and cumulative trajectories driven by the climate modulators. Reported weekly cases are kept non-negative and rounded to integers.
+#### Forecasting: 
+With the identified parameters and lags, we re-run the simulator with a larger ensemble (thousands of realizations) and integrate the ODE 52 weeks into the future (EW 41 → EW 40 of the next year). For each realization, we obtain weekly incidence and cumulative trajectories driven by the climate modulators. Reported weekly cases are kept non-negative and rounded to integers.
 
-*Predictive Uncertainty:* From the Monte Carlo simulation, done with 1024 realizations by sampling from the learned parameter priors (and perturbing climate inputs), we compute the mean and central prediction intervals at 50%, 80%, 90%, 95% using prctile.m. Lower bounds use the 25%, 10%, 5%, and 2.5% percentiles; upper bounds use the 75%, 90%, 95%, and 97.5% percentiles, respectively. 
+#### Predictive Uncertainty:
+From the Monte Carlo simulation, done with 1024 realizations by sampling from the learned parameter priors (and perturbing climate inputs), we compute the mean and central prediction intervals at 50%, 80%, 90%, 95% using prctile.m. Lower bounds use the 25%, 10%, 5%, and 2.5% percentiles; upper bounds use the 75%, 90%, 95%, and 97.5% percentiles, respectively. 
 
-*Model Output:*
+#### Model Output:
 - median prediction: mean value
 - 50% prediction interval: from 25% percentile to 75% percentile
 - 80% prediction interval: from 10% percentile to 90% percentile
 - 90% prediction interval: from 5% percentile to 95% percentile
 - 95% prediction interval: from 2.5% percentile to 97.5% percentile
 
-*Libraries and Dependencies (MATLAB):*
+#### Libraries and Dependencies (MATLAB):
 - fmincon.m (Optimization Toolbox)
 - gamrnd.m (Statistics and Machine Learning Toolbox)
 - prctile.m (Statistics and Machine Learning Toolbox)
@@ -251,10 +269,10 @@ DengueSprint2025_Model3_LNCC-CLiDENGO/
 
 **LNCC-SURGE** is a forecasting model for DENV dynamics through an average surge model.
 
-Author: 
+#### Author: 
 - Prof. Paulo Antonio Andrade Esquef (LNCC, Brazil)
 
-Repository structure:
+#### Repository structure:
 ```
 D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
 │
@@ -278,22 +296,26 @@ D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
       |_ plots: stores PDF files, one for each state, with 4 subplots related to predictions of dengue cases: median prediction, 50%, 80%, 90%, and 95% prediction intervals.
 ```
 
-*Data and Variables:* Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
+#### Data and Variables: 
+Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
 
-*Model Structure and Training:* For each state (UF), a time series of raw dengue cases, in the defined range for each validation, has been organized in blocks of 52 samples (one year), from EW 41 until the EW 40 of the next year. Assuming that the dengue surges happen about the same time (around EW 15) each year, an average or typical surge (outbreak) curve has been obtained. Assuming the surge is symmetrical with respect to its local maximum, a centralized (to its peak) version of the surge is obtained. From the typical centralized surge, we estimate the parameters (L,k,x0) of the derivative of the logistic model, using a nonlinear estimator (lsqcurvefit.m, with algorithm 'trust-region-reflective'). Then, we use a template matching filter scheme to find the local maxima of the cross-correlation coefficient sequence between the model surge (template) and the observed surges over time. After time-synchronizing the model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches it with each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+#### Model Structure and Training:
+For each state (UF), a time series of raw dengue cases, in the defined range for each validation, has been organized in blocks of 52 samples (one year), from EW 41 until the EW 40 of the next year. Assuming that the dengue surges happen about the same time (around EW 15) each year, an average or typical surge (outbreak) curve has been obtained. Assuming the surge is symmetrical with respect to its local maximum, a centralized (to its peak) version of the surge is obtained. From the typical centralized surge, we estimate the parameters (L,k,x0) of the derivative of the logistic model, using a nonlinear estimator (lsqcurvefit.m, with algorithm 'trust-region-reflective'). Then, we use a template matching filter scheme to find the local maxima of the cross-correlation coefficient sequence between the model surge (template) and the observed surges over time. After time-synchronizing the model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches it with each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
 
-*Forecasting:* From the trained/estimated typical surge model, after time-synchronizing the surge model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+#### Forecasting: 
+From the trained/estimated typical surge model, after time-synchronizing the surge model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
 
-*Predictive Uncertainty:* From the set of 10k case predictions (for each state and each validation), we used the Matlab function prctile.m (percentiles of a sample) to obtain the median, as well as the lower- and upper bounds of 50%, 80%, 90%, and 95% prediction intervals. The median of the case predictions is the 50% percentile. The lower bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 25%, 10%, 5%, and 2.5% percentiles. The upper bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 75%, 90%, 95%, and 97.5% percentiles.
+#### Predictive Uncertainty: 
+From the set of 10k case predictions (for each state and each validation), we used the Matlab function prctile.m (percentiles of a sample) to obtain the median, as well as the lower- and upper bounds of 50%, 80%, 90%, and 95% prediction intervals. The median of the case predictions is the 50% percentile. The lower bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 25%, 10%, 5%, and 2.5% percentiles. The upper bounds for the 50%, 80%, 90%, and 95% prediction intervals are, respectively, the 75%, 90%, 95%, and 97.5% percentiles.
 
-*Model Output:*
+#### Model Output:
 - median prediction: 50% percentile
 - 50% prediction interval: from 25% percentile to 75% percentile
 - 80% prediction interval: from 10% percentile to 90% percentile
 - 90% prediction interval: from 5% percentile to 95% percentile
 - 95% prediction interval: from 2.5% percentile to 97.5% percentile
 
-*Libraries and Dependencies (MATLAB):*
+#### Libraries and Dependencies (MATLAB):
 - readtable.m (Signal Processing Toolbox)
 - buffer.m (Signal Processing Toolbox)
 - lsqcurvefit.m (Optimization Toolbox)
