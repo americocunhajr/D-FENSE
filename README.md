@@ -203,7 +203,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/
 ```
 
 #### Author: 
-- Prof. Marcelo Rubens Amaral (UERJ, Brazil)
+- Prof. Marcelo Rubens dos Santos do Amaral (UERJ, Brazil)
 
 #### Data and Variables: 
 - Preparation:
@@ -215,12 +215,12 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/
 	     * T3: nonseasonal (1, 0, 1), seasonal (2, 1, 1);
 	     * T2: nonseasonal (2, 0, 1), seasonal (0, 0, 0);
 	     * T1: nonseasonal (2, 0, 1), seasonal (0, 0, 1).
-- Diagnostics: Residuals and outliers can be checked; detectAO results can be added as intervention dummies if a state exhibits strong shocks.
+- Diagnostics: Residuals and outliers can be checked; detectAO results can be added as intervention dummies if a state exhibits strong shocks. However, even in the locations and periods where relevant shocks were detected, they were not subject to intervention with dummy variables.
 
 #### Model Structure and Training:
 - State and transform: The target series is weekly dengue incidence per state. To stabilize variance and avoid zeros, the model works on the log-offset scale: y(t) = log( cases(t) + 100 ). Forecasts are back-transformed as exp( ŷ ) − 100 and truncated at zero when needed.
 - Seasonality and frequency: Data are cast as a weekly time series with frequency 52. Seasonal patterns around the same weeks each year are handled by seasonal ARIMA components.
-- Model class: Each state is fitted with a seasonal ARIMA with exogenous regressors (SARIMAX). The nonseasonal orders (p, d, q) and seasonal orders (P, D, Q) are chosen per validation window. The workflow uses forecast::auto.arima to suggest orders, then a final manual ARIMA specification is fitted with TSA::arima.
+- Model class: Each state is fitted with a seasonal ARIMA with exogenous regressors (SARIMAX). The nonseasonal orders (p, d, q) and seasonal orders (P, D, Q) are chosen per validation window. The workflow uses forecast::auto.arima to suggest orders, then a final manual ARIMA specification is fitted with TSA::arima. In this final/manual stage, we did not use the models automatically identified through the auto.arima() function to adjust the forecast model, because they are based on one-step-ahead adjustment. As the models were adjusted with a view to projecting up to 67 weeks ahead, that is, more than a year ahead, we sought to establish a pattern of model orders closest to the parsimonious non-seasonal (1, 0, 1) and seasonal (1, 1, 1) pattern based on the visual analysis of the graphs of the series' evolution.
 - Exogenous climate inputs: Two climate regressors enter the model on the right-hand side:
 	* weekly temperature median (temp_med);
 	* a 52-week rolling mean of precipitation median (precip_med, averaged over the previous 52 weeks) to capture accumulated rainfall effects.
@@ -229,7 +229,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/
 
 #### Forecasting: 
 - Horizon: The scripts forecast 67 weeks ahead, which comfortably covers EW 26 to EW 40 of the next season for reporting.
-- Exogenous paths: Supply future temp_med and the future rolling mean of precip_med in newxreg over the forecast horizon. These come from the same aggregated dataset.
+- Exogenous paths: Supply future temp_med and the future rolling mean of precip_med in newxreg over the forecast horizon. These come from the same aggregated dataset. As climate variables are seasonal, for period t3 we used a naive forecast of them based on the repetition of values from the same epidemiological week of the previous year.
 - Point forecasts and uncertainty on the log scale. Use predict(…, n.ahead = 67) to obtain the mean forecast and the standard error per step on the log-offset scale.
 
 #### Predictive Uncertainty: 
