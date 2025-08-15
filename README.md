@@ -116,7 +116,7 @@ Authors:
 
 Soon!
 
-## Model 1: LNCC-ARp
+## Model 1: LNCC-ARp-2025-1
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -129,7 +129,7 @@ Soon!
 
 #### Repository structure:
 ```
-D-FENSE/DengueSprint2025_Model1_LNCC-ARp/
+D-FENSE/DengueSprint2025_Model1_LNCC-ARp-2025-1/
 │
 |── Aggregated_Data: surveillance data aggregated at the state level
 │
@@ -182,7 +182,7 @@ From the set of 10k case predictions (for each state and each validation), we us
 - ssa_modPE.m (Singular Spectral Analysis - Smoothing Filter, included in the folder 'matlab').
 
 
-## Model 2: UERJ-SARIMAX
+## Model 2: UERJ-SARIMAX-2025-1
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -195,7 +195,7 @@ From the set of 10k case predictions (for each state and each validation), we us
 
 #### Repository structure:
 ```
-DengueSprint2025_Model2_UERJ-SARIMAX/
+DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/
   │
   |── validation_X_sarimax_ZZ.csv: model output files for validation challenge X in the state ZZ
   │
@@ -227,7 +227,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
 #### Libraries and Dependencies (MATLAB):
 -
 
-## Model 3: LNCC-CLiDENGO
+## Model 3: LNCC-CLiDENGO-2025-1
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -240,7 +240,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX/
 
 #### Repository structure:
 ```
-DengueSprint2025_Model3_LNCC-CLiDENGO/
+DengueSprint2025_Model3_LNCC-CLiDENGO-2025-1/
 │
 |── DengueSprint2025_DataAggregated: surveillance and climate data aggregated at the state level
 │
@@ -298,7 +298,7 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
 - gamrnd.m (Statistics and Machine Learning Toolbox)
 - prctile.m (Statistics and Machine Learning Toolbox)
 
-## Model 4: LNCC-SURGE
+## Model 4: LNCC-SURGE-2025-1
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
@@ -311,7 +311,7 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
 
 #### Repository structure:
 ```
-D-FENSE/DengueSprint2025_Model4_LNCC-SURGE/
+D-FENSE/DengueSprint2025_Model4_LNCC-SURGE-2025-1/
 │
 |── Aggregated_Data: surveillance data aggregated at the state level
 │
