@@ -206,26 +206,48 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/
 - Prof. Marcelo Rubens Amaral (UERJ, Brazil)
 
 #### Data and Variables: 
-
+- Preparation:
+	* Build ln100_casos = log( cases + 100 ).
+	* Convert the data frame to a ts object with frequency = 52 and the desired start.
+- Order selection:
+	* Run auto.arima on the training slice with xreg = cbind(temp_med, rolling_mean_52w(precip_med)) to get a reasonable starting point.
+	* Fit the final SARIMAX with TSA::arima, specifying (p, d, q) and (P, D, Q) per validation window, still with the same xreg. Examples in the scripts include:
+	     * T3: nonseasonal (1, 0, 1), seasonal (2, 1, 1);
+	     * T2: nonseasonal (2, 0, 1), seasonal (0, 0, 0);
+	     * T1: nonseasonal (2, 0, 1), seasonal (0, 0, 1).
+- Diagnostics: Residuals and outliers can be checked; detectAO results can be added as intervention dummies if a state exhibits strong shocks.
 
 #### Model Structure and Training:
-
+- State and transform: The target series is weekly dengue incidence per state. To stabilize variance and avoid zeros, the model works on the log-offset scale: y(t) = log( cases(t) + 100 ). Forecasts are back-transformed as exp( ŷ ) − 100 and truncated at zero when needed.
+- Seasonality and frequency: Data are cast as a weekly time series with frequency 52. Seasonal patterns around the same weeks each year are handled by seasonal ARIMA components.
+- Model class: Each state is fitted with a seasonal ARIMA with exogenous regressors (SARIMAX). The nonseasonal orders (p, d, q) and seasonal orders (P, D, Q) are chosen per validation window. The workflow uses forecast::auto.arima to suggest orders, then a final manual ARIMA specification is fitted with TSA::arima.
+- Exogenous climate inputs: Two climate regressors enter the model on the right-hand side:
+	* weekly temperature median (temp_med);
+	* a 52-week rolling mean of precipitation median (precip_med, averaged over the previous 52 weeks) to capture accumulated rainfall effects.
+	* These are supplied in xreg during fitting and in newxreg during forecasting.
+- Outliers: Additive outliers are probed with forecast::detectAO. The code keeps the IO option commented in the final fit, but it documents the option to include outlier indicators if needed.
 
 #### Forecasting: 
-
+- Horizon: The scripts forecast 67 weeks ahead, which comfortably covers EW 26 to EW 40 of the next season for reporting.
+- Exogenous paths: Supply future temp_med and the future rolling mean of precip_med in newxreg over the forecast horizon. These come from the same aggregated dataset.
+- Point forecasts and uncertainty on the log scale. Use predict(…, n.ahead = 67) to obtain the mean forecast and the standard error per step on the log-offset scale.
 
 #### Predictive Uncertainty: 
+- Intervals on the log scale: Build symmetric intervals as mean ± z * se with Gaussian quantiles for 95, 90, 80, and 50 percent levels.
+- Back-transform: Convert each bound with exp( bound ) − 100. Lower bounds are truncated at zero to respect nonnegativity.
+- Reported bands: The repository exports median (prev_med) and the lower/upper bounds for 50%, 80%, 90%, and 95% intervals.
 
 
 #### Model Output:
-- median prediction: 50% percentile
-- 50% prediction interval: from 25% percentile to 75% percentile
-- 80% prediction interval: from 10% percentile to 90% percentile
-- 90% prediction interval: from 5% percentile to 95% percentile
-- 95% prediction interval: from 2.5% percentile to 97.5% percentile
+- Per-state CSVs like T1_arimax_UF.csv, T2_arimax_UF.csv, T3_arimax_UF.csv, where UF is the two-letter state code.
+- Columns prior to standardization (as produced by the R scripts): Data, prev_med, LB_95, UB_95, LB_90, UB_90, LB_80, UB_80, LB_50, UB_50. These are later renamed and reordered to the sprint’s standard: lower_95, lower_90, lower_80, lower_50, pred, upper_50, upper_80, upper_90, upper_95, date.
 
-#### Libraries and Dependencies (MATLAB):
--
+#### Libraries and Dependencies (R):
+- forecast (for auto.arima, forecasting interfaces)
+- TSA (for arima with exogenous regressors)
+- zoo (for rollsumr to build the 52-week precipitation rolling mean)
+- Mcomp (loaded in the script; not essential for the SARIMAX fit itself)
+
 
 ## Model 3: LNCC-CLiDENGO-2025-1
 
@@ -298,6 +320,7 @@ From the Monte Carlo simulation, done with 1024 realizations by sampling from th
 - gamrnd.m (Statistics and Machine Learning Toolbox)
 - prctile.m (Statistics and Machine Learning Toolbox)
 
+
 ## Model 4: LNCC-SURGE-2025-1
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
@@ -340,7 +363,7 @@ D-FENSE/DengueSprint2025_Model4_LNCC-SURGE-2025-1/
 Only the time series of the raw number of dengue cases per state along epidemic weeks has been used. Data are available from the 'Aggregated_Data' repository.
 
 #### Model Structure and Training:
-For each state (UF), a time series of raw dengue cases, in the defined range for each validation, has been organized in blocks of 52 samples (one year), from EW 41 until the EW 40 of the next year. Assuming that the dengue surges happen about the same time (around EW 15) each year, an average or typical surge (outbreak) curve has been obtained. Assuming the surge is symmetrical with respect to its local maximum, a centralized (to its peak) version of the surge is obtained. From the typical centralized surge, we estimate the parameters (L,k,x0) of the derivative of the logistic model, using a nonlinear estimator (lsqcurvefit.m, with algorithm 'trust-region-reflective'). Then, we use a template matching filter scheme to find the local maxima of the cross-correlation coefficient sequence between the model surge (template) and the observed surges over time. After time-synchronizing the model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches it with each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
+For each state (UF), a time series of raw dengue cases, in the defined range for each validation, has been organized in blocks of 52 samples (one year), from EW 41 until the EW 40 of the next year. Training uses multiple past seasons (e.g., 2010–2011 to 2020–2021); the next season (e.g., 2022–2023) is held out for validation. Assuming that the dengue surges happen about the same time (around EW 15) each year, an average or typical surge (outbreak) curve has been obtained. Assuming the surge is symmetrical with respect to its local maximum, a centralized (to its peak) version of the surge is obtained. From the typical centralized surge, we estimate the parameters (L,k,x0) of the derivative of the logistic model, using a nonlinear estimator (lsqcurvefit.m, with algorithm 'trust-region-reflective'). Then, we use a template matching filter scheme to find the local maxima of the cross-correlation coefficient sequence between the model surge (template) and the observed surges over time. After time-synchronizing the model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches it with each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
 
 #### Forecasting: 
 From the trained/estimated typical surge model, after time-synchronizing the surge model with a given observed surge, we calculate the amplitude gain that, when applied to the model, matches each observed surge. We do that for each surge and obtain a set of amplitude gains, which are positive. The dengue cases prediction is simply given by a gain that multiplies the surge model. Assuming that the set of gains follows a log-normal distribution, we use the set of gains to estimate the related mean and sigma of a log-normal distribution. To predict the dengue cases, we generate 10k gains from the previously estimated log-normal distribution and apply it to the model surge, properly placed in time. From the set of these 10k case predictions, the median, lower- and upper-bounds of the 50%, 80%, 0%, 90%, and 95% prediction intervals are calculated. Finally, we cropped out the predictions to be in the range from EW 41 of a given year to EW 40 of the subsequent year.
