@@ -450,7 +450,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/
 
 #### Forecasting: 
 - Horizon: The scripts forecast 67 weeks ahead, which comfortably covers EW 26 to EW 40 of the next season for reporting.
-- Exogenous paths: Supply future temp_med and the future rolling mean of precip_med in newxreg over the forecast horizon. These come from the same aggregated dataset. As climate variables are seasonal, for period t3 we used a naive forecast of them based on the repetition of values from the same epidemiological week of the previous year.
+- Exogenous paths: Supply future temp_med and the future rolling mean of precip_med in newxreg over the forecast horizon. These come from the same aggregated dataset. As climate variables are seasonal, for all periods we used a naive forecast of them based on the repetition of values from the same epidemiological week of the previous two years.
 - Point forecasts and uncertainty on the log scale. Use predict(…, n.ahead = 67) to obtain the mean forecast and the standard error per step on the log-offset scale.
 
 #### Predictive Uncertainty: 
