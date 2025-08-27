@@ -383,24 +383,6 @@ From the set of 10k case predictions (for each state and each validation), we us
 - buffer.m (Signal Processing Toolbox)
 - lsqcurvefit.m (Optimization Toolbox)
 
-## How to Cite This Repository
-
-If you wish to cite this repository in a document, please use the following reference:
-
-- D-FENSE: Dynamics for Epidemic Surveillance and Evaluation, GitHub repository, 2024, [https://github.com/americocunhajr/D-FENSE](https://github.com/americocunhajr/D-FENSE)
-
-In BibTeX format:
-
-```bibtex
-@misc{D-FENSE-GitHub,
-   author       = {A. {Cunha~Jr} et al.},
-   title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
-   year         = {2025},
-   publisher    = {GitHub},
-   journal      = {GitHub repository},
-   howpublished = {https://github.com/americocunhajr/D-FENSE},
-}
-```
 
 
 ## Model 5: UERJ-SARIMAX-2025-2
@@ -468,6 +450,25 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/
 - TSA (for arima with exogenous regressors)
 - zoo (for rollsumr to build the 52-week precipitation rolling mean)
 - Mcomp (loaded in the script; not essential for the SARIMAX fit itself)
+
+## How to Cite This Repository
+
+If you wish to cite this repository in a document, please use the following reference:
+
+- D-FENSE: Dynamics for Epidemic Surveillance and Evaluation, GitHub repository, 2024, [https://github.com/americocunhajr/D-FENSE](https://github.com/americocunhajr/D-FENSE)
+
+In BibTeX format:
+
+```bibtex
+@misc{D-FENSE-GitHub,
+   author       = {A. {Cunha~Jr} et al.},
+   title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
+   year         = {2025},
+   publisher    = {GitHub},
+   journal      = {GitHub repository},
+   howpublished = {https://github.com/americocunhajr/D-FENSE},
+}
+```
 
 ## License
 
