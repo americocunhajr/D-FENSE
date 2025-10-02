@@ -32,22 +32,23 @@ The objectives of this initiative include:
 ```
 D-FENSE/
 │
-├── DengueSprint2024_ChallengeRules/           # Official 2024 challenge docs (scope, submission rules, etc)
-├── DengueSprint2024_DataAggregated/           # 2024 data after basic aggregation and harmonization
-├── DengueSprint2024_DataProcessed/            # 2024 data after spurious values cleaning and noise filtering
-├── DengueSprint2024_DataProcessingCode/       # Codes used for data processing in 2024 Sprint
+├── DengueSprint2024_ChallengeRules/             # Official 2024 challenge docs (scope, submission rules, etc)
+├── DengueSprint2024_DataAggregated/             # 2024 data after basic aggregation and harmonization
+├── DengueSprint2024_DataProcessed/              # 2024 data after spurious values cleaning and noise filtering
+├── DengueSprint2024_DataProcessingCode/         # Codes used for data processing in 2024 Sprint
 │
-├── DengueSprint2025_ChallengeRules/           # Official 2025 challenge docs (scope, submission rules, etc)
-├── DengueSprint2025_DataAggregated/           # 2025 data after basic aggregation and harmonization
-├── DengueSprint2025_DataProcessed/            # 2025 data after spurious values cleaning and noise filtering
-├── DengueSprint2025_DataProcessingCode/       # Codes used for data processing in 2025 Sprint
+├── DengueSprint2025_ChallengeRules/              # Official 2025 challenge docs (scope, submission rules, etc)
+├── DengueSprint2025_DataAggregated/              # 2025 data after basic aggregation and harmonization
+├── DengueSprint2025_DataProcessed/               # 2025 data after spurious values cleaning and noise filtering
+├── DengueSprint2025_DataProcessingCode/          # Codes used for data processing in 2025 Sprint
 │
-├── DengueSprint2025_DataVisualization/        # Graphs to visualize surveillance and climate variables
+├── DengueSprint2025_DataVisualization/           # Graphs to visualize surveillance and climate variables
 │
-├── DengueSprint2025_Model1_LNCC-ARp/          # Codes and results obtained with the LNCC-ARp model
-├── DengueSprint2025_Model2_UERJ-SARIMAX/      # Codes and results obtained with the UERJ-SARIMAX model
-├── DengueSprint2025_Model3_LNCC-CLiDENGO/     # Codes and results obtained with the LNCC-CLiDENGO model
-├── DengueSprint2025_Model4_LNCC-SURGE/        # Codes and results obtained with the LNCC-SURGE model
+├── DengueSprint2025_Model1_LNCC-ARp-2025-1/      # Codes and results obtained with the model LNCC-ARp (version 2025-1)
+├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-1)
+├── DengueSprint2025_Model3_LNCC-CLiDENGO-2025-1/ # Codes and results obtained with the model LNCC-CLiDENGO (version 2025-1)
+├── DengueSprint2025_Model4_LNCC-SURGE-2025-1/    # Codes and results obtained with the model LNCC-SURGE (version 2025-1)
+├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-2)
 ```
 
 ## Data Source
