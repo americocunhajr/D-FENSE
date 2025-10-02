@@ -61,6 +61,9 @@ Reference:
 
 ## Data Processing
 
+#### Author:
+* Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
+
 This data processing framework involves a two-step, reproducible MATLAB pipeline that converts the Mosqlimate raw files into UF-level weekly time series ready for visualization and modeling.
 
 Raw data files (download from https://sprint.mosqlimate.org/data):
