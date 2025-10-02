@@ -48,7 +48,7 @@ D-FENSE/
 ├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-1)
 ├── DengueSprint2025_Model3_LNCC-CLiDENGO-2025-1/ # Codes and results obtained with the model LNCC-CLiDENGO (version 2025-1)
 ├── DengueSprint2025_Model4_LNCC-SURGE-2025-1/    # Codes and results obtained with the model LNCC-SURGE (version 2025-1)
-├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-2)
+├── DengueSprint2025_Model5_UERJ-SARIMAX-2025-2/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-2)
 ```
 
 ## Data Source
