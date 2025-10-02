@@ -3,7 +3,7 @@
 
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 auto; margin-right: 20px;">
-    <img src="logo/logo-SARIMAX.png" alt="UERJ-SARIMAX" width="20%">
+    <img src="../logo/logo-SARIMAX.png" alt="UERJ-SARIMAX" width="20%">
   </div>
   <div style="flex: 1 1 auto; min-width: 250px;">
     <strong>SARIMAX</strong> is a forecasting model for DENV dynamics through a seasonal autoregressive integrated moving average with exogenous inputs. 
