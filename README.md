@@ -48,7 +48,7 @@ D-FENSE/
 ├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-1/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-1)
 ├── DengueSprint2025_Model3_LNCC-CLiDENGO-2025-1/ # Codes and results obtained with the model LNCC-CLiDENGO (version 2025-1)
 ├── DengueSprint2025_Model4_LNCC-SURGE-2025-1/    # Codes and results obtained with the model LNCC-SURGE (version 2025-1)
-├── DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-2)
+├── DengueSprint2025_Model5_UERJ-SARIMAX-2025-2/  # Codes and results obtained with the model UERJ-SARIMAX (version 2025-2)
 ```
 
 ## Data Source
@@ -60,6 +60,9 @@ Reference:
 - F. C. Coelho et al., Full dataset for dengue forecasting in Brazil for Infodengue-Mosqlimate sprint 2024, [https://zenodo.org/records/13328231](https://zenodo.org/records/13328231)
 
 ## Data Processing
+
+#### Author:
+* Prof. Americo Cunha Jr (LNCC/UERJ, Brazil)
 
 This data processing framework involves a two-step, reproducible MATLAB pipeline that converts the Mosqlimate raw files into UF-level weekly time series ready for visualization and modeling.
 
