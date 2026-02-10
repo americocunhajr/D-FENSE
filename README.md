@@ -463,9 +463,11 @@ If you wish to cite this repository in a document, please use the following refe
 
 In BibTeX format:
 
+
+
 ```bibtex
 @misc{D-FENSE-GitHub,
-   author       = {A. {Cunha~Jr} et al.},
+   author       = {A. {Cunha~Jr} and Emanuelle Arantes Paixão and Marcello Montillo Provenza and Marcelo Rubens dos Santos do Amaral and Marcio Rentes Borges and Paulo Antonio Andrade Esquef and Sergio Luque and Thiago Malheiros Porcino and Vinicius Layter Xavier},
    title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
    year         = {2025},
    publisher    = {GitHub},
