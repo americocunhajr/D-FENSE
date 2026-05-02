@@ -11,7 +11,7 @@ The objectives of this initiative include:
 - Developing mathematical models for reliable short-term dengue progression forecasting;
 - Disseminating high-quality information to the interested public, aiding in the understanding and combating of dengue.
 
-## Team
+## Team for 2025 challengue
 - Americo Cunha Jr (LNCC / UERJ, Brazil)
 - Emanuelle Arantes Paixão (LNCC, Brazil)
 - Marcello Montillo Provenza (UERJ, Brazil)
