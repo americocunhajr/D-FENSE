@@ -459,7 +459,7 @@ DengueSprint2025_Model2_UERJ-SARIMAX-2025-2/
 
 If you wish to cite this repository in a document, please use the following reference:
 
-- D-FENSE: Dynamics for Epidemic Surveillance and Evaluation, GitHub repository, 2024, [https://github.com/americocunhajr/D-FENSE](https://github.com/americocunhajr/D-FENSE)
+- A. Cunha Jr et al., D-FENSE: Dynamics for Epidemic Surveillance and Evaluation, GitHub repository, 2024, [https://github.com/americocunhajr/D-FENSE](https://github.com/americocunhajr/D-FENSE)
 
 In BibTeX format:
 
@@ -467,7 +467,7 @@ In BibTeX format:
 
 ```bibtex
 @misc{D-FENSE-GitHub,
-   author       = {A. {Cunha~Jr} and Emanuelle Arantes Paixão and Marcello Montillo Provenza and Marcelo Rubens dos Santos do Amaral and Marcio Rentes Borges and Paulo Antonio Andrade Esquef and Sergio Luque and Thiago Malheiros Porcino and Vinicius Layter Xavier},
+   author       = {A. {Cunha~Jr} and {et al.}},
    title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
    year         = {2025},
    publisher    = {GitHub},
