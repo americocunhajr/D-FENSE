@@ -468,11 +468,11 @@ In BibTeX format:
 ```bibtex
 @misc{D-FENSE-GitHub,
    author       = {A. {Cunha~Jr} and {et al.}},
-   title        = { {D-FENSE}: {D}ynamics for {E}pidemic {S}urveillance and {E}valuation},
+   title        = { {D-FENSE: Dynamics for Epidemic Surveillance and Evaluation} },
    year         = {2025},
    publisher    = {GitHub},
-   journal      = {GitHub repository},
    howpublished = {https://github.com/americocunhajr/D-FENSE},
+   doi          = {10.5281/zenodo.20182707},
 }
 ```
 
