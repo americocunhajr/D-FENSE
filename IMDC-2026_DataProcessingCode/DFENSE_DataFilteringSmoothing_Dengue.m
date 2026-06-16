@@ -41,8 +41,8 @@ disp('    ... ');
 disp(' ');
 
 % Define the output filenames for the current state
-FileNameCSV  = 'IMDC2026_ProcessedData_';
-FileNameEPS1 = 'IMDC2026_ProbableCases_';
+FileNameCSV  = 'IMDC2026_ProcessedData-Dengue_';
+FileNameEPS1 = 'IMDC2026_ProbableCases-Dengue_';
 FileNameEPS2 = 'IMDC2026_Temperature_';
 FileNameEPS3 = 'IMDC2026_Precipitation_';
 FileNameEPS4 = 'IMDC2026_RelativyHumidity_';
@@ -108,7 +108,7 @@ for j = 1:Nufs
     disp(['Processing data for ',current_uf,' ...']);
     
     % Construct the filename
-    InputFileName = ['IMDC2026_AggregatedData_',current_uf,'.csv'];
+    InputFileName = ['IMDC2026_AggregatedData-Dengue_',current_uf,'.csv'];
     
     % Read the CSV file into a table
     cd DataAggregated

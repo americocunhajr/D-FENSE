@@ -7,7 +7,7 @@
 %  Programmer: Americo Cunha Jr
 %               
 %  Initially Programmed: Aug 13, 2024
-%           Last Update: Jun 12, 2026
+%           Last Update: Jun 16, 2026
 % -----------------------------------------------------------------
 
 
@@ -50,7 +50,7 @@ disp(' ');
 
 
 % name of the csv data files
-FileName1 = 'dengue.csv';
+FileName1 = 'chikungunya.csv';
 FileName2 = 'climate.csv';
 FileName3 = 'map_regional_health.csv';
 
@@ -120,7 +120,7 @@ FederativeUnitsNames = unique(string(DATASET1.uf));
 Nufs = length(FederativeUnitsNames);
 
 % Define the valid range of 'epiweek' from 201001 to 202452
-years          = 2010:2025;
+years          = 2014:2025;
 weeks          = 1:52;
 valid_epiweeks = [];
 for y = years
@@ -130,8 +130,8 @@ for y = years
 end
 
 % Define the output filenames for the current state
-FileNameCSV  = 'IMDC2026_AggregatedData_';
-FileNameEPS1 = 'IMDC2026_ProbableCases_';
+FileNameCSV  = 'IMDC2026_AggregatedData-Chikungunya_';
+FileNameEPS1 = 'IMDC2026_ProbableCases-Chikungunya_';
 FileNameEPS2 = 'IMDC2026_Temperature_';
 FileNameEPS3 = 'IMDC2026_Precipitation_';
 FileNameEPS4 = 'IMDC2026_RelativyHumidity_';
@@ -239,7 +239,7 @@ for j = 1:Nufs
     % Plot cases data
     % ..........................................................
     graphobj1.gname     = [FileNameEPS1,current_uf,'_Raw'];
-    graphobj1.gtitle    = ['Dengue Reports in ',current_uf,' (Brazil)'];
+    graphobj1.gtitle    = ['Chikungunya Reports in ',current_uf,' (Brazil)'];
     graphobj1.ymin      = 0.0;
     graphobj1.ymax      = 'auto';
     graphobj1.xlab      = [];
